@@ -1,0 +1,776 @@
+2025-07-19 11:11:55,407 - INFO - Connected to MQTT broker
+2025-07-19 11:12:02,651 - INFO - Shutdown signal received. Cleaning up...
+2025-07-19 11:12:02,651 - INFO - No data to save.
+2025-07-19 11:12:02,652 - WARNING - Disconnected from MQTT broker
+2025-07-19 11:21:43,358 - INFO - Connected to MQTT broker
+2025-07-19 11:21:48,021 - ERROR - Error processing message: no such table: devices_device
+2025-07-19 11:21:51,491 - INFO - Shutdown signal received. Cleaning up...
+2025-07-19 11:21:51,493 - INFO - No data to save.
+2025-07-19 11:21:51,493 - WARNING - Disconnected from MQTT broker
+2025-07-19 11:22:07,774 - INFO - Connected to MQTT broker
+2025-07-19 11:22:09,904 - INFO - Unknown device stored to ExtraDevice: 861409071622600
+2025-07-19 11:22:11,562 - INFO - Shutdown signal received. Cleaning up...
+2025-07-19 11:22:11,563 - INFO - No data to save.
+2025-07-19 11:22:11,563 - WARNING - Disconnected from MQTT broker
+2025-07-19 11:31:44,418 - INFO - Connected to MQTT broker
+2025-07-19 11:31:45,145 - INFO - Unknown device stored to ExtraDevice: 861409071728282
+2025-07-19 11:31:51,996 - ERROR - DBC file not found for type: 4w
+2025-07-19 11:31:54,415 - INFO - Device marked as disconnected: 861409071622600
+2025-07-19 11:31:57,727 - INFO - Shutdown signal received. Cleaning up...
+2025-07-19 11:31:57,728 - INFO - No data to save.
+2025-07-19 11:31:57,729 - WARNING - Disconnected from MQTT broker
+2025-07-19 11:32:17,907 - INFO - Connected to MQTT broker
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,065 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,066 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:32:22,071 - ERROR - Error saving to DB for device 861409071622600 timestamp                                          2025-07-19T11:32:22.065370
+device_id                                                     861409071622600
+NMR                         [31, 17D8, F306, 31, 17C4, 7A02, 31, 17C4, 7A0...
+digital_input_status                                                     0000
+digital_output_status                                                      00
+analog_input_1                                                            206
+analog_input_2                                                            206
+frame_number                                                           004085
+odometer                                                            10129.986
+mis_field_1                                                                 -
+mis_field_2                 CAN|00000800:N|00000801:N|00000802:N|00000803:...
+mis_field_3                                                                 -
+mis_field_4                                                                 -
+debug_info                                                          44123541*
+header                                                                   $NRM
+vendor_id                                                             ROADRPA
+version                                                                 1.2.0
+packet_type                                                                NR
+alert_id                                                                   01
+packet_status                                                               L
+IMEI                                                          861409071622600
+vehicle_reg_no                                                           0000
+gps_fix                                                                     1
+date                                                                 19072025
+time                                                                   113220
+latitude                                                          18.73963370
+latitude_dir                                                                N
+longitude                                                         73.84345200
+longitude_dir                                                               E
+speed                                                                     0.0
+heading                                                                251.68
+no_of_stattalites                                                          39
+altitude                                                                622.0
+pdop                                                                     0.80
+hdop                                                                     0.50
+operator                                                           IND airtel
+ignition                                                                    1
+main_power_status                                                           1
+main_input_voltage                                                       27.7
+internal_battery_voltage                                                  4.2
+emergency_status                                                            0
+temper_alert                                                                C
+gsm_strength                                                               31
+MCC                                                                       404
+MNC                                                                        90
+LAC                                                                      17D8
+cell_id                                                                  F365
+Name: 0, dtype: object: NOT NULL constraint failed: devices_devicedata.extra_data
+2025-07-19 11:32:22,074 - INFO - Updated device last_seen: 861409071622600
+2025-07-19 11:32:22,075 - INFO - Appended new data. Current DataFrame shape: (1, 47)
+2025-07-19 11:32:29,750 - INFO - Shutdown signal received. Cleaning up...
+2025-07-19 11:32:29,752 - ERROR - Error saving final data: 'MQTTDataProcessor' object has no attribute 'upload_to_s3'
+2025-07-19 11:32:29,753 - WARNING - Disconnected from MQTT broker
+2025-07-19 11:33:49,893 - INFO - Connected to MQTT broker
+2025-07-19 11:33:52,063 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,063 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,063 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,063 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,063 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,063 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,063 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,063 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,063 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,063 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,064 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:33:52,069 - INFO - Trying addingf the data
+2025-07-19 11:33:59,881 - INFO - Device marked as disconnected: 861409071622600
+2025-07-19 11:34:02,060 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,061 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,062 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,062 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,062 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,062 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,062 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,062 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,062 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,062 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,062 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,062 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,062 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,062 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,062 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:02,069 - INFO - Trying addingf the data
+2025-07-19 11:34:09,036 - INFO - Unknown device stored to ExtraDevice: 861409075138587
+2025-07-19 11:34:09,883 - INFO - Device marked as disconnected: 861409071622600
+2025-07-19 11:34:12,043 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,043 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,043 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,043 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,043 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,043 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,043 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,043 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,043 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,043 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,043 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,043 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,043 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,043 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,044 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:34:12,047 - INFO - Trying addingf the data
+2025-07-19 11:34:14,048 - INFO - Shutdown signal received. Cleaning up...
+2025-07-19 11:34:14,050 - INFO - No data to save.
+2025-07-19 11:34:14,052 - WARNING - Disconnected from MQTT broker
+2025-07-19 11:37:01,455 - INFO - Connected to MQTT broker
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,099 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:02,100 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:37:03,061 - INFO - Shutdown signal received. Cleaning up...
+2025-07-19 11:37:03,061 - INFO - No data to save.
+2025-07-19 11:37:03,062 - WARNING - Disconnected from MQTT broker
+2025-07-19 11:47:53,671 - INFO - Connected to MQTT broker
+2025-07-19 11:47:58,940 - INFO - Unknown device stored to ExtraDevice: 861409075138587
+2025-07-19 11:48:01,020 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,020 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,020 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,020 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,021 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,022 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,022 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,022 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,022 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,022 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:48:01,027 - INFO - Trying addingf the data
+2025-07-19 11:48:03,664 - INFO - Device marked as disconnected: 861409071622600
+2025-07-19 11:48:04,798 - INFO - Shutdown signal received. Cleaning up...
+2025-07-19 11:48:04,798 - INFO - No data to save.
+2025-07-19 11:48:04,799 - WARNING - Disconnected from MQTT broker
+2025-07-19 11:51:52,981 - INFO - Connected to MQTT broker
+2025-07-19 11:51:58,988 - INFO - Unknown device stored to ExtraDevice: 861409075138587
+2025-07-19 11:52:00,989 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,990 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,991 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,991 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,991 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,991 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,991 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,991 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,991 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,991 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,991 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:00,991 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:02,972 - INFO - Device marked as disconnected: 861409071622600
+2025-07-19 11:52:09,371 - INFO - Shutdown signal received. Cleaning up...
+2025-07-19 11:52:09,375 - INFO - No data to save.
+2025-07-19 11:52:09,378 - WARNING - Disconnected from MQTT broker
+2025-07-19 11:52:46,097 - INFO - Connected to MQTT broker
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,010 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:51,011 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:52:52,120 - INFO - Shutdown signal received. Cleaning up...
+2025-07-19 11:52:52,121 - INFO - No data to save.
+2025-07-19 11:52:52,121 - WARNING - Disconnected from MQTT broker
+2025-07-19 11:59:37,206 - INFO - Connected to MQTT broker
+2025-07-19 11:59:40,940 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,941 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,942 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,942 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,942 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,942 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,942 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,942 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,942 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,942 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,942 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,942 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,942 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,942 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,942 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,942 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,942 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:40,942 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:42,171 - INFO - Shutdown signal received. Cleaning up...
+2025-07-19 11:59:42,171 - INFO - No data to save.
+2025-07-19 11:59:42,172 - WARNING - Disconnected from MQTT broker
+2025-07-19 11:59:47,918 - INFO - Connected to MQTT broker
+2025-07-19 11:59:50,931 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,931 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,931 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,931 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,931 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,931 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,931 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,932 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,933 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:50,933 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 11:59:57,913 - INFO - Device marked as disconnected: 861409071622600
+2025-07-19 11:59:57,915 - INFO - Device marked as disconnected: 861409071728282
+2025-07-19 11:59:59,899 - INFO - Unknown device stored to ExtraDevice: 861409075138587
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,903 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:00,904 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:00:02,155 - INFO - Shutdown signal received. Cleaning up...
+2025-07-19 12:00:02,156 - INFO - No data to save.
+2025-07-19 12:00:02,156 - WARNING - Disconnected from MQTT broker
+2025-07-19 12:00:54,003 - INFO - Connected to MQTT broker
+2025-07-19 12:00:59,929 - INFO - Unknown device stored to ExtraDevice: 861409075138587
+2025-07-19 12:01:00,920 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,920 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,920 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,920 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,920 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,920 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,920 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,920 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,920 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,920 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,920 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,920 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,920 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,920 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,920 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,920 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,921 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,922 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,922 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,922 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,922 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,922 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,922 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,922 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,922 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:00,922 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:01:03,713 - INFO - Shutdown signal received. Cleaning up...
+2025-07-19 12:01:03,713 - INFO - No data to save.
+2025-07-19 12:01:03,714 - WARNING - Disconnected from MQTT broker
+2025-07-19 12:04:30,338 - INFO - Connected to MQTT broker
+2025-07-19 12:04:30,874 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,874 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,874 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,875 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,875 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,875 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,875 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,875 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,875 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,876 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,876 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,876 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,876 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,876 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,876 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,876 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,877 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,877 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,877 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,877 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,877 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,877 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,877 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,877 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,877 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,877 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,878 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,878 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,878 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,878 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,878 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,878 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,878 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,878 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,878 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,878 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,878 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,879 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,879 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,879 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,879 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,879 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,879 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,879 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,879 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,879 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,879 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,879 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,879 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:30,879 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-19 12:04:35,083 - INFO - Shutdown signal received. Cleaning up...
+2025-07-19 12:04:35,085 - INFO - No data to save.
+2025-07-19 12:04:35,085 - WARNING - Disconnected from MQTT broker

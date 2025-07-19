@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.mo
+*.db
+*.sqlite3
+media/
+staticfiles/
+node_modules/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# macOS
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Other
+*.bak
+*.tmp
+*.old
+*.orig

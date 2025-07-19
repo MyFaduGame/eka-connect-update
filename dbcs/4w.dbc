@@ -1,0 +1,920 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 2147485779 CANB_Response_2: 1 Vector__XXX
+ SG_ Previous_Immobilize_Auto_Value : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Output_Immobilize_Auto_Value : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Immobilize_PermanentChange_Value : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Immobilize_Defalut_Value : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Immobilize_Auto_Value : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2147485778 CANB_Response_1: 8 Vector__XXX
+ SG_ Output_SLF_Auto_Value : 24|12@1+ (1,0) [0|4095] "" Vector__XXX
+ SG_ Previous_SLF_Auto_Value : 12|12@1+ (1,0) [0|4095] "" Vector__XXX
+ SG_ SLF_Permanent_Change_Value : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SLF_Default_Value : 37|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SLF_Auto_Value : 0|12@1+ (1,0) [0|4095] "" Vector__XXX
+
+BO_ 2147485777 CANB_Control: 8 Vector__XXX
+ SG_ Default_Immobilize_CMD : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Permanant_Immobilize_Change_CMD : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Immobilize_Value : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Speed_Permanant_Change_CMD : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Speed_Default_CMD : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Speed_Set_Value : 8|12@1+ (1,0) [0|4095] "" Vector__XXX
+ SG_ Manual_Speed_Control_CMD : 1|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Manual_Immobilize_CMD : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2147485776 CAN_Selection: 8 Vector__XXX
+ SG_ Calibration_Selection : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 2147485765 RC_2: 8 Vector__XXX
+ SG_ RC2_Signal_8 : 56|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC2_Signal_7 : 48|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC2_Signal_6 : 40|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC2_Signal_5 : 32|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC2_Signal_4 : 24|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC2_Signal_3 : 16|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC2_Signal_2 : 8|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC2_Signal_1 : 0|8@1+ (1,0) [0|255] "NA" Vector__XXX
+
+BO_ 2147485764 RC_1: 8 Vector__XXX
+ SG_ RC1_Signal_8 : 56|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC1_Signal_7 : 48|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC1_Signal_6 : 40|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC1_Signal_5 : 32|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC1_Signal_4 : 24|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC1_Signal_3 : 16|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC1_Signal_2 : 8|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC1_Signal_1 : 0|8@1+ (1,0) [0|255] "NA" Vector__XXX
+
+BO_ 2147485763 ESC: 8 Vector__XXX
+ SG_ ESC_Signal_4 : 24|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ESC_Signal_8 : 56|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ESC_Signal_7 : 48|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ESC_Signal_6 : 40|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ESC_Signal_5 : 32|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ESC_Signal_3 : 16|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ESC_Signal_2 : 8|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ESC_Signal_1 : 0|8@1+ (1,0) [0|255] "NA" Vector__XXX
+
+BO_ 2147485762 FCE_2: 8 Vector__XXX
+ SG_ FCE_Signal_13 : 32|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ FCE_Signal_9 : 0|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ FCE_Signal_16 : 56|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ FCE_Signal_15 : 48|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ FCE_Signal_14 : 40|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ FCE_Signal_12 : 24|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ FCE_Signal_11 : 16|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ FCE_Signal_10 : 8|8@1+ (1,0) [0|255] "NA" Vector__XXX
+
+BO_ 2147485761 FCE_1: 8 Vector__XXX
+ SG_ FCE_Signal_8 : 56|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ FCE_Signal_7 : 48|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ FCE_Signal_6 : 40|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ FCE_Signal_5 : 32|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ FCE_Signal_4 : 24|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ FCE_Signal_3 : 16|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ FCE_Signal_2 : 8|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ FCE_Signal_1 : 0|8@1+ (1,0) [0|255] "NA" Vector__XXX
+
+BO_ 2147485760 ADAS: 8 Vector__XXX
+ SG_ ADAS_Signal_8 : 56|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ADAS_Signal_7 : 48|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ADAS_Signal_6 : 40|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ADAS_Signal_5 : 32|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ADAS_Signal_4 : 24|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ADAS_Signal_3 : 16|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ADAS_Signal_2 : 8|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ADAS_Signal_1 : 0|8@1+ (1,0) [0|255] "NA" Vector__XXX
+
+BO_ 2147485753 BMS_Pack_C_Data_2: 8 Vector__XXX
+ SG_ Signal_101 : 57|7@1+ (1,0) [0|127] "NA" Vector__XXX
+ SG_ C_Cont_Disch_Curr_Limit : 49|8@1+ (1,0) [0|255] "A" Vector__XXX
+ SG_ C_Cont_Chrg_Curr_Limit : 41|8@1+ (1,0) [0|255] "A" Vector__XXX
+ SG_ C_Min_Cell_Volt_No : 33|8@1+ (1,0) [0|255] "V" Vector__XXX
+ SG_ C_Max_Cell_Volt_No : 25|8@1+ (1,0) [0|255] "V" Vector__XXX
+ SG_ C_SOC_Value : 18|7@1+ (1,0) [0|127] "%" Vector__XXX
+ SG_ C_SOH_Value : 11|7@1+ (1,0) [0|127] "%" Vector__XXX
+ SG_ C_Insulation_Value : 0|11@1+ (10,0) [0|20470] "KOhm" Vector__XXX
+
+BO_ 2147485752 BMS_Pack_C_Data_1: 8 Vector__XXX
+ SG_ Signal_100 : 58|6@1+ (1,0) [0|63] "NA" Vector__XXX
+ SG_ Signal_99 : 50|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_98 : 42|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_97 : 34|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_96 : 26|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ C_KWh_Remain : 19|7@1+ (1,0) [0|127] "KW" Vector__XXX
+ SG_ C_Pack_Voltage_Value : 9|10@1+ (1,0) [0|1023] "V" Vector__XXX
+ SG_ C_Pack_Current_Value : 0|9@1+ (1,-150) [-150|361] "A" Vector__XXX
+
+BO_ 2147485751 BMS_Pack_C_Status: 8 Vector__XXX
+ SG_ Signal_95 : 56|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ C_Max_Cell_Volt : 24|12@1+ (0.001,0) [0|4.095] "V" Vector__XXX
+ SG_ C_Max_Cell_Temp : 17|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ C_Min_Cell_Volt : 36|12@1+ (0.001,0) [0|4.095] "V" Vector__XXX
+ SG_ C_Min_Cell_Temp : 10|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ C_Fault_Rank : 8|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ C_Derate_Flag : 7|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Signal_94 : 48|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ C_Balancing_Enabled_flag : 1|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ C_Packlockout : 5|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ C_Pack_Ready : 2|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ C_Main_Contactors_Status : 6|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ C_HVIL_Monitoring_Status : 4|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ C_Charging_Done : 3|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ C_SOC_Calibration_flag : 0|1@1+ (1,0) [0|1] "NA" Vector__XXX
+
+BO_ 2147485750 BMS_Pack_B_Data_2: 8 Vector__XXX
+ SG_ Signal_93 : 57|7@1+ (1,0) [0|127] "NA" Vector__XXX
+ SG_ B_Min_Cell_Volt_No : 33|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ B_Max_Cell_Volt_No : 25|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ B_Cont_Disch_Curr_Limit : 49|8@1+ (1,0) [0|255] "A" Vector__XXX
+ SG_ B_Cont_Chrg_Curr_Limit : 41|8@1+ (1,0) [0|255] "A" Vector__XXX
+ SG_ B_SOC_Value : 18|7@1+ (1,0) [0|127] "%" Vector__XXX
+ SG_ B_SOH_Value : 11|7@1+ (1,0) [0|127] "%" Vector__XXX
+ SG_ B_Insulation_Value : 0|11@1+ (10,0) [0|20470] "KOhm" Vector__XXX
+
+BO_ 2147485749 BMS_Pack_B_Data_1: 8 Vector__XXX
+ SG_ Signal_92 : 58|6@1+ (1,0) [0|63] "NA" Vector__XXX
+ SG_ Signal_91 : 50|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_90 : 42|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_89 : 34|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_88 : 26|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ B_KWh_Remain : 19|7@1+ (1,0) [0|127] "KW" Vector__XXX
+ SG_ B_Pack_Voltage_Value : 9|10@1+ (1,0) [0|1023] "V" Vector__XXX
+ SG_ B_Pack_Current_Value : 0|9@1+ (1,-150) [-150|361] "A" Vector__XXX
+
+BO_ 2147485748 BMS_Pack_B_Status: 8 Vector__XXX
+ SG_ Signal_86 : 48|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ B_Min_Cell_Volt : 36|12@1+ (0.001,0) [0|4.095] "V" Vector__XXX
+ SG_ B_Max_Cell_Volt : 24|12@1+ (0.001,0) [0|4.095] "V" Vector__XXX
+ SG_ B_Max_Cell_Temp : 17|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ B_Min_Cell_Temp : 10|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ B_Fault_Rank : 8|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ B_Derate_Flag : 7|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Signal_87 : 56|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ B_Packlockout : 5|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ B_Main_Contactors_Status : 6|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ B_HVIL_Monitoring_Status : 4|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ B_Charging_Done : 3|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ B_Pack_Ready : 2|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ B_Balancing_Enabled_Flag : 1|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ B_SOC_Calibration_flag : 0|1@1+ (1,0) [0|1] "NA" Vector__XXX
+
+BO_ 2147485747 BMS_Pack_A_Data_2: 8 Vector__XXX
+ SG_ Signal_85 : 57|7@1+ (1,0) [0|127] "NA" Vector__XXX
+ SG_ A_Min_Cell_Volt_No : 33|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ A_Max_Cell_Volt_No : 25|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ A_Cont_Disch_Curr_Limit : 49|8@1+ (1,0) [0|255] "A" Vector__XXX
+ SG_ A_Cont_Chrg_Curr_Limit : 41|8@1+ (1,0) [0|255] "A" Vector__XXX
+ SG_ A_SOC_Value : 18|7@1+ (1,0) [0|127] "%" Vector__XXX
+ SG_ A_SOH_Value : 11|7@1+ (1,0) [0|127] "%" Vector__XXX
+ SG_ A_Insulation_Value : 0|11@1+ (10,0) [0|20470] "KOhm" Vector__XXX
+
+BO_ 2147485746 BMS_Pack_A_Data_1: 8 Vector__XXX
+ SG_ Signal_84 : 58|6@1+ (1,0) [0|63] "NA" Vector__XXX
+ SG_ Signal_83 : 50|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_82 : 42|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_81 : 34|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_80 : 26|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ A_KWh_Remain : 19|7@1+ (1,0) [0|127] "KW" Vector__XXX
+ SG_ A_Pack_Voltage_Value : 9|10@1+ (1,0) [0|1023] "V" Vector__XXX
+ SG_ A_Pack_Current_Value : 0|9@1+ (1,-150) [-150|361] "A" Vector__XXX
+
+BO_ 2147485745 BMS_Pack_A_Status: 8 Vector__XXX
+ SG_ Signal_79 : 55|9@1+ (1,0) [0|511] "NA" Vector__XXX
+ SG_ A_Min_Cell_Volt : 43|12@1+ (0.001,0) [0|4.095] "V" Vector__XXX
+ SG_ A_Max_Cell_Volt : 31|12@1+ (0.001,0) [0|4.095] "V" Vector__XXX
+ SG_ A_Max_Cell_Temp : 24|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ A_Min_Cell_Temp : 17|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ A_Fault_Rank : 15|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ A_Derate_Flag : 14|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ A_VCU_BMS_No_of_packs : 12|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ A_VCU_BMS_Insulation_Enable : 10|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ A_VCU_BMS_Charge_Flag : 11|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ A_VCU_BMS_MainC_Close : 9|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ A_VCU_BMS_EPO : 8|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ A_VCU_BMS_Enable : 7|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ A_Packlockout : 5|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ A_Main_Contactors_Status : 6|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ A_HVIL_Monitoring_Status : 4|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ A_Charging_Done : 3|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ A_Pack_Ready : 2|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ A_SOC_Calibration_flag : 0|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ A_Balancing_Enabled_Flag : 1|1@1+ (1,0) [0|1] "NA" Vector__XXX
+
+BO_ 2147485744 DTC_5: 8 Vector__XXX
+ SG_ Signal_78 : 56|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_77 : 48|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_76 : 40|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_75 : 32|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_74 : 24|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_73 : 16|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC2_DTC_2 : 8|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC2_DTC_1 : 0|8@1+ (1,0) [0|255] "NA" Vector__XXX
+
+BO_ 2147485737 DTC_4: 8 Vector__XXX
+ SG_ RC1_DTC_2 : 56|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC1_DTC_1 : 48|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ FCE_DTC_2 : 40|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ FCE_DTC_1 : 32|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ TPMS_DTC_2 : 24|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ TPMS_DTC_1 : 16|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ADAS_DTC_2 : 8|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ADAS_DTC_1 : 0|8@1+ (1,0) [0|255] "NA" Vector__XXX
+
+BO_ 2147485736 DTC_3: 8 Vector__XXX
+ SG_ IC_MUX_DTC_2 : 56|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ IC_MUX_DTC_1 : 48|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ DCDC_DTC_2 : 40|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ DCDC_DTC_1 : 32|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ EVCC_DTC_2 : 24|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ EVCC_DTC_1 : 16|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Dual_Aux_DTC_2 : 8|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Dual_Aux_DTC_1 : 0|8@1+ (1,0) [0|255] "NA" Vector__XXX
+
+BO_ 2147485735 DTC_2: 8 Vector__XXX
+ SG_ ECAS_DTC_3 : 56|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ECAS_DTC_2 : 48|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ ECAS_DTC_1 : 40|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ EBS_DTC_3 : 32|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ EBS_DTC_2 : 24|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ EBS_DTC_1 : 16|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ HVAC_BCS_DTC_2 : 8|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ HVAC_BCS_DTC_1 : 0|8@1+ (1,0) [0|255] "NA" Vector__XXX
+
+BO_ 2147485734 DTC_1: 8 Vector__XXX
+ SG_ TCS_DTC_2 : 56|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ TCS_DTC_1 : 48|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ MCU_DTC_2 : 40|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ MCU_DTC_1 : 32|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ BMS_DTC_2 : 24|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ BMS_DTC_1 : 16|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ VCU_DTC_2 : 8|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ VCU_DTC_1 : 0|8@1+ (1,0) [0|255] "NA" Vector__XXX
+
+BO_ 2147485733 Software_Version: 8 Vector__XXX
+ SG_ Signal_72 : 62|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ Signal_71 : 54|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC2_SW_Version : 51|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ RC1_SW_Version : 48|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ OBC_SW_Version : 45|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ DNR_GEARBOX_SW_Version : 42|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ ICMUX_SW_Version : 39|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ ECAS_SW_Version : 36|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ TPMS_SW_Version : 33|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ EBS_SW_Version : 30|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ FCE_SW_Version : 27|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ ADAS_SW_Version : 24|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ BCS_SW_Version : 21|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ HVAC_SW_Version : 18|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ DCDC_SW_Version : 15|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ EVCC_SW_Version : 12|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ AUXInv_SW_Version : 9|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ BMS_SW_Version : 6|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ MCU_SW_Version : 3|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ VCU_SW_Version : 0|3@1+ (1,0) [0|7] "NA" Vector__XXX
+
+BO_ 2147485732 EBS_Data_2: 8 Vector__XXX
+ SG_ Signal_70 : 59|5@1+ (1,0) [0|31] "NA" Vector__XXX
+ SG_ NominalFrictionPercentTorque : 44|8@1+ (1,-125) [-125|130] "%" Vector__XXX
+ SG_ EM1_Driver_Retarder_Pct_Trq : 28|8@1+ (1,-125) [-125|130] "%" Vector__XXX
+ SG_ EM1_Actual_Max_Avil_Ret_Pct_Torq : 36|8@1+ (1,-125) [-125|130] "%" Vector__XXX
+ SG_ RearAxleRightWheelSpeed : 21|7@1+ (1,0) [0|127] "Kmph" Vector__XXX
+ SG_ RearAxleLeftWheelSpeed : 14|7@1+ (1,0) [0|127] "Kmph" Vector__XXX
+ SG_ FrontAxleSpeed : 52|7@1+ (1,0) [0|127] "Kmph" Vector__XXX
+ SG_ FrontAxleRightWheelSpeed : 7|7@1+ (1,0) [0|127] "Kmph" Vector__XXX
+ SG_ FrontAxleLeftWheelSpeed : 0|7@1+ (1,0) [0|127] "Kmph" Vector__XXX
+
+BO_ 2147485731 EBS_Data_1: 8 Vector__XXX
+ SG_ Signal_69 : 60|4@1+ (1,0) [0|15] "NA" Vector__XXX
+ SG_ VDCBrakeLightRq : 58|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ FoundationBrakeUse : 56|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ HillHolderMode : 53|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ HaltBrakeMode : 50|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ EM1_Torque_Mode_Driving_Braking : 14|4@1+ (1,0) [0|15] "NA" Vector__XXX
+ SG_ EM1_ReqTorqueTorqueLimitDriving : 34|8@1+ (1,-125) [-125|130] "%" Vector__XXX
+ SG_ EM1_Req_TorqueTorqueLimitBraking : 42|8@1+ (1,-125) [-125|130] "%" Vector__XXX
+ SG_ EM1_Ovr_Ctrl_ModePriorityDriving : 28|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ EM1_Ovr_Ctrl_ModePriorityBraking : 32|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ EM1_Ovr_Ctrl_Mode_Driving : 26|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ EM1_Ovr_Ctrl_Mode_Braking : 30|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ EM1_Actual_Pct_Torque : 18|8@1+ (1,-125) [-125|130] "%" Vector__XXX
+ SG_ Regen_Info : 13|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Brake_Pedal_Position : 6|7@1+ (1,0) [0|127] "%" Vector__XXX
+ SG_ ABS_Offroad_Switch : 3|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ ABS_Fully_Operational : 2|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ ABS_EBS_Amber_Warning_Lamp_State : 4|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ EBS_Red_Warning_Lamp_State : 5|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ EBS_Brake_Switch : 1|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Anti_Lock_Braking_ABS_Active : 0|1@1+ (1,0) [0|1] "NA" Vector__XXX
+
+BO_ 2147485730 ECAS: 8 Vector__XXX
+ SG_ Signal_68 : 62|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ Signal_67 : 54|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ AuxEquipmentSupplyPress : 36|8@1+ (8,0) [0|2040] "kPa" Vector__XXX
+ SG_ AirSuspensionSupplyPress : 44|8@1+ (8,0) [0|2040] "kPa" Vector__XXX
+ SG_ AirCompressorStatus : 52|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ ParkingAnd_orTrailerAirPress : 28|8@1+ (8,0) [0|2040] "kPa" Vector__XXX
+ SG_ PneumaticSupplyPress : 20|8@1+ (8,0) [0|2040] "kPa" Vector__XXX
+ SG_ NominalLevelRqRearAxle : 12|4@1+ (1,0) [0|15] "NA" Vector__XXX
+ SG_ NominalLevelRqFrontAxle : 8|4@1+ (1,0) [0|15] "NA" Vector__XXX
+ SG_ KneelingRqRightSide : 4|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ KneelingRqLeftSide : 2|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ KneelingCtrlModeRq : 6|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ KneelingCmdRearAxle : 18|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ KneelingCmdFrontAxle : 16|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ AutomaticTractionHelp : 0|2@1+ (1,0) [0|3] "NA" Vector__XXX
+
+BO_ 2147485729 TPMS: 8 Vector__XXX
+ SG_ Signal_66 : 58|6@1+ (1,0) [0|63] "NA" Vector__XXX
+ SG_ Signal_65 : 50|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_64 : 42|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_63 : 34|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ CTI_Tire_Status : 22|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ Sensor_Status : 20|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ Sensor_Battery_Level_Status : 32|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ Sensor_Battery_Level : 24|8@1+ (1,0) [0|255] "%" Vector__XXX
+ SG_ Tire_Temperature : 11|9@1+ (1,-256) [-256|255] "C" Vector__XXX
+ SG_ Tire_Pressure : 3|8@1+ (10,0) [0|2550] "Kpi" Vector__XXX
+ SG_ Tire_Location_ : 0|3@1+ (1,0) [0|7] "NA" Vector__XXX
+
+BO_ 2147485712 OBC: 8 Vector__XXX
+ SG_ Signal_29 : 57|7@1+ (1,0) [0|127] "NA" Vector__XXX
+ SG_ Signal_28 : 49|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_27 : 41|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_26 : 33|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_25 : 25|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ OBC_Gun_Status : 24|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ OBC_DCDC_Status : 23|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ OBC_Max_Temperature : 16|7@1+ (1,0) [0|127] "C" Vector__XXX
+ SG_ OBC_Charger_Current : 8|8@1+ (1,0) [0|255] "A" Vector__XXX
+ SG_ OBC_Cmd_Current : 0|8@1+ (1,0) [0|255] "A" Vector__XXX
+
+BO_ 2147485703 Energy_2: 8 Vector__XXX
+ SG_ Signal_22 : 56|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ MCU_Energy : 0|8@1+ (2,0) [0|510] "KWH" Vector__XXX
+ SG_ Signal_21 : 48|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_20 : 40|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_19 : 32|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC2_Energy : 24|8@1+ (2,0) [0|510] "KWH" Vector__XXX
+ SG_ RC1_Energy : 16|8@1+ (2,0) [0|510] "KWH" Vector__XXX
+ SG_ FCE_Energy_Generated : 8|8@1+ (2,0) [0|510] "KWH" Vector__XXX
+
+BO_ 2147485702 Energy_1: 8 Vector__XXX
+ SG_ BMS_Energy : 49|8@1+ (2,0) [0|510] "KWH" Vector__XXX
+ SG_ BCS_HVAC_Energy : 57|7@1+ (1,0) [0|127] "KWH" Vector__XXX
+ SG_ TCS_Energy : 44|5@1+ (1,0) [0|31] "KWH" Vector__XXX
+ SG_ EComp_Energy : 32|6@1+ (1,0) [0|63] "KWH" Vector__XXX
+ SG_ Total_KWh_Regenerated : 18|8@1+ (2,0) [0|510] "KWH" Vector__XXX
+ SG_ Steering_Energy : 38|6@1+ (1,0) [0|63] "KWH" Vector__XXX
+ SG_ Instantaneous_Power : 8|10@1+ (1,-512) [-512|511] "KW" Vector__XXX
+ SG_ Total_KWh_Consumed : 0|8@1+ (2,0) [0|510] "KWH" Vector__XXX
+ SG_ DCDC_Energy : 26|6@1+ (1,0) [0|63] "KWH" Vector__XXX
+
+BO_ 2147485719 BCS: 8 Vector__XXX
+ SG_ BCS_Compressor_Input_Voltage : 10|10@1+ (1,0) [0|1023] "V" Vector__XXX
+ SG_ BCS_Compressor_Speed : 25|9@1+ (10,0) [0|5110] "Rpm" Vector__XXX
+ SG_ BCS_Compressor_Input_Current : 20|5@1+ (1,0) [0|31] "A" Vector__XXX
+ SG_ BCS_Compressor_Controller_Temp : 34|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ Signal_51 : 57|7@1+ (1,0) [0|127] "NA" Vector__XXX
+ SG_ Signal_50 : 49|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_49 : 41|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Cmd_Speed_of_Compressor : 1|9@1+ (10,0) [0|5110] "Rpm" Vector__XXX
+ SG_ ATC_Compressor_Enable : 0|1@1+ (1,0) [0|1] "NA" Vector__XXX
+
+BO_ 2147485717 MCU_1: 8 Vector__XXX
+ SG_ Regen_Derating_Status : 54|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Signal_45 : 55|9@1+ (1,0) [0|511] "NA" Vector__XXX
+ SG_ Traction_Derating_Status : 53|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ MCU_State : 46|4@1+ (1,0) [0|15] "NA" Vector__XXX
+ SG_ MCU_HighPowerVoltage : 36|10@1+ (1,0) [0|1023] "V" Vector__XXX
+ SG_ MCU_HighPowerCurrent : 25|11@1+ (1,-1024) [-1024|1023] "A" Vector__XXX
+ SG_ MCU_CommandMode : 50|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ Select_Torquemap : 18|7@1+ (50,0) [0|6350] "Rpm" Vector__XXX
+ SG_ Command_Mode : 3|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ OperationalMode_Cmd : 0|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ Torque_Command : 5|13@1+ (1,-4096) [-4096|4095] "NA" Vector__XXX
+
+BO_ 2147485705 EVCC_Gun_2: 8 Vector__XXX
+ SG_ Signal_24 : 63|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Signal_23 : 55|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ CP_Dutycycle_2 : 43|7@1+ (1,0) [0|127] "%" Vector__XXX
+ SG_ PP_Resistance_2 : 50|5@1+ (50,0) [0|1550] "Ohm" Vector__XXX
+ SG_ Present_Current_2 : 35|8@1+ (1,0) [0|255] "A" Vector__XXX
+ SG_ Max_Temperature_Gun_2 : 28|7@1+ (1,0) [0|127] "C" Vector__XXX
+ SG_ Charging_Status_2 : 27|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Gun_Detection_2 : 26|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ EVCC_Status_Code_2 : 17|8@1+ (1,0) [0|255] "Num" Vector__XXX
+ SG_ EVCC_Ready_2 : 25|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Force_Actuator_Unlock_2 : 16|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Vehicle_Stop_Charging : 10|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ EVCC_Cont_CCL_2 : 0|8@1+ (1,0) [0|255] "A" Vector__XXX
+ SG_ EV_Error_Code_2 : 11|5@1+ (1,0) [0|31] "NA" Vector__XXX
+ SG_ EV_Ready_2 : 8|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Charging_Complete_2 : 9|1@1+ (1,0) [0|1] "NA" Vector__XXX
+
+BO_ 2147485697 Component_Status: 8 Vector__XXX
+ SG_ Signal_7 : 62|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ Signal_6 : 54|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_5 : 46|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ RC2_Status : 42|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ RC1_Status : 40|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ IC_MUX_Node_Status : 38|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ VTS_Status : 34|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ TPMS_Status : 30|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ FCE_Status : 26|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ FCE_DCDC_Buck_Status : 20|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ FCE_DCDC_Boost_Status : 22|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ FCE_Aux_Status : 24|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ ESC_Status : 32|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ DNR_Status : 36|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ ADAS_Status : 28|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ KneelingLeft : 44|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ TCS_Status : 18|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ HVAC_Status : 16|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ EVCC_Status : 14|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ ECAS_Status : 12|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ EBS_Status : 10|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ Dual_Aux_Status : 8|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ DCDC_Status : 6|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ MCU_Status : 4|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ BMS_Status : 0|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ BCS_Status : 2|2@1+ (1,0) [0|3] "NA" Vector__XXX
+
+BO_ 2147485714 DCDC_2: 8 Vector__XXX
+ SG_ Signal_36 : 62|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ Signal_35 : 54|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_34 : 46|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_33 : 38|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_32 : 30|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ DCDC_Con_AuxInterLock_2 : 1|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ DCDC_Con_AuxInterLock_1 : 0|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ DCDC_Temp_4 : 23|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ DCDC_Temp_3 : 16|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ DCDC_Temp_2 : 9|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ DCDC_Temp_1 : 2|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+
+BO_ 2147485701 Cluster_Parameters: 8 Vector__XXX
+ SG_ ODOMETER : 44|20@1+ (1,0) [0|1048575] "NA" Vector__XXX
+ SG_ DTE : 36|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Hazard : 33|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Right_Turn_SW_Status : 23|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Left_Turn_SW_Status : 22|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Head_Lamp : 32|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Park_Lamp : 31|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ High_Beam_SW : 30|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Rear_Fog_SW : 29|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Front_Fog_SW : 28|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Interior_Light_Status : 27|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Ramp_Status : 26|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ All_Door_Status : 25|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Pass_High_Beam_SW_Status : 24|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Right_Turn_Indicator : 35|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Left_Turn_Indicator : 34|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Wiper_Low_SW_Status : 20|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Wiper_Intermittent_SW_Status : 19|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Wiper_High_SW_Status : 21|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Washer_Motor_SW_Status : 18|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Emergency_Door : 17|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Roof_Hatch : 16|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Door2 : 15|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Door1 : 14|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Speed_Limit : 7|7@1+ (1,0) [0|127] "Kmph" Vector__XXX
+ SG_ WheelBasedVehicleSpeed_Rx : 0|7@1+ (1,0) [0|127] "Kmph" Vector__XXX
+
+BO_ 2147485721 HVAC_2: 8 Vector__XXX
+ SG_ Signal_58 : 63|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Signal_57 : 55|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_56 : 47|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_55 : 39|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_54 : 31|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_53 : 23|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ T2B_Comp_Voltage : 13|10@1+ (1,0) [0|1023] "V" Vector__XXX
+ SG_ T2B_Comp_Frequency : 0|8@1+ (1,0) [0|255] "Hz" Vector__XXX
+ SG_ T2B_Comp_Current : 8|5@1+ (1,0) [0|31] "A" Vector__XXX
+
+BO_ 2147485696 All_Flag: 8 Vector__XXX
+ SG_ Signal_4 : 59|5@1+ (1,0) [0|31] "NA" Vector__XXX
+ SG_ Signal_3 : 51|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_2 : 43|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_1 : 35|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Aux_Inv_Flag : 8|4@1+ (1,0) [0|15] "NA" Vector__XXX
+ SG_ VCU_Flag : 0|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Trq_Flag : 20|4@1+ (1,0) [0|15] "NA" Vector__XXX
+ SG_ TCS_Flag : 16|4@1+ (1,0) [0|15] "NA" Vector__XXX
+ SG_ Mot_Trq_Flag : 24|7@1+ (1,0) [0|127] "NA" Vector__XXX
+ SG_ DCDC_Flag : 31|4@1+ (1,0) [0|15] "NA" Vector__XXX
+ SG_ BCS_Flag : 12|4@1+ (1,0) [0|15] "NA" Vector__XXX
+
+BO_ 2147485728 TCS: 8 Vector__XXX
+ SG_ Signal_62 : 55|9@1+ (1,0) [0|511] "NA" Vector__XXX
+ SG_ Signal_61 : 47|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_60 : 39|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_59 : 31|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ TCS_Pump_Temperature : 23|8@1+ (1,-10) [-10|245] "C" Vector__XXX
+ SG_ TCS_Target_Value : 0|7@1+ (1,0) [0|127] "NA" Vector__XXX
+ SG_ PumpCurrent : 18|5@1+ (1,0) [0|31] "A" Vector__XXX
+ SG_ PumpSpeed : 7|6@1+ (100,0) [0|6300] "Rpm" Vector__XXX
+ SG_ PumpVoltage : 13|5@1+ (1,0) [0|31] "V" Vector__XXX
+
+BO_ 2147485716 Steering_System: 8 Vector__XXX
+ SG_ Steering_Actual_Motor_Temp : 23|8@1+ (1,-10) [-10|245] "C" Vector__XXX
+ SG_ Signal_44 : 63|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Signal_43 : 55|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_42 : 47|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_41 : 39|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_40 : 31|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Steering_Set_Velocity : 1|5@1+ (100,0) [0|3100] "Rpm" Vector__XXX
+ SG_ Steering_enable : 0|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Streering_Input_Power : 11|5@1+ (100,0) [0|3100] "W" Vector__XXX
+ SG_ Steering_Actual_Heat_Sink_Temp : 16|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ Steering_Actual_Velocity : 6|5@1+ (100,0) [0|3100] "Rpm" Vector__XXX
+
+BO_ 2147485715 Ecompressor_System: 8 Vector__XXX
+ SG_ Signal_39 : 57|7@1+ (1,0) [0|127] "NA" Vector__XXX
+ SG_ Signal_38 : 49|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_37 : 41|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Ecompressor_Set_Velocity : 11|5@1+ (100,0) [0|3100] "Rpm" Vector__XXX
+ SG_ Ecomp_Actual_Motor_Temp : 33|8@1+ (1,-10) [-10|245] "C" Vector__XXX
+ SG_ EComp_enable : 10|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ DC_Link_Voltage : 0|10@1+ (1,0) [0|1023] "V" Vector__XXX
+ SG_ Ecomp_Actual_Heat_Sink_Temp : 26|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ ECompressor_Input_Power : 21|5@1+ (100,0) [0|3100] "W" Vector__XXX
+ SG_ Ecompressor_Actual_Velocity : 16|5@1+ (100,0) [0|3100] "Rpm" Vector__XXX
+
+BO_ 2147485720 HVAC_1: 8 Vector__XXX
+ SG_ Signal_52 : 58|6@1+ (1,0) [0|63] "NA" Vector__XXX
+ SG_ T2B_Tout : 29|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ T2B_TMS_Work_Mode : 37|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ T2B_Tin : 22|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ T2B_Pump_Rly_Output : 41|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ T2B_Mode : 36|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ T2B_HV_Voltage_Input : 42|10@1+ (1,0) [0|1023] "V" Vector__XXX
+ SG_ T2B_HV_Current_Input : 52|5@1+ (1,0) [0|31] "A" Vector__XXX
+ SG_ T2B_BMS_Work_Mode : 40|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ T2B_AC_Mode : 57|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ B2T_TMS_Control_CMD : 9|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ B2T_Set_Target_Temp : 15|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ B2T_Mode : 8|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ B2T_Differential_2 : 4|4@1+ (1,0) [0|15] "C" Vector__XXX
+ SG_ B2T_Differential_1 : 0|4@1+ (1,0) [0|15] "C" Vector__XXX
+ SG_ B2T_Compressor_Speed_Restriction : 13|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ B2T_BMS_Work_Mode : 12|1@1+ (1,0) [0|1] "NA" Vector__XXX
+
+BO_ 2147485704 EVCC_Gun_1: 8 Vector__XXX
+ SG_ Present_Current_1 : 44|8@1+ (1,0) [0|255] "A" Vector__XXX
+ SG_ CP_Dutycycle_1 : 52|7@1+ (1,0) [0|127] "%" Vector__XXX
+ SG_ PP_Resistance_1 : 59|5@1+ (50,0) [0|1550] "Ohm" Vector__XXX
+ SG_ EVCC_Ready_1 : 34|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Charging_Time : 17|9@1+ (1,0) [0|511] "Minutes" Vector__XXX
+ SG_ Vehicle_Stop_Charging_1 : 10|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ EV_Error_Code_1 : 11|5@1+ (1,0) [0|31] "NA" Vector__XXX
+ SG_ Force_Actuator_Unlock_1 : 16|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Charging_Complete_1 : 9|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ EVCC_Cont_CCL_1 : 0|8@1+ (1,0) [0|255] "A" Vector__XXX
+ SG_ Charging_Status_1 : 36|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Max_Temperature_Gun_1 : 37|7@1+ (1,0) [0|127] "C" Vector__XXX
+ SG_ Gun_Detection_1 : 35|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ EV_Ready_1 : 8|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ EVCC_Status_Code_1 : 26|8@1+ (1,0) [0|255] "Num" Vector__XXX
+
+BO_ 2147485713 DCDC_1: 8 Vector__XXX
+ SG_ Signal_31 : 63|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Signal_30 : 55|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ DCDCinputvoltagepointsetting : 14|10@1+ (1,0) [0|1023] "V" Vector__XXX
+ SG_ DCDCinputcurrentlimitsetting : 24|4@1+ (1,0) [0|15] "A" Vector__XXX
+ SG_ DCDCoutputvoltagepointsetting : 1|5@1+ (1,0) [0|31] "V" Vector__XXX
+ SG_ DCDCoutputcurrentlimitsetting : 6|8@1+ (1,0) [0|255] "A" Vector__XXX
+ SG_ DCDCenable_Command : 0|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ DCDC_Input_Voltage : 28|10@1+ (1,0) [0|1023] "V" Vector__XXX
+ SG_ DCDC_Input_Current : 43|4@1+ (1,0) [0|15] "A" Vector__XXX
+ SG_ DCDC_Output_Voltage : 38|5@1+ (1,0) [0|31] "V" Vector__XXX
+ SG_ DCDC_Output_Current : 47|8@1+ (1,0) [0|255] "A" Vector__XXX
+
+BO_ 2147485718 MCU_2: 8 Vector__XXX
+ SG_ Signal_48 : 61|3@1+ (1,0) [0|7] "NA" Vector__XXX
+ SG_ Signal_47 : 53|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_46 : 45|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Traction_Torque_Available : 20|9@1+ (10,0) [0|5110] "Nm" Vector__XXX
+ SG_ MCU_MotorTorqueEstimated : 10|10@1+ (10,-5120) [-5120|5110] "Nm" Vector__XXX
+ SG_ MCU_MotorSpeed : 0|10@1+ (10,-5120) [-5120|5110] "Rpm" Vector__XXX
+ SG_ MCUTemperature : 37|8@1+ (1,-10) [-10|245] "C" Vector__XXX
+ SG_ MotorTemperature : 29|8@1+ (1,-10) [-10|245] "C" Vector__XXX
+
+BO_ 2147485700 Hardwired_Output: 8 Vector__XXX
+ SG_ Signal_18 : 56|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_17 : 48|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_16 : 40|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_15 : 32|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_14 : 24|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ MCU_IGN_Relay_Drive_LSO12 : 10|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Solenoid_Relay_Drive_LSO11 : 9|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ IC_Relay_Drive_LSO10 : 8|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ HVAC_Drive_Relay_LSO15 : 13|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ HV_Batt_A_B_IGN_Relay_Drive_LSO9 : 7|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Aux_Inverter_2_IGN_Relay_LSO14 : 12|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Aux_Inverter_1_IGN_Relay_LSO13 : 11|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ E_Comp_FAN_LSO8 : 6|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ BCS_Relay_Coil_GND_LSO7 : 5|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ HV_TCS_Elctronic_On_Relay_LSO5 : 4|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ HV_TCS_FAN_LSO4 : 3|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Traction_Rad_Freq : 20|4@1+ (2000,0) [0|30000] "Hz" Vector__XXX
+ SG_ Traction_RadDuty_Cycle : 14|6@1+ (100,0) [0|6300] "NA" Vector__XXX
+ SG_ ChargerB_En_Contactor_LSO3 : 2|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ ChargerA_En_Contactor_LSO2 : 1|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Traction_MotorEn_Contactor_LSO1 : 0|1@1+ (1,0) [0|1] "NA" Vector__XXX
+
+BO_ 2147485698 Hardwired_Input_IOS: 8 Vector__XXX
+ SG_ Steering_Temp_Prot_Sw : 26|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Signal_8 : 58|6@1+ (1,0) [0|63] "NA" Vector__XXX
+ SG_ Park_Brake : 27|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Max_BusbarTemperature : 38|6@1+ (1,-10) [-10|53] "C" Vector__XXX
+ SG_ DNR : 28|2@1+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ CCSB_MaxTemp : 51|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ CCSA_MaxTemp : 44|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ Brake_Tank_Pressure_2 : 34|4@1+ (1,0) [0|15] "Bar" Vector__XXX
+ SG_ Brake_Tank_Pressure_1 : 30|4@1+ (1,0) [0|15] "Bar" Vector__XXX
+ SG_ Brake_Liner_Wr_Sw_RR : 24|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Brake_Liner_Wr_Sw_RL : 25|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Brake_Liner_Wr_Sw_FR : 22|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Brake_Liner_Wr_Sw_FL : 23|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Accpedal_Position : 15|7@1+ (1,0) [0|127] "%" Vector__XXX
+ SG_ Airdryer_Switch : 14|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Oil_Pressure_Switch2 : 9|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Oil_Pressure_Switch1 : 8|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ TCS_Coolent_Level_SW : 7|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Service_Indictor_Ecomp : 6|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ TCS_Rad_Fan_FB : 5|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ E_Comp_Cutoff_SW : 4|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Suspension_Tank_Pressure : 10|4@1+ (1,0) [0|15] "Bar" Vector__XXX
+ SG_ BCS_HVIL_Out : 3|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ HVPDU_HVIL_Out : 2|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Junction_Box_Switch : 1|1@1+ (1,0) [0|1] "NA" Vector__XXX
+ SG_ Ignition_Sense : 0|1@1+ (1,0) [0|1] "NA" Vector__XXX
+
+BO_ 2147485699 Hardwired_Input_Temp: 8 Vector__XXX
+ SG_ Signal_9 : 28|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_13 : 60|4@1+ (1,0) [0|15] "NA" Vector__XXX
+ SG_ Signal_12 : 52|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_11 : 44|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ Signal_10 : 36|8@1+ (1,0) [0|255] "NA" Vector__XXX
+ SG_ TCS_Thermistor : 21|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ BCS_Thermistor3 : 14|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ BCS_Thermistor2 : 7|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+ SG_ BCS_Thermistor1 : 0|7@1+ (1,-10) [-10|117] "C" Vector__XXX
+
+
+
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ SG_  "GenSigILSupport" ENUM  "No","Yes";
+BA_DEF_ SG_  "GenSigEVName" STRING ;
+BA_DEF_ SG_  "SigType" ENUM  "Default","Range","RangeSigned","ASCII","Discrete","Control","ReferencePGN","DTC","StringDelimiter","StringLength","StringLengthControl","MessageCounter","MessageChecksum";
+BA_DEF_ BO_  "GenMsgRequestable" INT 0 1;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "cyclic","NotUsed","IfActive","NotUsed","NotUsed","NotUsed","NotUsed","NotUsed","noMsgSendType";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 100000;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 1000;
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 1000000;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 3600000;
+BA_DEF_ BO_  "GenMsgFastOnStart" INT 0 100000;
+BA_DEF_ BO_  "TpJ1939VarDlc" ENUM  "No","Yes";
+BA_DEF_ BO_  "FsJ1939Delay" INT 0 1000;
+BA_DEF_ BO_  "FsJ1939NeedsSHM" ENUM  "No","Yes";
+BA_DEF_ BO_  "FsJ1939UseCrcAndCounter" STRING ;
+BA_DEF_ BU_  "NmStationAddress" INT 0 255;
+BA_DEF_ BU_  "NmJ1939AAC" INT 0 1;
+BA_DEF_ BU_  "NmJ1939ECUInstance" INT 0 3;
+BA_DEF_ BU_  "NmJ1939Function" INT 0 255;
+BA_DEF_ BU_  "NmJ1939FunctionInstance" INT 0 7;
+BA_DEF_ BU_  "NmJ1939IdentityNumber" INT 0 2097151;
+BA_DEF_ BU_  "NmJ1939IndustryGroup" INT 0 7;
+BA_DEF_ BU_  "NmJ1939ManufacturerCode" INT 0 2047;
+BA_DEF_ BU_  "NmJ1939System" INT 0 127;
+BA_DEF_ BU_  "NmJ1939SystemInstance" INT 0 15;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "ProtocolType" STRING ;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
+BA_DEF_ SG_  "GenSigStartValue" FLOAT -3.4E+038 3.4E+038;
+BA_DEF_ SG_  "SPN" INT -3.4E+038 3.4E+038;
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenSigSendType" "NoSigSendType";
+BA_DEF_DEF_  "GenSigILSupport" "Yes";
+BA_DEF_DEF_  "GenSigEVName" "Env@Nodename_@Signame";
+BA_DEF_DEF_  "SigType" "Default";
+BA_DEF_DEF_  "GenMsgRequestable" 1;
+BA_DEF_DEF_  "GenMsgSendType" "noMsgSendType";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "Yes";
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgFastOnStart" 0;
+BA_DEF_DEF_  "TpJ1939VarDlc" "No";
+BA_DEF_DEF_  "FsJ1939Delay" 0;
+BA_DEF_DEF_  "FsJ1939NeedsSHM" "No";
+BA_DEF_DEF_  "FsJ1939UseCrcAndCounter" "";
+BA_DEF_DEF_  "NmStationAddress" 254;
+BA_DEF_DEF_  "NmJ1939AAC" 0;
+BA_DEF_DEF_  "NmJ1939ECUInstance" 0;
+BA_DEF_DEF_  "NmJ1939Function" 0;
+BA_DEF_DEF_  "NmJ1939FunctionInstance" 0;
+BA_DEF_DEF_  "NmJ1939IdentityNumber" 0;
+BA_DEF_DEF_  "NmJ1939IndustryGroup" 0;
+BA_DEF_DEF_  "NmJ1939ManufacturerCode" 0;
+BA_DEF_DEF_  "NmJ1939System" 0;
+BA_DEF_DEF_  "NmJ1939SystemInstance" 0;
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "ProtocolType" "J1939";
+BA_DEF_DEF_  "VFrameFormat" "J1939PG";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "SPN" 0;
+BA_ "BusType" "CAN";
+BA_ "ProtocolType" "J1939";
+BA_ "DBName" "DBC_Electric_vehicle";
+BA_ "VFrameFormat" BO_ 2147485779 1;
+BA_ "VFrameFormat" BO_ 2147485778 1;
+BA_ "VFrameFormat" BO_ 2147485777 1;
+BA_ "VFrameFormat" BO_ 2147485776 1;
+BA_ "GenMsgCycleTime" BO_ 2147485765 500;
+BA_ "VFrameFormat" BO_ 2147485765 1;
+BA_ "GenMsgCycleTime" BO_ 2147485764 500;
+BA_ "VFrameFormat" BO_ 2147485764 1;
+BA_ "GenMsgCycleTime" BO_ 2147485763 500;
+BA_ "VFrameFormat" BO_ 2147485763 1;
+BA_ "GenMsgCycleTime" BO_ 2147485762 500;
+BA_ "VFrameFormat" BO_ 2147485762 1;
+BA_ "GenMsgCycleTime" BO_ 2147485761 500;
+BA_ "VFrameFormat" BO_ 2147485761 1;
+BA_ "GenMsgCycleTime" BO_ 2147485760 500;
+BA_ "VFrameFormat" BO_ 2147485760 1;
+BA_ "VFrameFormat" BO_ 2147485753 1;
+BA_ "GenMsgCycleTime" BO_ 2147485753 500;
+BA_ "VFrameFormat" BO_ 2147485752 1;
+BA_ "GenMsgCycleTime" BO_ 2147485752 500;
+BA_ "VFrameFormat" BO_ 2147485751 1;
+BA_ "GenMsgCycleTime" BO_ 2147485751 500;
+BA_ "VFrameFormat" BO_ 2147485750 1;
+BA_ "GenMsgCycleTime" BO_ 2147485750 500;
+BA_ "VFrameFormat" BO_ 2147485749 1;
+BA_ "GenMsgCycleTime" BO_ 2147485749 500;
+BA_ "VFrameFormat" BO_ 2147485748 1;
+BA_ "GenMsgCycleTime" BO_ 2147485748 500;
+BA_ "VFrameFormat" BO_ 2147485747 1;
+BA_ "GenMsgCycleTime" BO_ 2147485747 500;
+BA_ "VFrameFormat" BO_ 2147485746 1;
+BA_ "GenMsgCycleTime" BO_ 2147485746 500;
+BA_ "VFrameFormat" BO_ 2147485745 1;
+BA_ "GenMsgCycleTime" BO_ 2147485745 500;
+BA_ "VFrameFormat" BO_ 2147485744 1;
+BA_ "GenMsgCycleTime" BO_ 2147485744 500;
+BA_ "VFrameFormat" BO_ 2147485737 1;
+BA_ "GenMsgCycleTime" BO_ 2147485737 500;
+BA_ "VFrameFormat" BO_ 2147485736 1;
+BA_ "GenMsgCycleTime" BO_ 2147485736 500;
+BA_ "VFrameFormat" BO_ 2147485735 1;
+BA_ "GenMsgCycleTime" BO_ 2147485735 500;
+BA_ "VFrameFormat" BO_ 2147485734 1;
+BA_ "GenMsgCycleTime" BO_ 2147485734 500;
+BA_ "VFrameFormat" BO_ 2147485733 1;
+BA_ "GenMsgCycleTime" BO_ 2147485733 500;
+BA_ "VFrameFormat" BO_ 2147485732 1;
+BA_ "GenMsgCycleTime" BO_ 2147485732 500;
+BA_ "VFrameFormat" BO_ 2147485731 1;
+BA_ "GenMsgCycleTime" BO_ 2147485731 500;
+BA_ "VFrameFormat" BO_ 2147485730 1;
+BA_ "GenMsgCycleTime" BO_ 2147485730 500;
+BA_ "VFrameFormat" BO_ 2147485729 1;
+BA_ "GenMsgCycleTime" BO_ 2147485729 500;
+BA_ "VFrameFormat" BO_ 2147485712 1;
+BA_ "GenMsgCycleTime" BO_ 2147485712 500;
+BA_ "VFrameFormat" BO_ 2147485703 1;
+BA_ "GenMsgCycleTime" BO_ 2147485703 500;
+BA_ "VFrameFormat" BO_ 2147485702 1;
+BA_ "GenMsgCycleTime" BO_ 2147485702 500;
+BA_ "VFrameFormat" BO_ 2147485719 1;
+BA_ "GenMsgCycleTime" BO_ 2147485719 500;
+BA_ "VFrameFormat" BO_ 2147485717 1;
+BA_ "GenMsgCycleTime" BO_ 2147485717 500;
+BA_ "VFrameFormat" BO_ 2147485705 1;
+BA_ "GenMsgCycleTime" BO_ 2147485705 500;
+BA_ "VFrameFormat" BO_ 2147485697 1;
+BA_ "GenMsgCycleTime" BO_ 2147485697 500;
+BA_ "VFrameFormat" BO_ 2147485714 1;
+BA_ "GenMsgCycleTime" BO_ 2147485714 500;
+BA_ "VFrameFormat" BO_ 2147485701 1;
+BA_ "GenMsgCycleTime" BO_ 2147485701 500;
+BA_ "VFrameFormat" BO_ 2147485721 1;
+BA_ "GenMsgCycleTime" BO_ 2147485721 500;
+BA_ "VFrameFormat" BO_ 2147485696 1;
+BA_ "GenMsgCycleTime" BO_ 2147485696 500;
+BA_ "VFrameFormat" BO_ 2147485728 1;
+BA_ "GenMsgCycleTime" BO_ 2147485728 500;
+BA_ "VFrameFormat" BO_ 2147485716 1;
+BA_ "GenMsgCycleTime" BO_ 2147485716 500;
+BA_ "VFrameFormat" BO_ 2147485715 1;
+BA_ "GenMsgCycleTime" BO_ 2147485715 500;
+BA_ "VFrameFormat" BO_ 2147485720 1;
+BA_ "GenMsgCycleTime" BO_ 2147485720 500;
+BA_ "VFrameFormat" BO_ 2147485704 1;
+BA_ "GenMsgCycleTime" BO_ 2147485704 500;
+BA_ "VFrameFormat" BO_ 2147485713 1;
+BA_ "GenMsgCycleTime" BO_ 2147485713 500;
+BA_ "VFrameFormat" BO_ 2147485718 1;
+BA_ "GenMsgCycleTime" BO_ 2147485718 500;
+BA_ "VFrameFormat" BO_ 2147485700 1;
+BA_ "GenMsgCycleTime" BO_ 2147485700 500;
+BA_ "VFrameFormat" BO_ 2147485698 1;
+BA_ "GenMsgCycleTime" BO_ 2147485698 500;
+BA_ "VFrameFormat" BO_ 2147485699 1;
+BA_ "GenMsgCycleTime" BO_ 2147485699 500;
+BA_ "GenSigStartValue" SG_ 2147485752 C_Pack_Current_Value 150;
+BA_ "GenSigStartValue" SG_ 2147485751 C_Max_Cell_Temp 10;
+BA_ "GenSigStartValue" SG_ 2147485751 C_Min_Cell_Temp 10;
+BA_ "GenSigStartValue" SG_ 2147485749 B_Pack_Current_Value 150;
+BA_ "GenSigStartValue" SG_ 2147485746 A_Pack_Current_Value 150;
+BA_ "GenSigStartValue" SG_ 2147485732 NominalFrictionPercentTorque 125;
+BA_ "GenSigStartValue" SG_ 2147485732 EM1_Driver_Retarder_Pct_Trq 125;
+BA_ "GenSigStartValue" SG_ 2147485732 EM1_Actual_Max_Avil_Ret_Pct_Torq 125;
+BA_ "GenSigStartValue" SG_ 2147485731 EM1_ReqTorqueTorqueLimitDriving 125;
+BA_ "GenSigStartValue" SG_ 2147485731 EM1_Req_TorqueTorqueLimitBraking 125;
+BA_ "GenSigStartValue" SG_ 2147485731 EM1_Actual_Pct_Torque 125;
+BA_ "GenSigStartValue" SG_ 2147485729 Tire_Temperature 256;
+BA_ "GenSigStartValue" SG_ 2147485702 Total_KWh_Regenerated 0;
+BA_ "GenSigStartValue" SG_ 2147485702 Instantaneous_Power 512;
+BA_ "GenSigStartValue" SG_ 2147485719 BCS_Compressor_Controller_Temp 10;
+BA_ "GenSigStartValue" SG_ 2147485717 MCU_HighPowerCurrent 1024;
+BA_ "GenSigStartValue" SG_ 2147485717 MCU_CommandMode 1;
+BA_ "GenSigStartValue" SG_ 2147485714 DCDC_Temp_4 10;
+BA_ "GenSigStartValue" SG_ 2147485714 DCDC_Temp_3 10;
+BA_ "GenSigStartValue" SG_ 2147485714 DCDC_Temp_2 10;
+BA_ "GenSigStartValue" SG_ 2147485714 DCDC_Temp_1 10;
+BA_ "GenSigStartValue" SG_ 2147485728 TCS_Pump_Temperature 10;
+BA_ "GenSigStartValue" SG_ 2147485716 Steering_Actual_Motor_Temp 10;
+BA_ "GenSigStartValue" SG_ 2147485716 Streering_Input_Power 0;
+BA_ "GenSigStartValue" SG_ 2147485716 Steering_Actual_Heat_Sink_Temp 10;
+BA_ "GenSigStartValue" SG_ 2147485716 Steering_Actual_Velocity 0;
+BA_ "GenSigStartValue" SG_ 2147485715 Ecomp_Actual_Motor_Temp 10;
+BA_ "GenSigStartValue" SG_ 2147485715 Ecomp_Actual_Heat_Sink_Temp 10;
+BA_ "GenSigStartValue" SG_ 2147485715 ECompressor_Input_Power 0;
+BA_ "GenSigStartValue" SG_ 2147485715 Ecompressor_Actual_Velocity 0;
+BA_ "GenSigStartValue" SG_ 2147485720 T2B_Tout 10;
+BA_ "GenSigStartValue" SG_ 2147485720 T2B_Tin 10;
+BA_ "GenSigStartValue" SG_ 2147485720 B2T_Set_Target_Temp 10;
+BA_ "GenSigStartValue" SG_ 2147485704 Charging_Complete_1 0;
+BA_ "GenSigStartValue" SG_ 2147485713 DCDCoutputvoltagepointsetting 0;
+BA_ "GenSigStartValue" SG_ 2147485713 DCDCoutputcurrentlimitsetting 5;
+BA_ "GenSigStartValue" SG_ 2147485718 MCU_MotorTorqueEstimated 512;
+BA_ "GenSigStartValue" SG_ 2147485718 MCU_MotorSpeed 512;
+BA_ "GenSigStartValue" SG_ 2147485718 MCUTemperature 10;
+BA_ "GenSigStartValue" SG_ 2147485718 MotorTemperature 10;
+BA_ "GenSigStartValue" SG_ 2147485698 Max_BusbarTemperature 10;
+BA_ "GenSigStartValue" SG_ 2147485698 CCSB_MaxTemp 10;
+BA_ "GenSigStartValue" SG_ 2147485698 CCSA_MaxTemp 10;
+BA_ "GenSigStartValue" SG_ 2147485698 Airdryer_Switch 0;
+BA_ "GenSigStartValue" SG_ 2147485699 BCS_Thermistor1 0;
