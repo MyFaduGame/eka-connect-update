@@ -12,6 +12,21 @@ class Device(models.Model):
     def __str__(self):
         return self.device_id
     
+    def save(self, *args, **kwargs):
+        using = kwargs.pop('using', 'default')
+        super().save(*args, using=using, **kwargs)
+
+        if using == 'default':
+            clone = self.__class__.objects.using('default').get(pk=self.pk)
+            clone.pk = self.pk
+            clone.save(using='replica')
+            
+class ReplicaDevices(Device):
+    class Meta:
+        proxy = True
+        verbose_name = "Replica Device"
+        verbose_name_plural = "Replica Devices"
+    
 class ExtraDevice(models.Model):
     device_id = models.CharField(_("DeviceId"),max_length=5000, unique=True)
     last_seen = models.DateTimeField(_("Last_Login"), auto_now_add=True)
@@ -19,6 +34,15 @@ class ExtraDevice(models.Model):
     
     def __str__(self):
         return self.device_id
+    
+    def save(self, *args, **kwargs):
+        using = kwargs.pop('using', 'default')
+        super().save(*args, using=using, **kwargs)
+
+        if using == 'default':
+            clone = self.__class__.objects.using('default').get(pk=self.pk)
+            clone.pk = self.pk
+            clone.save(using='replica')
     
 class DeviceData(models.Model):
     timestamp = models.DateTimeField(_("time_stamp"), auto_now_add=True)
@@ -66,3 +90,12 @@ class DeviceData(models.Model):
     cell_id = models.CharField(max_length=500, null=True, blank=True)
     extra_data = models.JSONField()
     can_data = models.JSONField()
+
+    def save(self, *args, **kwargs):
+        using = kwargs.pop('using', 'default')
+        super().save(*args, using=using, **kwargs)
+
+        if using == 'default':
+            clone = self.__class__.objects.using('default').get(pk=self.pk)
+            clone.pk = self.pk
+            clone.save(using='replica')

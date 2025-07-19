@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     
     #Local Apps
     'devices',
-    # 'users',
+    'users',
     
     #channels
     "channels",
@@ -107,6 +107,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    },
+    'replica': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db2.sqlite3'),
     }
 }
 
