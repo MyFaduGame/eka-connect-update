@@ -4,6 +4,7 @@ from devices.models import (
     Device,
     ReplicaDevices,
     DeviceData,
+    ReplicaDevicesData,
     ExtraDevice,
 )
 
@@ -46,17 +47,43 @@ class ReplicaDeviceAdmin(admin.ModelAdmin):
         obj.delete(using='replica')
 
 @admin.register(DeviceData)
-class MQTTDataAdmin(admin.ModelAdmin):
+class DeviceDataAdmin(admin.ModelAdmin):
     list_display = (
         'id', 'device_id', 'latitude', 'longitude'
     )
     list_filter = ('id', 'device_id')
     search_fields = ('id', 'device_id')
     readonly_fields = ('id', 'device_id')
+    
+    def get_queryset(self, request):
+        return super().get_queryset(request).using('default')
 
+    def save_model(self, request, obj, form, change):
+        obj.save(using='default')
+
+    def delete_model(self, request, obj):
+        obj.delete(using='default')
+
+@admin.register(ReplicaDevicesData)
+class ReplicaDeviceDataAdmin(admin.ModelAdmin):
+    list_display = (
+        'id', 'device_id', 'latitude', 'longitude'
+    )
+    list_filter = ('id', 'device_id')
+    search_fields = ('id', 'device_id')
+    readonly_fields = ('id', 'device_id')
+    
+    def get_queryset(self, request):
+        return super().get_queryset(request).using('replica')
+
+    def save_model(self, request, obj, form, change):
+        obj.save(using='replica')
+
+    def delete_model(self, request, obj):
+        obj.delete(using='replica')
 
 @admin.register(ExtraDevice)
-class MQTTDataAdmin(admin.ModelAdmin):
+class ExtraDeviceAdmin(admin.ModelAdmin):
     list_display = (
         'id', 'device_id'
     )

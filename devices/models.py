@@ -99,3 +99,9 @@ class DeviceData(models.Model):
             clone = self.__class__.objects.using('default').get(pk=self.pk)
             clone.pk = self.pk
             clone.save(using='replica')
+            
+class ReplicaDevicesData(DeviceData):
+    class Meta:
+        proxy = True
+        verbose_name = "Replica DeviceData"
+        verbose_name_plural = "Replica DevicesData"
