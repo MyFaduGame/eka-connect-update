@@ -180,17 +180,22 @@ class MQTTDataProcessor:
             for idx, hex_data in enumerate(filtered_can_data):
                 try:
                     can_id = can_ids[idx]
+                    can_id_str = hex(can_id) #Convert to string for JSON keys
+                    # can_dict[can_id_str] = hex_data
+
                     if hex_data == 'N':
-                        for signal in dbc_file.get_message_by_frame_id(can_id).signals:
-                            parsed_data[signal.name] = 'N'
+                        # for signal in dbc_file.get_message_by_frame_id(can_id).signals:
+                        #     parsed_data[signal.name] = 'N'
+                        can_dict[can_id_str] = {signal.name: 'N' for signal in dbc_file.get_message_by_frame_id(can_id).signals}
                         continue
 
                     can_data_bytes = bytes.fromhex(hex_data)
                     decoded = dbc_file.decode_message(can_id, can_data_bytes)
+                    can_dict[can_id_str] = decoded #Store under CAN ID 
 
                     for signal_name, value in decoded.items():
                         parsed_data[signal_name] = value
-                        can_dict[signal_name] = value
+                        # can_dict[signal_name] = value
 
                 except Exception as e:
                     logging.warning(f"Error decoding CAN ID {hex(can_id)}: {e}")
