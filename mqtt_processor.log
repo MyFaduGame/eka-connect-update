@@ -774,6 +774,7 @@ Name: 0, dtype: object: NOT NULL constraint failed: devices_devicedata.extra_dat
 2025-07-19 12:04:35,083 - INFO - Shutdown signal received. Cleaning up...
 2025-07-19 12:04:35,085 - INFO - No data to save.
 2025-07-19 12:04:35,085 - WARNING - Disconnected from MQTT broker
+<<<<<<< HEAD
 2025-07-21 14:31:00,978 - INFO - Connected to MQTT broker
 2025-07-21 14:31:02,175 - INFO - Unknown device stored to ExtraDevice: 861409071728027
 2025-07-21 14:31:09,773 - INFO - Unknown device stored to ExtraDevice: 861409071622600
@@ -1478,3 +1479,1547 @@ Name: 0, dtype: object: NOT NULL constraint failed: devices_devicedata.extra_dat
 2025-07-21 15:25:38,048 - INFO - Shutdown signal received. Cleaning up...
 2025-07-21 15:25:38,049 - INFO - No data to save.
 2025-07-21 15:25:38,050 - WARNING - Disconnected from MQTT broker
+=======
+2025-07-21 10:12:02,139 - INFO - Connected to MQTT broker
+2025-07-21 10:12:07,230 - INFO - Unknown device stored to ExtraDevice: 861409075138587
+2025-07-21 10:12:08,277 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 10:12:09,669 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,669 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,669 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,670 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,670 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,670 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,670 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,670 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,670 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,671 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,671 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,671 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,671 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,671 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,671 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,671 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,671 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,671 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,672 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,672 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,672 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,672 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,672 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,672 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,672 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,672 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,673 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,673 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,673 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,673 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,673 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,673 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,673 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,673 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,674 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,674 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,674 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,674 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,674 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,674 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,674 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,674 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,674 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,675 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,675 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,675 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,675 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,675 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,675 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,675 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:12:09,684 - INFO - Trying addingf the data
+2025-07-21 10:12:12,138 - INFO - Device marked as disconnected: 861409071622600
+2025-07-21 10:12:14,221 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 10:12:14,221 - INFO - No data to save.
+2025-07-21 10:12:14,222 - WARNING - Disconnected from MQTT broker
+2025-07-21 10:13:40,235 - INFO - Connected to MQTT broker
+2025-07-21 10:13:49,201 - INFO - Unknown device stored to ExtraDevice: 861409075138587
+2025-07-21 10:13:49,373 - INFO - Unknown device stored to ExtraDevice: 861919088637086
+2025-07-21 10:13:49,651 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,652 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,652 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,652 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,652 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,652 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,652 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,652 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,652 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,652 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,653 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,653 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,653 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,653 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,653 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,653 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,653 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,653 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,653 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,654 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,654 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,654 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,654 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,654 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,654 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,654 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,654 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,654 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,654 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,654 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,655 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,655 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,655 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,655 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,655 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,655 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,655 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,655 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,655 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,656 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,656 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,656 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,656 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,656 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,656 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,656 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,656 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,656 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,656 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:49,657 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:13:50,229 - INFO - Device marked as disconnected: 861409071622600
+2025-07-21 10:13:51,111 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 10:13:51,111 - INFO - No data to save.
+2025-07-21 10:13:51,111 - WARNING - Disconnected from MQTT broker
+2025-07-21 10:16:46,638 - INFO - Connected to MQTT broker
+2025-07-21 10:16:49,676 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,676 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,676 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,676 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,676 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,676 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,677 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,677 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,677 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,677 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,677 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,677 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,677 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,677 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,677 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,677 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,678 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,678 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,678 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,678 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,678 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,678 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,678 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,678 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,678 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,678 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,679 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,679 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,679 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,679 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,679 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,679 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,679 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,679 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,679 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,679 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,679 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,680 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,680 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,680 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,680 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,680 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,680 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,680 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,680 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,680 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,680 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,681 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,681 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:49,681 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:16:50,701 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 10:16:50,701 - INFO - No data to save.
+2025-07-21 10:16:50,701 - WARNING - Disconnected from MQTT broker
+2025-07-21 10:17:20,770 - INFO - Connected to MQTT broker
+2025-07-21 10:17:23,408 - INFO - Unknown device stored to ExtraDevice: 861919088637086
+2025-07-21 10:17:25,185 - INFO - Unknown device stored to ExtraDevice: 861409075138587
+2025-07-21 10:17:29,660 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,660 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,660 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,660 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,660 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,660 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,661 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,661 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,661 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,661 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,661 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,661 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,661 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,661 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,661 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,662 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,662 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,662 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,662 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,662 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,662 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,662 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,662 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,662 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,662 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,663 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,663 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,663 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,663 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,663 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,663 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,663 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,663 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,663 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,663 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,663 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,664 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,664 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,664 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,664 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,664 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,664 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,664 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,664 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,664 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,664 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,665 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,665 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,665 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:29,665 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:17:30,116 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 10:17:30,116 - INFO - No data to save.
+2025-07-21 10:17:30,116 - WARNING - Disconnected from MQTT broker
+2025-07-21 10:18:38,482 - INFO - Connected to MQTT broker
+2025-07-21 10:18:39,690 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,690 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,690 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,690 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,690 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,691 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,691 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,691 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,691 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,691 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,691 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,691 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,691 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,691 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,692 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,692 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,692 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,692 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,692 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,692 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,692 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,692 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,692 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,692 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,692 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,693 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,693 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,693 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,693 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,693 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,693 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,693 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,693 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,693 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,693 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,694 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,694 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,694 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,694 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,694 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,694 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,694 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,694 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,694 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,694 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,695 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,695 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,695 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,695 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:39,695 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:18:40,354 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 10:18:40,354 - INFO - No data to save.
+2025-07-21 10:18:40,354 - WARNING - Disconnected from MQTT broker
+2025-07-21 10:19:15,321 - INFO - Connected to MQTT broker
+2025-07-21 10:19:19,671 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,671 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,671 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,671 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,671 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,671 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,671 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,671 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,672 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,672 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,672 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,672 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,672 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,672 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,672 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,672 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,672 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,672 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,672 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,673 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,673 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,673 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,673 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,673 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,673 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,673 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,673 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,673 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,673 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,674 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,674 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,674 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,674 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,674 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,674 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,674 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,674 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,674 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,674 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,675 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,675 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,675 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,675 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,675 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,675 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,675 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,675 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,675 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,675 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:19,676 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:20,159 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 10:19:20,159 - INFO - No data to save.
+2025-07-21 10:19:20,159 - WARNING - Disconnected from MQTT broker
+2025-07-21 10:19:53,548 - INFO - Connected to MQTT broker
+2025-07-21 10:19:55,185 - INFO - Unknown device stored to ExtraDevice: 861409075138587
+2025-07-21 10:19:59,670 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,670 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,670 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,670 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,671 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,671 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,671 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,671 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,671 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,671 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,671 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,671 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,672 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,672 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,672 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,672 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,672 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,672 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,672 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,673 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,673 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,673 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,673 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,673 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,673 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,673 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,674 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,674 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,674 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,674 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,674 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,674 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,675 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,675 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,675 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,675 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,675 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,675 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,676 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,676 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,676 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,676 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,676 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,676 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,676 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,677 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,677 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,677 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,677 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:19:59,677 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:20:00,253 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 10:20:00,253 - INFO - No data to save.
+2025-07-21 10:20:00,253 - WARNING - Disconnected from MQTT broker
+2025-07-21 10:22:00,758 - INFO - Connected to MQTT broker
+2025-07-21 10:22:08,259 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,259 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,259 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,259 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,260 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,260 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,260 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,260 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,260 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,260 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,260 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,260 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,260 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,261 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,261 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,261 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,261 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,261 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,262 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,262 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,262 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,262 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,262 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,262 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,262 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,262 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,263 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,263 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,263 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,263 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,263 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,263 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,263 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,264 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,264 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,264 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,264 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,264 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,264 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,264 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,265 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,265 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,265 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,265 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,265 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,265 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,266 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,266 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,266 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,266 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:08,825 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 10:22:08,825 - INFO - No data to save.
+2025-07-21 10:22:08,825 - WARNING - Disconnected from MQTT broker
+2025-07-21 10:22:25,895 - INFO - Connected to MQTT broker
+2025-07-21 10:22:27,237 - ERROR - Error parsing message: list index out of range
+2025-07-21 10:22:27,237 - ERROR - Error processing message: cannot unpack non-iterable NoneType object
+2025-07-21 10:22:29,632 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,632 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,633 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,633 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,633 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,633 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,633 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,633 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,633 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,634 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,634 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,634 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,634 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,634 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,634 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,634 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,635 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,635 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,635 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,635 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,635 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,635 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,635 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,636 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,636 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,636 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,636 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,636 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,636 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,636 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,636 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,637 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,637 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,637 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,637 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,637 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,637 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,638 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,638 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,638 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,638 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,638 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,638 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,639 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,639 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,639 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,639 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,639 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,639 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:29,640 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:22:30,202 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 10:22:30,203 - INFO - No data to save.
+2025-07-21 10:22:30,203 - WARNING - Disconnected from MQTT broker
+2025-07-21 10:26:29,415 - INFO - Connected to MQTT broker
+2025-07-21 10:26:29,650 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,650 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,650 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,650 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,650 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,650 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,651 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,651 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,651 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,651 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,651 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,651 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,651 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,651 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,652 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,652 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,652 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,652 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,652 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,652 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,652 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,653 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,653 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,653 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,653 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,653 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,653 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,653 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,653 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,654 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,654 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,654 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,654 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,654 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,654 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,654 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,655 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,655 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,655 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,655 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,655 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,655 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,656 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,656 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,656 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,656 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,656 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,657 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,657 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:29,657 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 10:26:32,272 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 10:26:32,273 - INFO - No data to save.
+2025-07-21 10:26:32,273 - WARNING - Disconnected from MQTT broker
+2025-07-21 10:35:46,295 - INFO - Connected to MQTT broker
+2025-07-21 10:35:59,664 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 10:35:59,664 - INFO - No data to save.
+2025-07-21 10:35:59,665 - WARNING - Disconnected from MQTT broker
+2025-07-21 12:19:16,895 - INFO - Connected to MQTT broker
+2025-07-21 12:19:17,321 - ERROR - Error parsing message: list index out of range
+2025-07-21 12:19:17,321 - ERROR - Error processing message: cannot unpack non-iterable NoneType object
+2025-07-21 12:19:18,722 - ERROR - Error parsing message: list index out of range
+2025-07-21 12:19:18,722 - ERROR - Error processing message: cannot unpack non-iterable NoneType object
+2025-07-21 12:19:19,870 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 12:19:19,870 - INFO - No data to save.
+2025-07-21 12:19:19,870 - WARNING - Disconnected from MQTT broker
+2025-07-21 12:20:00,404 - INFO - Connected to MQTT broker
+2025-07-21 12:20:02,606 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,606 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,606 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,606 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,606 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,607 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,607 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,607 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,607 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,607 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,607 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,607 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,608 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,608 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,608 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,608 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,608 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,608 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,608 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,609 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,609 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,609 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,609 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,609 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,609 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,609 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,609 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,610 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,610 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,610 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,610 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,610 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,610 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,610 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,611 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,611 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,611 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,611 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,611 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,612 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,612 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,612 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,612 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,612 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,612 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,612 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,613 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,613 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,613 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,613 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 12:20:02,613 - WARNING - Error decoding CAN ID 0x853: list index out of range
+2025-07-21 12:20:03,449 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 12:20:03,449 - INFO - No data to save.
+2025-07-21 12:20:03,450 - WARNING - Disconnected from MQTT broker
+2025-07-21 15:23:45,474 - INFO - Connected to MQTT broker
+2025-07-21 15:24:17,461 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 15:24:17,461 - INFO - No data to save.
+2025-07-21 15:24:17,462 - WARNING - Disconnected from MQTT broker
+2025-07-21 15:24:19,222 - INFO - Connected to MQTT broker
+2025-07-21 15:24:42,068 - WARNING - Error decoding CAN ID 0x800: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,069 - WARNING - Error decoding CAN ID 0x801: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,069 - WARNING - Error decoding CAN ID 0x802: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,069 - WARNING - Error decoding CAN ID 0x803: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,069 - WARNING - Error decoding CAN ID 0x804: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,069 - WARNING - Error decoding CAN ID 0x805: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,069 - WARNING - Error decoding CAN ID 0x806: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,070 - WARNING - Error decoding CAN ID 0x807: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,070 - WARNING - Error decoding CAN ID 0x808: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,070 - WARNING - Error decoding CAN ID 0x809: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,070 - WARNING - Error decoding CAN ID 0x810: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,070 - WARNING - Error decoding CAN ID 0x811: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,070 - WARNING - Error decoding CAN ID 0x812: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,070 - WARNING - Error decoding CAN ID 0x813: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,071 - WARNING - Error decoding CAN ID 0x814: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,071 - WARNING - Error decoding CAN ID 0x815: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,071 - WARNING - Error decoding CAN ID 0x816: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,071 - WARNING - Error decoding CAN ID 0x817: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,071 - WARNING - Error decoding CAN ID 0x818: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,071 - WARNING - Error decoding CAN ID 0x819: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,071 - WARNING - Error decoding CAN ID 0x820: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,071 - WARNING - Error decoding CAN ID 0x821: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,072 - WARNING - Error decoding CAN ID 0x822: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,072 - WARNING - Error decoding CAN ID 0x823: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,072 - WARNING - Error decoding CAN ID 0x824: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,072 - WARNING - Error decoding CAN ID 0x825: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,072 - WARNING - Error decoding CAN ID 0x826: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,072 - WARNING - Error decoding CAN ID 0x827: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,072 - WARNING - Error decoding CAN ID 0x828: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,073 - WARNING - Error decoding CAN ID 0x829: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,073 - WARNING - Error decoding CAN ID 0x830: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,073 - WARNING - Error decoding CAN ID 0x831: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,073 - WARNING - Error decoding CAN ID 0x832: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,073 - WARNING - Error decoding CAN ID 0x833: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,073 - WARNING - Error decoding CAN ID 0x834: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,073 - WARNING - Error decoding CAN ID 0x835: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,074 - WARNING - Error decoding CAN ID 0x836: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,074 - WARNING - Error decoding CAN ID 0x837: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,074 - WARNING - Error decoding CAN ID 0x838: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,074 - WARNING - Error decoding CAN ID 0x839: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,074 - WARNING - Error decoding CAN ID 0x840: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,075 - WARNING - Error decoding CAN ID 0x841: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,075 - WARNING - Error decoding CAN ID 0x842: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,075 - WARNING - Error decoding CAN ID 0x843: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,075 - WARNING - Error decoding CAN ID 0x844: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,075 - WARNING - Error decoding CAN ID 0x845: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,075 - WARNING - Error decoding CAN ID 0x850: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,075 - WARNING - Error decoding CAN ID 0x851: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,076 - WARNING - Error decoding CAN ID 0x852: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,076 - WARNING - Error decoding CAN ID 0x853: non-hexadecimal number found in fromhex() arg at position 8
+2025-07-21 15:24:42,699 - WARNING - Error decoding CAN ID 0x853: list index out of range
+2025-07-21 15:24:43,288 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 15:24:43,288 - INFO - No data to save.
+2025-07-21 15:24:43,289 - WARNING - Disconnected from MQTT broker
+2025-07-21 15:26:01,961 - INFO - Connected to MQTT broker
+2025-07-21 15:26:11,953 - INFO - Device marked as disconnected: 861409071622600
+2025-07-21 15:26:41,671 - WARNING - Error decoding CAN ID 0x800: 2147485696
+2025-07-21 15:26:41,671 - WARNING - Error decoding CAN ID 0x801: 2147485697
+2025-07-21 15:26:41,671 - WARNING - Error decoding CAN ID 0x802: 2147485698
+2025-07-21 15:26:41,671 - WARNING - Error decoding CAN ID 0x803: 2147485699
+2025-07-21 15:26:41,671 - WARNING - Error decoding CAN ID 0x804: 2147485700
+2025-07-21 15:26:41,671 - WARNING - Error decoding CAN ID 0x805: 2147485701
+2025-07-21 15:26:41,671 - WARNING - Error decoding CAN ID 0x806: 2147485702
+2025-07-21 15:26:41,671 - WARNING - Error decoding CAN ID 0x807: 2147485703
+2025-07-21 15:26:41,671 - WARNING - Error decoding CAN ID 0x808: 2147485704
+2025-07-21 15:26:41,672 - WARNING - Error decoding CAN ID 0x809: 2147485705
+2025-07-21 15:26:41,672 - WARNING - Error decoding CAN ID 0x810: 2147485712
+2025-07-21 15:26:41,672 - WARNING - Error decoding CAN ID 0x811: 2147485713
+2025-07-21 15:26:41,672 - WARNING - Error decoding CAN ID 0x812: 2147485714
+2025-07-21 15:26:41,672 - WARNING - Error decoding CAN ID 0x813: 2147485715
+2025-07-21 15:26:41,672 - WARNING - Error decoding CAN ID 0x814: 2147485716
+2025-07-21 15:26:41,672 - WARNING - Error decoding CAN ID 0x815: 2147485717
+2025-07-21 15:26:41,672 - WARNING - Error decoding CAN ID 0x816: 2147485718
+2025-07-21 15:26:41,672 - WARNING - Error decoding CAN ID 0x817: 2147485719
+2025-07-21 15:26:41,672 - WARNING - Error decoding CAN ID 0x818: 2147485720
+2025-07-21 15:26:41,672 - WARNING - Error decoding CAN ID 0x819: 2147485721
+2025-07-21 15:26:41,672 - WARNING - Error decoding CAN ID 0x820: 2147485728
+2025-07-21 15:26:41,673 - WARNING - Error decoding CAN ID 0x821: 2147485729
+2025-07-21 15:26:41,673 - WARNING - Error decoding CAN ID 0x822: 2147485730
+2025-07-21 15:26:41,673 - WARNING - Error decoding CAN ID 0x823: 2147485731
+2025-07-21 15:26:41,673 - WARNING - Error decoding CAN ID 0x824: 2147485732
+2025-07-21 15:26:41,673 - WARNING - Error decoding CAN ID 0x825: 2147485733
+2025-07-21 15:26:41,673 - WARNING - Error decoding CAN ID 0x826: 2147485734
+2025-07-21 15:26:41,673 - WARNING - Error decoding CAN ID 0x827: 2147485735
+2025-07-21 15:26:41,673 - WARNING - Error decoding CAN ID 0x828: 2147485736
+2025-07-21 15:26:41,673 - WARNING - Error decoding CAN ID 0x829: 2147485737
+2025-07-21 15:26:41,673 - WARNING - Error decoding CAN ID 0x830: 2147485744
+2025-07-21 15:26:41,674 - WARNING - Error decoding CAN ID 0x831: 2147485745
+2025-07-21 15:26:41,674 - WARNING - Error decoding CAN ID 0x832: 2147485746
+2025-07-21 15:26:41,674 - WARNING - Error decoding CAN ID 0x833: 2147485747
+2025-07-21 15:26:41,674 - WARNING - Error decoding CAN ID 0x834: 2147485748
+2025-07-21 15:26:41,674 - WARNING - Error decoding CAN ID 0x835: 2147485749
+2025-07-21 15:26:41,674 - WARNING - Error decoding CAN ID 0x836: 2147485750
+2025-07-21 15:26:41,674 - WARNING - Error decoding CAN ID 0x837: 2147485751
+2025-07-21 15:26:41,674 - WARNING - Error decoding CAN ID 0x838: 2147485752
+2025-07-21 15:26:41,674 - WARNING - Error decoding CAN ID 0x839: 2147485753
+2025-07-21 15:26:41,674 - WARNING - Error decoding CAN ID 0x840: 2147485760
+2025-07-21 15:26:41,674 - WARNING - Error decoding CAN ID 0x841: 2147485761
+2025-07-21 15:26:41,674 - WARNING - Error decoding CAN ID 0x842: 2147485762
+2025-07-21 15:26:41,675 - WARNING - Error decoding CAN ID 0x843: 2147485763
+2025-07-21 15:26:41,675 - WARNING - Error decoding CAN ID 0x844: 2147485764
+2025-07-21 15:26:41,675 - WARNING - Error decoding CAN ID 0x845: 2147485765
+2025-07-21 15:26:41,675 - WARNING - Error decoding CAN ID 0x850: 2147485776
+2025-07-21 15:26:41,675 - WARNING - Error decoding CAN ID 0x851: 2147485777
+2025-07-21 15:26:41,675 - WARNING - Error decoding CAN ID 0x852: 2147485778
+2025-07-21 15:26:41,675 - WARNING - Error decoding CAN ID 0x853: 2147485779
+2025-07-21 15:26:41,959 - INFO - Device marked as disconnected: 861409075138587
+2025-07-21 15:26:42,003 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 15:26:42,128 - INFO - Unknown device stored to ExtraDevice: 861409071627823
+2025-07-21 15:26:42,684 - WARNING - Error decoding CAN ID 0x853: list index out of range
+2025-07-21 15:26:51,963 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:26:56,985 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 15:26:56,985 - INFO - No data to save.
+2025-07-21 15:26:56,986 - WARNING - Disconnected from MQTT broker
+2025-07-21 15:31:11,921 - INFO - Connected to MQTT broker
+2025-07-21 15:31:41,987 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 15:31:43,895 - WARNING - Error decoding CAN ID 0x800: 2147485696
+2025-07-21 15:31:43,895 - WARNING - Error decoding CAN ID 0x801: 2147485697
+2025-07-21 15:31:43,896 - WARNING - Error decoding CAN ID 0x802: 2147485698
+2025-07-21 15:31:43,896 - WARNING - Error decoding CAN ID 0x803: 2147485699
+2025-07-21 15:31:43,896 - WARNING - Error decoding CAN ID 0x804: 2147485700
+2025-07-21 15:31:43,896 - WARNING - Error decoding CAN ID 0x805: 2147485701
+2025-07-21 15:31:43,896 - WARNING - Error decoding CAN ID 0x806: 2147485702
+2025-07-21 15:31:43,896 - WARNING - Error decoding CAN ID 0x807: 2147485703
+2025-07-21 15:31:43,896 - WARNING - Error decoding CAN ID 0x808: 2147485704
+2025-07-21 15:31:43,896 - WARNING - Error decoding CAN ID 0x809: 2147485705
+2025-07-21 15:31:43,896 - WARNING - Error decoding CAN ID 0x810: 2147485712
+2025-07-21 15:31:43,896 - WARNING - Error decoding CAN ID 0x811: 2147485713
+2025-07-21 15:31:43,897 - WARNING - Error decoding CAN ID 0x812: 2147485714
+2025-07-21 15:31:43,897 - WARNING - Error decoding CAN ID 0x813: 2147485715
+2025-07-21 15:31:43,897 - WARNING - Error decoding CAN ID 0x814: 2147485716
+2025-07-21 15:31:43,897 - WARNING - Error decoding CAN ID 0x815: 2147485717
+2025-07-21 15:31:43,897 - WARNING - Error decoding CAN ID 0x816: 2147485718
+2025-07-21 15:31:43,897 - WARNING - Error decoding CAN ID 0x817: 2147485719
+2025-07-21 15:31:43,897 - WARNING - Error decoding CAN ID 0x818: 2147485720
+2025-07-21 15:31:43,897 - WARNING - Error decoding CAN ID 0x819: 2147485721
+2025-07-21 15:31:43,897 - WARNING - Error decoding CAN ID 0x820: 2147485728
+2025-07-21 15:31:43,897 - WARNING - Error decoding CAN ID 0x821: 2147485729
+2025-07-21 15:31:43,897 - WARNING - Error decoding CAN ID 0x822: 2147485730
+2025-07-21 15:31:43,897 - WARNING - Error decoding CAN ID 0x823: 2147485731
+2025-07-21 15:31:43,898 - WARNING - Error decoding CAN ID 0x824: 2147485732
+2025-07-21 15:31:43,898 - WARNING - Error decoding CAN ID 0x825: 2147485733
+2025-07-21 15:31:43,898 - WARNING - Error decoding CAN ID 0x826: 2147485734
+2025-07-21 15:31:43,898 - WARNING - Error decoding CAN ID 0x827: 2147485735
+2025-07-21 15:31:43,898 - WARNING - Error decoding CAN ID 0x828: 2147485736
+2025-07-21 15:31:43,898 - WARNING - Error decoding CAN ID 0x829: 2147485737
+2025-07-21 15:31:43,898 - WARNING - Error decoding CAN ID 0x830: 2147485744
+2025-07-21 15:31:43,898 - WARNING - Error decoding CAN ID 0x831: 2147485745
+2025-07-21 15:31:43,898 - WARNING - Error decoding CAN ID 0x832: 2147485746
+2025-07-21 15:31:43,898 - WARNING - Error decoding CAN ID 0x833: 2147485747
+2025-07-21 15:31:43,898 - WARNING - Error decoding CAN ID 0x834: 2147485748
+2025-07-21 15:31:43,899 - WARNING - Error decoding CAN ID 0x835: 2147485749
+2025-07-21 15:31:43,899 - WARNING - Error decoding CAN ID 0x836: 2147485750
+2025-07-21 15:31:43,899 - WARNING - Error decoding CAN ID 0x837: 2147485751
+2025-07-21 15:31:43,899 - WARNING - Error decoding CAN ID 0x838: 2147485752
+2025-07-21 15:31:43,899 - WARNING - Error decoding CAN ID 0x839: 2147485753
+2025-07-21 15:31:43,899 - WARNING - Error decoding CAN ID 0x840: 2147485760
+2025-07-21 15:31:43,899 - WARNING - Error decoding CAN ID 0x841: 2147485761
+2025-07-21 15:31:43,899 - WARNING - Error decoding CAN ID 0x842: 2147485762
+2025-07-21 15:31:43,899 - WARNING - Error decoding CAN ID 0x843: 2147485763
+2025-07-21 15:31:43,899 - WARNING - Error decoding CAN ID 0x844: 2147485764
+2025-07-21 15:31:43,900 - WARNING - Error decoding CAN ID 0x845: 2147485765
+2025-07-21 15:31:43,900 - WARNING - Error decoding CAN ID 0x850: 2147485776
+2025-07-21 15:31:43,900 - WARNING - Error decoding CAN ID 0x851: 2147485777
+2025-07-21 15:31:43,900 - WARNING - Error decoding CAN ID 0x852: 2147485778
+2025-07-21 15:31:43,900 - WARNING - Error decoding CAN ID 0x853: 2147485779
+2025-07-21 15:31:51,921 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:31:51,924 - INFO - Device marked as disconnected: 861409075138587
+2025-07-21 15:32:41,931 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 15:32:42,718 - WARNING - Error decoding CAN ID 0x853: list index out of range
+2025-07-21 15:32:43,912 - WARNING - Error decoding CAN ID 0x800: 2147485696
+2025-07-21 15:32:43,912 - WARNING - Error decoding CAN ID 0x801: 2147485697
+2025-07-21 15:32:43,912 - WARNING - Error decoding CAN ID 0x802: 2147485698
+2025-07-21 15:32:43,912 - WARNING - Error decoding CAN ID 0x803: 2147485699
+2025-07-21 15:32:43,912 - WARNING - Error decoding CAN ID 0x804: 2147485700
+2025-07-21 15:32:43,912 - WARNING - Error decoding CAN ID 0x805: 2147485701
+2025-07-21 15:32:43,912 - WARNING - Error decoding CAN ID 0x806: 2147485702
+2025-07-21 15:32:43,912 - WARNING - Error decoding CAN ID 0x807: 2147485703
+2025-07-21 15:32:43,912 - WARNING - Error decoding CAN ID 0x808: 2147485704
+2025-07-21 15:32:43,913 - WARNING - Error decoding CAN ID 0x809: 2147485705
+2025-07-21 15:32:43,913 - WARNING - Error decoding CAN ID 0x810: 2147485712
+2025-07-21 15:32:43,913 - WARNING - Error decoding CAN ID 0x811: 2147485713
+2025-07-21 15:32:43,913 - WARNING - Error decoding CAN ID 0x812: 2147485714
+2025-07-21 15:32:43,913 - WARNING - Error decoding CAN ID 0x813: 2147485715
+2025-07-21 15:32:43,913 - WARNING - Error decoding CAN ID 0x814: 2147485716
+2025-07-21 15:32:43,913 - WARNING - Error decoding CAN ID 0x815: 2147485717
+2025-07-21 15:32:43,913 - WARNING - Error decoding CAN ID 0x816: 2147485718
+2025-07-21 15:32:43,913 - WARNING - Error decoding CAN ID 0x817: 2147485719
+2025-07-21 15:32:43,913 - WARNING - Error decoding CAN ID 0x818: 2147485720
+2025-07-21 15:32:43,913 - WARNING - Error decoding CAN ID 0x819: 2147485721
+2025-07-21 15:32:43,913 - WARNING - Error decoding CAN ID 0x820: 2147485728
+2025-07-21 15:32:43,914 - WARNING - Error decoding CAN ID 0x821: 2147485729
+2025-07-21 15:32:43,914 - WARNING - Error decoding CAN ID 0x822: 2147485730
+2025-07-21 15:32:43,914 - WARNING - Error decoding CAN ID 0x823: 2147485731
+2025-07-21 15:32:43,914 - WARNING - Error decoding CAN ID 0x824: 2147485732
+2025-07-21 15:32:43,914 - WARNING - Error decoding CAN ID 0x825: 2147485733
+2025-07-21 15:32:43,914 - WARNING - Error decoding CAN ID 0x826: 2147485734
+2025-07-21 15:32:43,914 - WARNING - Error decoding CAN ID 0x827: 2147485735
+2025-07-21 15:32:43,914 - WARNING - Error decoding CAN ID 0x828: 2147485736
+2025-07-21 15:32:43,914 - WARNING - Error decoding CAN ID 0x829: 2147485737
+2025-07-21 15:32:43,914 - WARNING - Error decoding CAN ID 0x830: 2147485744
+2025-07-21 15:32:43,915 - WARNING - Error decoding CAN ID 0x831: 2147485745
+2025-07-21 15:32:43,915 - WARNING - Error decoding CAN ID 0x832: 2147485746
+2025-07-21 15:32:43,915 - WARNING - Error decoding CAN ID 0x833: 2147485747
+2025-07-21 15:32:43,915 - WARNING - Error decoding CAN ID 0x834: 2147485748
+2025-07-21 15:32:43,915 - WARNING - Error decoding CAN ID 0x835: 2147485749
+2025-07-21 15:32:43,915 - WARNING - Error decoding CAN ID 0x836: 2147485750
+2025-07-21 15:32:43,915 - WARNING - Error decoding CAN ID 0x837: 2147485751
+2025-07-21 15:32:43,915 - WARNING - Error decoding CAN ID 0x838: 2147485752
+2025-07-21 15:32:43,915 - WARNING - Error decoding CAN ID 0x839: 2147485753
+2025-07-21 15:32:43,915 - WARNING - Error decoding CAN ID 0x840: 2147485760
+2025-07-21 15:32:43,916 - WARNING - Error decoding CAN ID 0x841: 2147485761
+2025-07-21 15:32:43,916 - WARNING - Error decoding CAN ID 0x842: 2147485762
+2025-07-21 15:32:43,916 - WARNING - Error decoding CAN ID 0x843: 2147485763
+2025-07-21 15:32:43,916 - WARNING - Error decoding CAN ID 0x844: 2147485764
+2025-07-21 15:32:43,916 - WARNING - Error decoding CAN ID 0x845: 2147485765
+2025-07-21 15:32:43,916 - WARNING - Error decoding CAN ID 0x850: 2147485776
+2025-07-21 15:32:43,916 - WARNING - Error decoding CAN ID 0x851: 2147485777
+2025-07-21 15:32:43,916 - WARNING - Error decoding CAN ID 0x852: 2147485778
+2025-07-21 15:32:43,916 - WARNING - Error decoding CAN ID 0x853: 2147485779
+2025-07-21 15:32:45,368 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 15:32:45,368 - INFO - No data to save.
+2025-07-21 15:32:45,368 - WARNING - Disconnected from MQTT broker
+2025-07-21 15:33:19,755 - INFO - Connected to MQTT broker
+2025-07-21 15:33:29,748 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:33:29,751 - INFO - Device marked as disconnected: 861409075138587
+2025-07-21 15:33:42,001 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 15:33:44,082 - WARNING - Error decoding CAN ID 0x800: 2147485696
+2025-07-21 15:33:44,083 - WARNING - Error decoding CAN ID 0x801: 2147485697
+2025-07-21 15:33:44,083 - WARNING - Error decoding CAN ID 0x802: 2147485698
+2025-07-21 15:33:44,083 - WARNING - Error decoding CAN ID 0x803: 2147485699
+2025-07-21 15:33:44,083 - WARNING - Error decoding CAN ID 0x804: 2147485700
+2025-07-21 15:33:44,083 - WARNING - Error decoding CAN ID 0x805: 2147485701
+2025-07-21 15:33:44,083 - WARNING - Error decoding CAN ID 0x806: 2147485702
+2025-07-21 15:33:44,083 - WARNING - Error decoding CAN ID 0x807: 2147485703
+2025-07-21 15:33:44,083 - WARNING - Error decoding CAN ID 0x808: 2147485704
+2025-07-21 15:33:44,083 - WARNING - Error decoding CAN ID 0x809: 2147485705
+2025-07-21 15:33:44,084 - WARNING - Error decoding CAN ID 0x810: 2147485712
+2025-07-21 15:33:44,084 - WARNING - Error decoding CAN ID 0x811: 2147485713
+2025-07-21 15:33:44,084 - WARNING - Error decoding CAN ID 0x812: 2147485714
+2025-07-21 15:33:44,084 - WARNING - Error decoding CAN ID 0x813: 2147485715
+2025-07-21 15:33:44,084 - WARNING - Error decoding CAN ID 0x814: 2147485716
+2025-07-21 15:33:44,084 - WARNING - Error decoding CAN ID 0x815: 2147485717
+2025-07-21 15:33:44,084 - WARNING - Error decoding CAN ID 0x816: 2147485718
+2025-07-21 15:33:44,084 - WARNING - Error decoding CAN ID 0x817: 2147485719
+2025-07-21 15:33:44,084 - WARNING - Error decoding CAN ID 0x818: 2147485720
+2025-07-21 15:33:44,084 - WARNING - Error decoding CAN ID 0x819: 2147485721
+2025-07-21 15:33:44,085 - WARNING - Error decoding CAN ID 0x820: 2147485728
+2025-07-21 15:33:44,085 - WARNING - Error decoding CAN ID 0x821: 2147485729
+2025-07-21 15:33:44,085 - WARNING - Error decoding CAN ID 0x822: 2147485730
+2025-07-21 15:33:44,085 - WARNING - Error decoding CAN ID 0x823: 2147485731
+2025-07-21 15:33:44,085 - WARNING - Error decoding CAN ID 0x824: 2147485732
+2025-07-21 15:33:44,085 - WARNING - Error decoding CAN ID 0x825: 2147485733
+2025-07-21 15:33:44,085 - WARNING - Error decoding CAN ID 0x826: 2147485734
+2025-07-21 15:33:44,085 - WARNING - Error decoding CAN ID 0x827: 2147485735
+2025-07-21 15:33:44,085 - WARNING - Error decoding CAN ID 0x828: 2147485736
+2025-07-21 15:33:44,085 - WARNING - Error decoding CAN ID 0x829: 2147485737
+2025-07-21 15:33:44,085 - WARNING - Error decoding CAN ID 0x830: 2147485744
+2025-07-21 15:33:44,085 - WARNING - Error decoding CAN ID 0x831: 2147485745
+2025-07-21 15:33:44,086 - WARNING - Error decoding CAN ID 0x832: 2147485746
+2025-07-21 15:33:44,086 - WARNING - Error decoding CAN ID 0x833: 2147485747
+2025-07-21 15:33:44,086 - WARNING - Error decoding CAN ID 0x834: 2147485748
+2025-07-21 15:33:44,086 - WARNING - Error decoding CAN ID 0x835: 2147485749
+2025-07-21 15:33:44,086 - WARNING - Error decoding CAN ID 0x836: 2147485750
+2025-07-21 15:33:44,086 - WARNING - Error decoding CAN ID 0x837: 2147485751
+2025-07-21 15:33:44,086 - WARNING - Error decoding CAN ID 0x838: 2147485752
+2025-07-21 15:33:44,086 - WARNING - Error decoding CAN ID 0x839: 2147485753
+2025-07-21 15:33:44,086 - WARNING - Error decoding CAN ID 0x840: 2147485760
+2025-07-21 15:33:44,086 - WARNING - Error decoding CAN ID 0x841: 2147485761
+2025-07-21 15:33:44,086 - WARNING - Error decoding CAN ID 0x842: 2147485762
+2025-07-21 15:33:44,087 - WARNING - Error decoding CAN ID 0x843: 2147485763
+2025-07-21 15:33:44,087 - WARNING - Error decoding CAN ID 0x844: 2147485764
+2025-07-21 15:33:44,087 - WARNING - Error decoding CAN ID 0x845: 2147485765
+2025-07-21 15:33:44,087 - WARNING - Error decoding CAN ID 0x850: 2147485776
+2025-07-21 15:33:44,087 - WARNING - Error decoding CAN ID 0x851: 2147485777
+2025-07-21 15:33:44,087 - WARNING - Error decoding CAN ID 0x852: 2147485778
+2025-07-21 15:33:44,087 - WARNING - Error decoding CAN ID 0x853: 2147485779
+2025-07-21 15:33:48,450 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 15:33:48,450 - INFO - No data to save.
+2025-07-21 15:33:48,450 - WARNING - Disconnected from MQTT broker
+2025-07-21 15:34:16,292 - INFO - Connected to MQTT broker
+2025-07-21 15:34:26,284 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:34:26,288 - INFO - Device marked as disconnected: 861409075138587
+2025-07-21 15:34:42,009 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 15:34:45,779 - WARNING - Error decoding CAN ID 0x800: 2147485696
+2025-07-21 15:34:45,779 - WARNING - Error decoding CAN ID 0x801: 2147485697
+2025-07-21 15:34:45,780 - WARNING - Error decoding CAN ID 0x802: 2147485698
+2025-07-21 15:34:45,780 - WARNING - Error decoding CAN ID 0x803: 2147485699
+2025-07-21 15:34:45,780 - WARNING - Error decoding CAN ID 0x804: 2147485700
+2025-07-21 15:34:45,780 - WARNING - Error decoding CAN ID 0x805: 2147485701
+2025-07-21 15:34:45,780 - WARNING - Error decoding CAN ID 0x806: 2147485702
+2025-07-21 15:34:45,780 - WARNING - Error decoding CAN ID 0x807: 2147485703
+2025-07-21 15:34:45,780 - WARNING - Error decoding CAN ID 0x808: 2147485704
+2025-07-21 15:34:45,780 - WARNING - Error decoding CAN ID 0x809: 2147485705
+2025-07-21 15:34:45,780 - WARNING - Error decoding CAN ID 0x810: 2147485712
+2025-07-21 15:34:45,780 - WARNING - Error decoding CAN ID 0x811: 2147485713
+2025-07-21 15:34:45,780 - WARNING - Error decoding CAN ID 0x812: 2147485714
+2025-07-21 15:34:45,780 - WARNING - Error decoding CAN ID 0x813: 2147485715
+2025-07-21 15:34:45,781 - WARNING - Error decoding CAN ID 0x814: 2147485716
+2025-07-21 15:34:45,781 - WARNING - Error decoding CAN ID 0x815: 2147485717
+2025-07-21 15:34:45,781 - WARNING - Error decoding CAN ID 0x816: 2147485718
+2025-07-21 15:34:45,781 - WARNING - Error decoding CAN ID 0x817: 2147485719
+2025-07-21 15:34:45,781 - WARNING - Error decoding CAN ID 0x818: 2147485720
+2025-07-21 15:34:45,781 - WARNING - Error decoding CAN ID 0x819: 2147485721
+2025-07-21 15:34:45,781 - WARNING - Error decoding CAN ID 0x820: 2147485728
+2025-07-21 15:34:45,781 - WARNING - Error decoding CAN ID 0x821: 2147485729
+2025-07-21 15:34:45,781 - WARNING - Error decoding CAN ID 0x822: 2147485730
+2025-07-21 15:34:45,781 - WARNING - Error decoding CAN ID 0x823: 2147485731
+2025-07-21 15:34:45,781 - WARNING - Error decoding CAN ID 0x824: 2147485732
+2025-07-21 15:34:45,781 - WARNING - Error decoding CAN ID 0x825: 2147485733
+2025-07-21 15:34:45,782 - WARNING - Error decoding CAN ID 0x826: 2147485734
+2025-07-21 15:34:45,782 - WARNING - Error decoding CAN ID 0x827: 2147485735
+2025-07-21 15:34:45,782 - WARNING - Error decoding CAN ID 0x828: 2147485736
+2025-07-21 15:34:45,782 - WARNING - Error decoding CAN ID 0x829: 2147485737
+2025-07-21 15:34:45,782 - WARNING - Error decoding CAN ID 0x830: 2147485744
+2025-07-21 15:34:45,782 - WARNING - Error decoding CAN ID 0x831: 2147485745
+2025-07-21 15:34:45,782 - WARNING - Error decoding CAN ID 0x832: 2147485746
+2025-07-21 15:34:45,782 - WARNING - Error decoding CAN ID 0x833: 2147485747
+2025-07-21 15:34:45,782 - WARNING - Error decoding CAN ID 0x834: 2147485748
+2025-07-21 15:34:45,782 - WARNING - Error decoding CAN ID 0x835: 2147485749
+2025-07-21 15:34:45,783 - WARNING - Error decoding CAN ID 0x836: 2147485750
+2025-07-21 15:34:45,783 - WARNING - Error decoding CAN ID 0x837: 2147485751
+2025-07-21 15:34:45,783 - WARNING - Error decoding CAN ID 0x838: 2147485752
+2025-07-21 15:34:45,783 - WARNING - Error decoding CAN ID 0x839: 2147485753
+2025-07-21 15:34:45,783 - WARNING - Error decoding CAN ID 0x840: 2147485760
+2025-07-21 15:34:45,783 - WARNING - Error decoding CAN ID 0x841: 2147485761
+2025-07-21 15:34:45,783 - WARNING - Error decoding CAN ID 0x842: 2147485762
+2025-07-21 15:34:45,783 - WARNING - Error decoding CAN ID 0x843: 2147485763
+2025-07-21 15:34:45,783 - WARNING - Error decoding CAN ID 0x844: 2147485764
+2025-07-21 15:34:45,783 - WARNING - Error decoding CAN ID 0x845: 2147485765
+2025-07-21 15:34:45,784 - WARNING - Error decoding CAN ID 0x850: 2147485776
+2025-07-21 15:34:45,784 - WARNING - Error decoding CAN ID 0x851: 2147485777
+2025-07-21 15:34:45,784 - WARNING - Error decoding CAN ID 0x852: 2147485778
+2025-07-21 15:34:45,784 - WARNING - Error decoding CAN ID 0x853: 2147485779
+2025-07-21 15:34:46,293 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:34:46,297 - INFO - Device marked as disconnected: 861409075138587
+2025-07-21 15:35:41,921 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 15:35:45,959 - WARNING - Error decoding CAN ID 0x800: 2147485696
+2025-07-21 15:35:45,959 - WARNING - Error decoding CAN ID 0x801: 2147485697
+2025-07-21 15:35:45,960 - WARNING - Error decoding CAN ID 0x802: 2147485698
+2025-07-21 15:35:45,960 - WARNING - Error decoding CAN ID 0x803: 2147485699
+2025-07-21 15:35:45,960 - WARNING - Error decoding CAN ID 0x804: 2147485700
+2025-07-21 15:35:45,960 - WARNING - Error decoding CAN ID 0x805: 2147485701
+2025-07-21 15:35:45,960 - WARNING - Error decoding CAN ID 0x806: 2147485702
+2025-07-21 15:35:45,960 - WARNING - Error decoding CAN ID 0x807: 2147485703
+2025-07-21 15:35:45,960 - WARNING - Error decoding CAN ID 0x808: 2147485704
+2025-07-21 15:35:45,960 - WARNING - Error decoding CAN ID 0x809: 2147485705
+2025-07-21 15:35:45,960 - WARNING - Error decoding CAN ID 0x810: 2147485712
+2025-07-21 15:35:45,961 - WARNING - Error decoding CAN ID 0x811: 2147485713
+2025-07-21 15:35:45,961 - WARNING - Error decoding CAN ID 0x812: 2147485714
+2025-07-21 15:35:45,961 - WARNING - Error decoding CAN ID 0x813: 2147485715
+2025-07-21 15:35:45,961 - WARNING - Error decoding CAN ID 0x814: 2147485716
+2025-07-21 15:35:45,961 - WARNING - Error decoding CAN ID 0x815: 2147485717
+2025-07-21 15:35:45,961 - WARNING - Error decoding CAN ID 0x816: 2147485718
+2025-07-21 15:35:45,961 - WARNING - Error decoding CAN ID 0x817: 2147485719
+2025-07-21 15:35:45,961 - WARNING - Error decoding CAN ID 0x818: 2147485720
+2025-07-21 15:35:45,961 - WARNING - Error decoding CAN ID 0x819: 2147485721
+2025-07-21 15:35:45,961 - WARNING - Error decoding CAN ID 0x820: 2147485728
+2025-07-21 15:35:45,961 - WARNING - Error decoding CAN ID 0x821: 2147485729
+2025-07-21 15:35:45,962 - WARNING - Error decoding CAN ID 0x822: 2147485730
+2025-07-21 15:35:45,962 - WARNING - Error decoding CAN ID 0x823: 2147485731
+2025-07-21 15:35:45,962 - WARNING - Error decoding CAN ID 0x824: 2147485732
+2025-07-21 15:35:45,962 - WARNING - Error decoding CAN ID 0x825: 2147485733
+2025-07-21 15:35:45,962 - WARNING - Error decoding CAN ID 0x826: 2147485734
+2025-07-21 15:35:45,962 - WARNING - Error decoding CAN ID 0x827: 2147485735
+2025-07-21 15:35:45,962 - WARNING - Error decoding CAN ID 0x828: 2147485736
+2025-07-21 15:35:45,962 - WARNING - Error decoding CAN ID 0x829: 2147485737
+2025-07-21 15:35:45,962 - WARNING - Error decoding CAN ID 0x830: 2147485744
+2025-07-21 15:35:45,962 - WARNING - Error decoding CAN ID 0x831: 2147485745
+2025-07-21 15:35:45,963 - WARNING - Error decoding CAN ID 0x832: 2147485746
+2025-07-21 15:35:45,963 - WARNING - Error decoding CAN ID 0x833: 2147485747
+2025-07-21 15:35:45,963 - WARNING - Error decoding CAN ID 0x834: 2147485748
+2025-07-21 15:35:45,963 - WARNING - Error decoding CAN ID 0x835: 2147485749
+2025-07-21 15:35:45,963 - WARNING - Error decoding CAN ID 0x836: 2147485750
+2025-07-21 15:35:45,963 - WARNING - Error decoding CAN ID 0x837: 2147485751
+2025-07-21 15:35:45,963 - WARNING - Error decoding CAN ID 0x838: 2147485752
+2025-07-21 15:35:45,963 - WARNING - Error decoding CAN ID 0x839: 2147485753
+2025-07-21 15:35:45,963 - WARNING - Error decoding CAN ID 0x840: 2147485760
+2025-07-21 15:35:45,963 - WARNING - Error decoding CAN ID 0x841: 2147485761
+2025-07-21 15:35:45,963 - WARNING - Error decoding CAN ID 0x842: 2147485762
+2025-07-21 15:35:45,964 - WARNING - Error decoding CAN ID 0x843: 2147485763
+2025-07-21 15:35:45,964 - WARNING - Error decoding CAN ID 0x844: 2147485764
+2025-07-21 15:35:45,964 - WARNING - Error decoding CAN ID 0x845: 2147485765
+2025-07-21 15:35:45,964 - WARNING - Error decoding CAN ID 0x850: 2147485776
+2025-07-21 15:35:45,964 - WARNING - Error decoding CAN ID 0x851: 2147485777
+2025-07-21 15:35:45,964 - WARNING - Error decoding CAN ID 0x852: 2147485778
+2025-07-21 15:35:45,964 - WARNING - Error decoding CAN ID 0x853: 2147485779
+2025-07-21 15:35:46,304 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:35:46,308 - INFO - Device marked as disconnected: 861409075138587
+2025-07-21 15:36:41,919 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 15:36:46,010 - WARNING - Error decoding CAN ID 0x800: 2147485696
+2025-07-21 15:36:46,010 - WARNING - Error decoding CAN ID 0x801: 2147485697
+2025-07-21 15:36:46,010 - WARNING - Error decoding CAN ID 0x802: 2147485698
+2025-07-21 15:36:46,011 - WARNING - Error decoding CAN ID 0x803: 2147485699
+2025-07-21 15:36:46,011 - WARNING - Error decoding CAN ID 0x804: 2147485700
+2025-07-21 15:36:46,011 - WARNING - Error decoding CAN ID 0x805: 2147485701
+2025-07-21 15:36:46,011 - WARNING - Error decoding CAN ID 0x806: 2147485702
+2025-07-21 15:36:46,011 - WARNING - Error decoding CAN ID 0x807: 2147485703
+2025-07-21 15:36:46,011 - WARNING - Error decoding CAN ID 0x808: 2147485704
+2025-07-21 15:36:46,011 - WARNING - Error decoding CAN ID 0x809: 2147485705
+2025-07-21 15:36:46,011 - WARNING - Error decoding CAN ID 0x810: 2147485712
+2025-07-21 15:36:46,011 - WARNING - Error decoding CAN ID 0x811: 2147485713
+2025-07-21 15:36:46,011 - WARNING - Error decoding CAN ID 0x812: 2147485714
+2025-07-21 15:36:46,012 - WARNING - Error decoding CAN ID 0x813: 2147485715
+2025-07-21 15:36:46,012 - WARNING - Error decoding CAN ID 0x814: 2147485716
+2025-07-21 15:36:46,012 - WARNING - Error decoding CAN ID 0x815: 2147485717
+2025-07-21 15:36:46,012 - WARNING - Error decoding CAN ID 0x816: 2147485718
+2025-07-21 15:36:46,012 - WARNING - Error decoding CAN ID 0x817: 2147485719
+2025-07-21 15:36:46,012 - WARNING - Error decoding CAN ID 0x818: 2147485720
+2025-07-21 15:36:46,012 - WARNING - Error decoding CAN ID 0x819: 2147485721
+2025-07-21 15:36:46,012 - WARNING - Error decoding CAN ID 0x820: 2147485728
+2025-07-21 15:36:46,012 - WARNING - Error decoding CAN ID 0x821: 2147485729
+2025-07-21 15:36:46,012 - WARNING - Error decoding CAN ID 0x822: 2147485730
+2025-07-21 15:36:46,012 - WARNING - Error decoding CAN ID 0x823: 2147485731
+2025-07-21 15:36:46,013 - WARNING - Error decoding CAN ID 0x824: 2147485732
+2025-07-21 15:36:46,013 - WARNING - Error decoding CAN ID 0x825: 2147485733
+2025-07-21 15:36:46,013 - WARNING - Error decoding CAN ID 0x826: 2147485734
+2025-07-21 15:36:46,013 - WARNING - Error decoding CAN ID 0x827: 2147485735
+2025-07-21 15:36:46,013 - WARNING - Error decoding CAN ID 0x828: 2147485736
+2025-07-21 15:36:46,013 - WARNING - Error decoding CAN ID 0x829: 2147485737
+2025-07-21 15:36:46,013 - WARNING - Error decoding CAN ID 0x830: 2147485744
+2025-07-21 15:36:46,013 - WARNING - Error decoding CAN ID 0x831: 2147485745
+2025-07-21 15:36:46,013 - WARNING - Error decoding CAN ID 0x832: 2147485746
+2025-07-21 15:36:46,013 - WARNING - Error decoding CAN ID 0x833: 2147485747
+2025-07-21 15:36:46,013 - WARNING - Error decoding CAN ID 0x834: 2147485748
+2025-07-21 15:36:46,014 - WARNING - Error decoding CAN ID 0x835: 2147485749
+2025-07-21 15:36:46,014 - WARNING - Error decoding CAN ID 0x836: 2147485750
+2025-07-21 15:36:46,014 - WARNING - Error decoding CAN ID 0x837: 2147485751
+2025-07-21 15:36:46,014 - WARNING - Error decoding CAN ID 0x838: 2147485752
+2025-07-21 15:36:46,014 - WARNING - Error decoding CAN ID 0x839: 2147485753
+2025-07-21 15:36:46,014 - WARNING - Error decoding CAN ID 0x840: 2147485760
+2025-07-21 15:36:46,014 - WARNING - Error decoding CAN ID 0x841: 2147485761
+2025-07-21 15:36:46,014 - WARNING - Error decoding CAN ID 0x842: 2147485762
+2025-07-21 15:36:46,014 - WARNING - Error decoding CAN ID 0x843: 2147485763
+2025-07-21 15:36:46,014 - WARNING - Error decoding CAN ID 0x844: 2147485764
+2025-07-21 15:36:46,014 - WARNING - Error decoding CAN ID 0x845: 2147485765
+2025-07-21 15:36:46,015 - WARNING - Error decoding CAN ID 0x850: 2147485776
+2025-07-21 15:36:46,015 - WARNING - Error decoding CAN ID 0x851: 2147485777
+2025-07-21 15:36:46,015 - WARNING - Error decoding CAN ID 0x852: 2147485778
+2025-07-21 15:36:46,015 - WARNING - Error decoding CAN ID 0x853: 2147485779
+2025-07-21 15:36:46,316 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:36:46,319 - INFO - Device marked as disconnected: 861409075138587
+2025-07-21 15:37:41,922 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 15:37:46,328 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:37:47,012 - WARNING - Error decoding CAN ID 0x800: 2147485696
+2025-07-21 15:37:47,012 - WARNING - Error decoding CAN ID 0x801: 2147485697
+2025-07-21 15:37:47,012 - WARNING - Error decoding CAN ID 0x802: 2147485698
+2025-07-21 15:37:47,012 - WARNING - Error decoding CAN ID 0x803: 2147485699
+2025-07-21 15:37:47,012 - WARNING - Error decoding CAN ID 0x804: 2147485700
+2025-07-21 15:37:47,012 - WARNING - Error decoding CAN ID 0x805: 2147485701
+2025-07-21 15:37:47,012 - WARNING - Error decoding CAN ID 0x806: 2147485702
+2025-07-21 15:37:47,012 - WARNING - Error decoding CAN ID 0x807: 2147485703
+2025-07-21 15:37:47,013 - WARNING - Error decoding CAN ID 0x808: 2147485704
+2025-07-21 15:37:47,013 - WARNING - Error decoding CAN ID 0x809: 2147485705
+2025-07-21 15:37:47,013 - WARNING - Error decoding CAN ID 0x810: 2147485712
+2025-07-21 15:37:47,013 - WARNING - Error decoding CAN ID 0x811: 2147485713
+2025-07-21 15:37:47,013 - WARNING - Error decoding CAN ID 0x812: 2147485714
+2025-07-21 15:37:47,013 - WARNING - Error decoding CAN ID 0x813: 2147485715
+2025-07-21 15:37:47,013 - WARNING - Error decoding CAN ID 0x814: 2147485716
+2025-07-21 15:37:47,013 - WARNING - Error decoding CAN ID 0x815: 2147485717
+2025-07-21 15:37:47,013 - WARNING - Error decoding CAN ID 0x816: 2147485718
+2025-07-21 15:37:47,013 - WARNING - Error decoding CAN ID 0x817: 2147485719
+2025-07-21 15:37:47,014 - WARNING - Error decoding CAN ID 0x818: 2147485720
+2025-07-21 15:37:47,014 - WARNING - Error decoding CAN ID 0x819: 2147485721
+2025-07-21 15:37:47,014 - WARNING - Error decoding CAN ID 0x820: 2147485728
+2025-07-21 15:37:47,014 - WARNING - Error decoding CAN ID 0x821: 2147485729
+2025-07-21 15:37:47,014 - WARNING - Error decoding CAN ID 0x822: 2147485730
+2025-07-21 15:37:47,014 - WARNING - Error decoding CAN ID 0x823: 2147485731
+2025-07-21 15:37:47,014 - WARNING - Error decoding CAN ID 0x824: 2147485732
+2025-07-21 15:37:47,014 - WARNING - Error decoding CAN ID 0x825: 2147485733
+2025-07-21 15:37:47,014 - WARNING - Error decoding CAN ID 0x826: 2147485734
+2025-07-21 15:37:47,014 - WARNING - Error decoding CAN ID 0x827: 2147485735
+2025-07-21 15:37:47,014 - WARNING - Error decoding CAN ID 0x828: 2147485736
+2025-07-21 15:37:47,014 - WARNING - Error decoding CAN ID 0x829: 2147485737
+2025-07-21 15:37:47,015 - WARNING - Error decoding CAN ID 0x830: 2147485744
+2025-07-21 15:37:47,015 - WARNING - Error decoding CAN ID 0x831: 2147485745
+2025-07-21 15:37:47,015 - WARNING - Error decoding CAN ID 0x832: 2147485746
+2025-07-21 15:37:47,015 - WARNING - Error decoding CAN ID 0x833: 2147485747
+2025-07-21 15:37:47,015 - WARNING - Error decoding CAN ID 0x834: 2147485748
+2025-07-21 15:37:47,015 - WARNING - Error decoding CAN ID 0x835: 2147485749
+2025-07-21 15:37:47,015 - WARNING - Error decoding CAN ID 0x836: 2147485750
+2025-07-21 15:37:47,015 - WARNING - Error decoding CAN ID 0x837: 2147485751
+2025-07-21 15:37:47,015 - WARNING - Error decoding CAN ID 0x838: 2147485752
+2025-07-21 15:37:47,015 - WARNING - Error decoding CAN ID 0x839: 2147485753
+2025-07-21 15:37:47,015 - WARNING - Error decoding CAN ID 0x840: 2147485760
+2025-07-21 15:37:47,016 - WARNING - Error decoding CAN ID 0x841: 2147485761
+2025-07-21 15:37:47,016 - WARNING - Error decoding CAN ID 0x842: 2147485762
+2025-07-21 15:37:47,016 - WARNING - Error decoding CAN ID 0x843: 2147485763
+2025-07-21 15:37:47,016 - WARNING - Error decoding CAN ID 0x844: 2147485764
+2025-07-21 15:37:47,016 - WARNING - Error decoding CAN ID 0x845: 2147485765
+2025-07-21 15:37:47,016 - WARNING - Error decoding CAN ID 0x850: 2147485776
+2025-07-21 15:37:47,016 - WARNING - Error decoding CAN ID 0x851: 2147485777
+2025-07-21 15:37:47,016 - WARNING - Error decoding CAN ID 0x852: 2147485778
+2025-07-21 15:37:47,016 - WARNING - Error decoding CAN ID 0x853: 2147485779
+2025-07-21 15:37:56,332 - INFO - Device marked as disconnected: 861409075138587
+2025-07-21 15:38:41,913 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 15:38:46,339 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:38:47,409 - WARNING - Error decoding CAN ID 0x800: 2147485696
+2025-07-21 15:38:47,409 - WARNING - Error decoding CAN ID 0x801: 2147485697
+2025-07-21 15:38:47,409 - WARNING - Error decoding CAN ID 0x802: 2147485698
+2025-07-21 15:38:47,409 - WARNING - Error decoding CAN ID 0x803: 2147485699
+2025-07-21 15:38:47,409 - WARNING - Error decoding CAN ID 0x804: 2147485700
+2025-07-21 15:38:47,409 - WARNING - Error decoding CAN ID 0x805: 2147485701
+2025-07-21 15:38:47,409 - WARNING - Error decoding CAN ID 0x806: 2147485702
+2025-07-21 15:38:47,409 - WARNING - Error decoding CAN ID 0x807: 2147485703
+2025-07-21 15:38:47,410 - WARNING - Error decoding CAN ID 0x808: 2147485704
+2025-07-21 15:38:47,410 - WARNING - Error decoding CAN ID 0x809: 2147485705
+2025-07-21 15:38:47,410 - WARNING - Error decoding CAN ID 0x810: 2147485712
+2025-07-21 15:38:47,410 - WARNING - Error decoding CAN ID 0x811: 2147485713
+2025-07-21 15:38:47,410 - WARNING - Error decoding CAN ID 0x812: 2147485714
+2025-07-21 15:38:47,410 - WARNING - Error decoding CAN ID 0x813: 2147485715
+2025-07-21 15:38:47,410 - WARNING - Error decoding CAN ID 0x814: 2147485716
+2025-07-21 15:38:47,410 - WARNING - Error decoding CAN ID 0x815: 2147485717
+2025-07-21 15:38:47,410 - WARNING - Error decoding CAN ID 0x816: 2147485718
+2025-07-21 15:38:47,410 - WARNING - Error decoding CAN ID 0x817: 2147485719
+2025-07-21 15:38:47,410 - WARNING - Error decoding CAN ID 0x818: 2147485720
+2025-07-21 15:38:47,411 - WARNING - Error decoding CAN ID 0x819: 2147485721
+2025-07-21 15:38:47,411 - WARNING - Error decoding CAN ID 0x820: 2147485728
+2025-07-21 15:38:47,411 - WARNING - Error decoding CAN ID 0x821: 2147485729
+2025-07-21 15:38:47,411 - WARNING - Error decoding CAN ID 0x822: 2147485730
+2025-07-21 15:38:47,411 - WARNING - Error decoding CAN ID 0x823: 2147485731
+2025-07-21 15:38:47,411 - WARNING - Error decoding CAN ID 0x824: 2147485732
+2025-07-21 15:38:47,411 - WARNING - Error decoding CAN ID 0x825: 2147485733
+2025-07-21 15:38:47,411 - WARNING - Error decoding CAN ID 0x826: 2147485734
+2025-07-21 15:38:47,411 - WARNING - Error decoding CAN ID 0x827: 2147485735
+2025-07-21 15:38:47,411 - WARNING - Error decoding CAN ID 0x828: 2147485736
+2025-07-21 15:38:47,411 - WARNING - Error decoding CAN ID 0x829: 2147485737
+2025-07-21 15:38:47,411 - WARNING - Error decoding CAN ID 0x830: 2147485744
+2025-07-21 15:38:47,412 - WARNING - Error decoding CAN ID 0x831: 2147485745
+2025-07-21 15:38:47,412 - WARNING - Error decoding CAN ID 0x832: 2147485746
+2025-07-21 15:38:47,412 - WARNING - Error decoding CAN ID 0x833: 2147485747
+2025-07-21 15:38:47,412 - WARNING - Error decoding CAN ID 0x834: 2147485748
+2025-07-21 15:38:47,412 - WARNING - Error decoding CAN ID 0x835: 2147485749
+2025-07-21 15:38:47,412 - WARNING - Error decoding CAN ID 0x836: 2147485750
+2025-07-21 15:38:47,412 - WARNING - Error decoding CAN ID 0x837: 2147485751
+2025-07-21 15:38:47,412 - WARNING - Error decoding CAN ID 0x838: 2147485752
+2025-07-21 15:38:47,412 - WARNING - Error decoding CAN ID 0x839: 2147485753
+2025-07-21 15:38:47,412 - WARNING - Error decoding CAN ID 0x840: 2147485760
+2025-07-21 15:38:47,412 - WARNING - Error decoding CAN ID 0x841: 2147485761
+2025-07-21 15:38:47,413 - WARNING - Error decoding CAN ID 0x842: 2147485762
+2025-07-21 15:38:47,413 - WARNING - Error decoding CAN ID 0x843: 2147485763
+2025-07-21 15:38:47,413 - WARNING - Error decoding CAN ID 0x844: 2147485764
+2025-07-21 15:38:47,413 - WARNING - Error decoding CAN ID 0x845: 2147485765
+2025-07-21 15:38:47,413 - WARNING - Error decoding CAN ID 0x850: 2147485776
+2025-07-21 15:38:47,413 - WARNING - Error decoding CAN ID 0x851: 2147485777
+2025-07-21 15:38:47,413 - WARNING - Error decoding CAN ID 0x852: 2147485778
+2025-07-21 15:38:47,413 - WARNING - Error decoding CAN ID 0x853: 2147485779
+2025-07-21 15:38:56,349 - INFO - Device marked as disconnected: 861409075138587
+2025-07-21 15:39:41,918 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 15:39:46,356 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:39:48,947 - WARNING - Error decoding CAN ID 0x800: 2147485696
+2025-07-21 15:39:48,947 - WARNING - Error decoding CAN ID 0x801: 2147485697
+2025-07-21 15:39:48,947 - WARNING - Error decoding CAN ID 0x802: 2147485698
+2025-07-21 15:39:48,947 - WARNING - Error decoding CAN ID 0x803: 2147485699
+2025-07-21 15:39:48,947 - WARNING - Error decoding CAN ID 0x804: 2147485700
+2025-07-21 15:39:48,948 - WARNING - Error decoding CAN ID 0x805: 2147485701
+2025-07-21 15:39:48,948 - WARNING - Error decoding CAN ID 0x806: 2147485702
+2025-07-21 15:39:48,948 - WARNING - Error decoding CAN ID 0x807: 2147485703
+2025-07-21 15:39:48,948 - WARNING - Error decoding CAN ID 0x808: 2147485704
+2025-07-21 15:39:48,948 - WARNING - Error decoding CAN ID 0x809: 2147485705
+2025-07-21 15:39:48,948 - WARNING - Error decoding CAN ID 0x810: 2147485712
+2025-07-21 15:39:48,948 - WARNING - Error decoding CAN ID 0x811: 2147485713
+2025-07-21 15:39:48,948 - WARNING - Error decoding CAN ID 0x812: 2147485714
+2025-07-21 15:39:48,948 - WARNING - Error decoding CAN ID 0x813: 2147485715
+2025-07-21 15:39:48,948 - WARNING - Error decoding CAN ID 0x814: 2147485716
+2025-07-21 15:39:48,948 - WARNING - Error decoding CAN ID 0x815: 2147485717
+2025-07-21 15:39:48,949 - WARNING - Error decoding CAN ID 0x816: 2147485718
+2025-07-21 15:39:48,949 - WARNING - Error decoding CAN ID 0x817: 2147485719
+2025-07-21 15:39:48,949 - WARNING - Error decoding CAN ID 0x818: 2147485720
+2025-07-21 15:39:48,949 - WARNING - Error decoding CAN ID 0x819: 2147485721
+2025-07-21 15:39:48,949 - WARNING - Error decoding CAN ID 0x820: 2147485728
+2025-07-21 15:39:48,949 - WARNING - Error decoding CAN ID 0x821: 2147485729
+2025-07-21 15:39:48,949 - WARNING - Error decoding CAN ID 0x822: 2147485730
+2025-07-21 15:39:48,949 - WARNING - Error decoding CAN ID 0x823: 2147485731
+2025-07-21 15:39:48,949 - WARNING - Error decoding CAN ID 0x824: 2147485732
+2025-07-21 15:39:48,949 - WARNING - Error decoding CAN ID 0x825: 2147485733
+2025-07-21 15:39:48,949 - WARNING - Error decoding CAN ID 0x826: 2147485734
+2025-07-21 15:39:48,949 - WARNING - Error decoding CAN ID 0x827: 2147485735
+2025-07-21 15:39:48,950 - WARNING - Error decoding CAN ID 0x828: 2147485736
+2025-07-21 15:39:48,950 - WARNING - Error decoding CAN ID 0x829: 2147485737
+2025-07-21 15:39:48,950 - WARNING - Error decoding CAN ID 0x830: 2147485744
+2025-07-21 15:39:48,950 - WARNING - Error decoding CAN ID 0x831: 2147485745
+2025-07-21 15:39:48,950 - WARNING - Error decoding CAN ID 0x832: 2147485746
+2025-07-21 15:39:48,950 - WARNING - Error decoding CAN ID 0x833: 2147485747
+2025-07-21 15:39:48,950 - WARNING - Error decoding CAN ID 0x834: 2147485748
+2025-07-21 15:39:48,950 - WARNING - Error decoding CAN ID 0x835: 2147485749
+2025-07-21 15:39:48,950 - WARNING - Error decoding CAN ID 0x836: 2147485750
+2025-07-21 15:39:48,950 - WARNING - Error decoding CAN ID 0x837: 2147485751
+2025-07-21 15:39:48,950 - WARNING - Error decoding CAN ID 0x838: 2147485752
+2025-07-21 15:39:48,951 - WARNING - Error decoding CAN ID 0x839: 2147485753
+2025-07-21 15:39:48,951 - WARNING - Error decoding CAN ID 0x840: 2147485760
+2025-07-21 15:39:48,951 - WARNING - Error decoding CAN ID 0x841: 2147485761
+2025-07-21 15:39:48,951 - WARNING - Error decoding CAN ID 0x842: 2147485762
+2025-07-21 15:39:48,951 - WARNING - Error decoding CAN ID 0x843: 2147485763
+2025-07-21 15:39:48,951 - WARNING - Error decoding CAN ID 0x844: 2147485764
+2025-07-21 15:39:48,951 - WARNING - Error decoding CAN ID 0x845: 2147485765
+2025-07-21 15:39:48,952 - WARNING - Error decoding CAN ID 0x850: 2147485776
+2025-07-21 15:39:48,952 - WARNING - Error decoding CAN ID 0x851: 2147485777
+2025-07-21 15:39:48,952 - WARNING - Error decoding CAN ID 0x852: 2147485778
+2025-07-21 15:39:48,952 - WARNING - Error decoding CAN ID 0x853: 2147485779
+2025-07-21 15:39:56,361 - INFO - Device marked as disconnected: 861409075138587
+2025-07-21 15:40:41,900 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 15:40:46,369 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:40:51,032 - WARNING - Error decoding CAN ID 0x800: 2147485696
+2025-07-21 15:40:51,032 - WARNING - Error decoding CAN ID 0x801: 2147485697
+2025-07-21 15:40:51,032 - WARNING - Error decoding CAN ID 0x802: 2147485698
+2025-07-21 15:40:51,032 - WARNING - Error decoding CAN ID 0x803: 2147485699
+2025-07-21 15:40:51,033 - WARNING - Error decoding CAN ID 0x804: 2147485700
+2025-07-21 15:40:51,033 - WARNING - Error decoding CAN ID 0x805: 2147485701
+2025-07-21 15:40:51,033 - WARNING - Error decoding CAN ID 0x806: 2147485702
+2025-07-21 15:40:51,033 - WARNING - Error decoding CAN ID 0x807: 2147485703
+2025-07-21 15:40:51,033 - WARNING - Error decoding CAN ID 0x808: 2147485704
+2025-07-21 15:40:51,033 - WARNING - Error decoding CAN ID 0x809: 2147485705
+2025-07-21 15:40:51,033 - WARNING - Error decoding CAN ID 0x810: 2147485712
+2025-07-21 15:40:51,033 - WARNING - Error decoding CAN ID 0x811: 2147485713
+2025-07-21 15:40:51,033 - WARNING - Error decoding CAN ID 0x812: 2147485714
+2025-07-21 15:40:51,034 - WARNING - Error decoding CAN ID 0x813: 2147485715
+2025-07-21 15:40:51,034 - WARNING - Error decoding CAN ID 0x814: 2147485716
+2025-07-21 15:40:51,034 - WARNING - Error decoding CAN ID 0x815: 2147485717
+2025-07-21 15:40:51,034 - WARNING - Error decoding CAN ID 0x816: 2147485718
+2025-07-21 15:40:51,034 - WARNING - Error decoding CAN ID 0x817: 2147485719
+2025-07-21 15:40:51,034 - WARNING - Error decoding CAN ID 0x818: 2147485720
+2025-07-21 15:40:51,034 - WARNING - Error decoding CAN ID 0x819: 2147485721
+2025-07-21 15:40:51,034 - WARNING - Error decoding CAN ID 0x820: 2147485728
+2025-07-21 15:40:51,034 - WARNING - Error decoding CAN ID 0x821: 2147485729
+2025-07-21 15:40:51,035 - WARNING - Error decoding CAN ID 0x822: 2147485730
+2025-07-21 15:40:51,035 - WARNING - Error decoding CAN ID 0x823: 2147485731
+2025-07-21 15:40:51,035 - WARNING - Error decoding CAN ID 0x824: 2147485732
+2025-07-21 15:40:51,035 - WARNING - Error decoding CAN ID 0x825: 2147485733
+2025-07-21 15:40:51,035 - WARNING - Error decoding CAN ID 0x826: 2147485734
+2025-07-21 15:40:51,035 - WARNING - Error decoding CAN ID 0x827: 2147485735
+2025-07-21 15:40:51,035 - WARNING - Error decoding CAN ID 0x828: 2147485736
+2025-07-21 15:40:51,035 - WARNING - Error decoding CAN ID 0x829: 2147485737
+2025-07-21 15:40:51,035 - WARNING - Error decoding CAN ID 0x830: 2147485744
+2025-07-21 15:40:51,035 - WARNING - Error decoding CAN ID 0x831: 2147485745
+2025-07-21 15:40:51,035 - WARNING - Error decoding CAN ID 0x832: 2147485746
+2025-07-21 15:40:51,035 - WARNING - Error decoding CAN ID 0x833: 2147485747
+2025-07-21 15:40:51,036 - WARNING - Error decoding CAN ID 0x834: 2147485748
+2025-07-21 15:40:51,036 - WARNING - Error decoding CAN ID 0x835: 2147485749
+2025-07-21 15:40:51,036 - WARNING - Error decoding CAN ID 0x836: 2147485750
+2025-07-21 15:40:51,036 - WARNING - Error decoding CAN ID 0x837: 2147485751
+2025-07-21 15:40:51,036 - WARNING - Error decoding CAN ID 0x838: 2147485752
+2025-07-21 15:40:51,036 - WARNING - Error decoding CAN ID 0x839: 2147485753
+2025-07-21 15:40:51,036 - WARNING - Error decoding CAN ID 0x840: 2147485760
+2025-07-21 15:40:51,036 - WARNING - Error decoding CAN ID 0x841: 2147485761
+2025-07-21 15:40:51,036 - WARNING - Error decoding CAN ID 0x842: 2147485762
+2025-07-21 15:40:51,036 - WARNING - Error decoding CAN ID 0x843: 2147485763
+2025-07-21 15:40:51,036 - WARNING - Error decoding CAN ID 0x844: 2147485764
+2025-07-21 15:40:51,037 - WARNING - Error decoding CAN ID 0x845: 2147485765
+2025-07-21 15:40:51,037 - WARNING - Error decoding CAN ID 0x850: 2147485776
+2025-07-21 15:40:51,037 - WARNING - Error decoding CAN ID 0x851: 2147485777
+2025-07-21 15:40:51,037 - WARNING - Error decoding CAN ID 0x852: 2147485778
+2025-07-21 15:40:51,037 - WARNING - Error decoding CAN ID 0x853: 2147485779
+2025-07-21 15:40:56,373 - INFO - Device marked as disconnected: 861409075138587
+2025-07-21 15:41:42,128 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 15:41:46,382 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:41:52,925 - WARNING - Error decoding CAN ID 0x800: 2147485696
+2025-07-21 15:41:52,925 - WARNING - Error decoding CAN ID 0x801: 2147485697
+2025-07-21 15:41:52,925 - WARNING - Error decoding CAN ID 0x802: 2147485698
+2025-07-21 15:41:52,926 - WARNING - Error decoding CAN ID 0x803: 2147485699
+2025-07-21 15:41:52,926 - WARNING - Error decoding CAN ID 0x804: 2147485700
+2025-07-21 15:41:52,926 - WARNING - Error decoding CAN ID 0x805: 2147485701
+2025-07-21 15:41:52,926 - WARNING - Error decoding CAN ID 0x806: 2147485702
+2025-07-21 15:41:52,926 - WARNING - Error decoding CAN ID 0x807: 2147485703
+2025-07-21 15:41:52,926 - WARNING - Error decoding CAN ID 0x808: 2147485704
+2025-07-21 15:41:52,926 - WARNING - Error decoding CAN ID 0x809: 2147485705
+2025-07-21 15:41:52,926 - WARNING - Error decoding CAN ID 0x810: 2147485712
+2025-07-21 15:41:52,926 - WARNING - Error decoding CAN ID 0x811: 2147485713
+2025-07-21 15:41:52,926 - WARNING - Error decoding CAN ID 0x812: 2147485714
+2025-07-21 15:41:52,927 - WARNING - Error decoding CAN ID 0x813: 2147485715
+2025-07-21 15:41:52,927 - WARNING - Error decoding CAN ID 0x814: 2147485716
+2025-07-21 15:41:52,927 - WARNING - Error decoding CAN ID 0x815: 2147485717
+2025-07-21 15:41:52,927 - WARNING - Error decoding CAN ID 0x816: 2147485718
+2025-07-21 15:41:52,927 - WARNING - Error decoding CAN ID 0x817: 2147485719
+2025-07-21 15:41:52,927 - WARNING - Error decoding CAN ID 0x818: 2147485720
+2025-07-21 15:41:52,927 - WARNING - Error decoding CAN ID 0x819: 2147485721
+2025-07-21 15:41:52,927 - WARNING - Error decoding CAN ID 0x820: 2147485728
+2025-07-21 15:41:52,927 - WARNING - Error decoding CAN ID 0x821: 2147485729
+2025-07-21 15:41:52,927 - WARNING - Error decoding CAN ID 0x822: 2147485730
+2025-07-21 15:41:52,927 - WARNING - Error decoding CAN ID 0x823: 2147485731
+2025-07-21 15:41:52,928 - WARNING - Error decoding CAN ID 0x824: 2147485732
+2025-07-21 15:41:52,928 - WARNING - Error decoding CAN ID 0x825: 2147485733
+2025-07-21 15:41:52,928 - WARNING - Error decoding CAN ID 0x826: 2147485734
+2025-07-21 15:41:52,928 - WARNING - Error decoding CAN ID 0x827: 2147485735
+2025-07-21 15:41:52,928 - WARNING - Error decoding CAN ID 0x828: 2147485736
+2025-07-21 15:41:52,928 - WARNING - Error decoding CAN ID 0x829: 2147485737
+2025-07-21 15:41:52,928 - WARNING - Error decoding CAN ID 0x830: 2147485744
+2025-07-21 15:41:52,928 - WARNING - Error decoding CAN ID 0x831: 2147485745
+2025-07-21 15:41:52,929 - WARNING - Error decoding CAN ID 0x832: 2147485746
+2025-07-21 15:41:52,929 - WARNING - Error decoding CAN ID 0x833: 2147485747
+2025-07-21 15:41:52,929 - WARNING - Error decoding CAN ID 0x834: 2147485748
+2025-07-21 15:41:52,929 - WARNING - Error decoding CAN ID 0x835: 2147485749
+2025-07-21 15:41:52,929 - WARNING - Error decoding CAN ID 0x836: 2147485750
+2025-07-21 15:41:52,929 - WARNING - Error decoding CAN ID 0x837: 2147485751
+2025-07-21 15:41:52,929 - WARNING - Error decoding CAN ID 0x838: 2147485752
+2025-07-21 15:41:52,929 - WARNING - Error decoding CAN ID 0x839: 2147485753
+2025-07-21 15:41:52,929 - WARNING - Error decoding CAN ID 0x840: 2147485760
+2025-07-21 15:41:52,929 - WARNING - Error decoding CAN ID 0x841: 2147485761
+2025-07-21 15:41:52,929 - WARNING - Error decoding CAN ID 0x842: 2147485762
+2025-07-21 15:41:52,930 - WARNING - Error decoding CAN ID 0x843: 2147485763
+2025-07-21 15:41:52,930 - WARNING - Error decoding CAN ID 0x844: 2147485764
+2025-07-21 15:41:52,930 - WARNING - Error decoding CAN ID 0x845: 2147485765
+2025-07-21 15:41:52,930 - WARNING - Error decoding CAN ID 0x850: 2147485776
+2025-07-21 15:41:52,930 - WARNING - Error decoding CAN ID 0x851: 2147485777
+2025-07-21 15:41:52,930 - WARNING - Error decoding CAN ID 0x852: 2147485778
+2025-07-21 15:41:52,930 - WARNING - Error decoding CAN ID 0x853: 2147485779
+2025-07-21 15:41:56,386 - INFO - Device marked as disconnected: 861409075138587
+2025-07-21 15:42:41,987 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 15:42:46,394 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:42:54,439 - WARNING - Error decoding CAN ID 0x800: 2147485696
+2025-07-21 15:42:54,439 - WARNING - Error decoding CAN ID 0x801: 2147485697
+2025-07-21 15:42:54,439 - WARNING - Error decoding CAN ID 0x802: 2147485698
+2025-07-21 15:42:54,439 - WARNING - Error decoding CAN ID 0x803: 2147485699
+2025-07-21 15:42:54,439 - WARNING - Error decoding CAN ID 0x804: 2147485700
+2025-07-21 15:42:54,439 - WARNING - Error decoding CAN ID 0x805: 2147485701
+2025-07-21 15:42:54,440 - WARNING - Error decoding CAN ID 0x806: 2147485702
+2025-07-21 15:42:54,440 - WARNING - Error decoding CAN ID 0x807: 2147485703
+2025-07-21 15:42:54,440 - WARNING - Error decoding CAN ID 0x808: 2147485704
+2025-07-21 15:42:54,440 - WARNING - Error decoding CAN ID 0x809: 2147485705
+2025-07-21 15:42:54,440 - WARNING - Error decoding CAN ID 0x810: 2147485712
+2025-07-21 15:42:54,440 - WARNING - Error decoding CAN ID 0x811: 2147485713
+2025-07-21 15:42:54,440 - WARNING - Error decoding CAN ID 0x812: 2147485714
+2025-07-21 15:42:54,440 - WARNING - Error decoding CAN ID 0x813: 2147485715
+2025-07-21 15:42:54,440 - WARNING - Error decoding CAN ID 0x814: 2147485716
+2025-07-21 15:42:54,440 - WARNING - Error decoding CAN ID 0x815: 2147485717
+2025-07-21 15:42:54,440 - WARNING - Error decoding CAN ID 0x816: 2147485718
+2025-07-21 15:42:54,441 - WARNING - Error decoding CAN ID 0x817: 2147485719
+2025-07-21 15:42:54,441 - WARNING - Error decoding CAN ID 0x818: 2147485720
+2025-07-21 15:42:54,441 - WARNING - Error decoding CAN ID 0x819: 2147485721
+2025-07-21 15:42:54,441 - WARNING - Error decoding CAN ID 0x820: 2147485728
+2025-07-21 15:42:54,441 - WARNING - Error decoding CAN ID 0x821: 2147485729
+2025-07-21 15:42:54,441 - WARNING - Error decoding CAN ID 0x822: 2147485730
+2025-07-21 15:42:54,441 - WARNING - Error decoding CAN ID 0x823: 2147485731
+2025-07-21 15:42:54,441 - WARNING - Error decoding CAN ID 0x824: 2147485732
+2025-07-21 15:42:54,441 - WARNING - Error decoding CAN ID 0x825: 2147485733
+2025-07-21 15:42:54,441 - WARNING - Error decoding CAN ID 0x826: 2147485734
+2025-07-21 15:42:54,441 - WARNING - Error decoding CAN ID 0x827: 2147485735
+2025-07-21 15:42:54,442 - WARNING - Error decoding CAN ID 0x828: 2147485736
+2025-07-21 15:42:54,442 - WARNING - Error decoding CAN ID 0x829: 2147485737
+2025-07-21 15:42:54,442 - WARNING - Error decoding CAN ID 0x830: 2147485744
+2025-07-21 15:42:54,442 - WARNING - Error decoding CAN ID 0x831: 2147485745
+2025-07-21 15:42:54,442 - WARNING - Error decoding CAN ID 0x832: 2147485746
+2025-07-21 15:42:54,442 - WARNING - Error decoding CAN ID 0x833: 2147485747
+2025-07-21 15:42:54,442 - WARNING - Error decoding CAN ID 0x834: 2147485748
+2025-07-21 15:42:54,442 - WARNING - Error decoding CAN ID 0x835: 2147485749
+2025-07-21 15:42:54,442 - WARNING - Error decoding CAN ID 0x836: 2147485750
+2025-07-21 15:42:54,442 - WARNING - Error decoding CAN ID 0x837: 2147485751
+2025-07-21 15:42:54,442 - WARNING - Error decoding CAN ID 0x838: 2147485752
+2025-07-21 15:42:54,442 - WARNING - Error decoding CAN ID 0x839: 2147485753
+2025-07-21 15:42:54,443 - WARNING - Error decoding CAN ID 0x840: 2147485760
+2025-07-21 15:42:54,443 - WARNING - Error decoding CAN ID 0x841: 2147485761
+2025-07-21 15:42:54,443 - WARNING - Error decoding CAN ID 0x842: 2147485762
+2025-07-21 15:42:54,443 - WARNING - Error decoding CAN ID 0x843: 2147485763
+2025-07-21 15:42:54,443 - WARNING - Error decoding CAN ID 0x844: 2147485764
+2025-07-21 15:42:54,443 - WARNING - Error decoding CAN ID 0x845: 2147485765
+2025-07-21 15:42:54,443 - WARNING - Error decoding CAN ID 0x850: 2147485776
+2025-07-21 15:42:54,443 - WARNING - Error decoding CAN ID 0x851: 2147485777
+2025-07-21 15:42:54,443 - WARNING - Error decoding CAN ID 0x852: 2147485778
+2025-07-21 15:42:54,443 - WARNING - Error decoding CAN ID 0x853: 2147485779
+2025-07-21 15:42:56,398 - INFO - Device marked as disconnected: 861409075138587
+2025-07-21 15:43:18,891 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 15:43:18,891 - INFO - No data to save.
+2025-07-21 15:43:18,891 - WARNING - Disconnected from MQTT broker
+2025-07-21 15:44:57,536 - INFO - Connected to MQTT broker
+2025-07-21 15:45:41,262 - ERROR - Error parsing message: list index out of range
+2025-07-21 15:45:41,262 - ERROR - Error processing message: cannot unpack non-iterable NoneType object
+2025-07-21 15:45:41,903 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 15:45:47,537 - INFO - Device marked as disconnected: 861409071622600
+2025-07-21 15:45:47,540 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:45:57,993 - WARNING - Error decoding CAN ID 0x800: 2147485696
+2025-07-21 15:45:57,993 - WARNING - Error decoding CAN ID 0x801: 2147485697
+2025-07-21 15:45:57,993 - WARNING - Error decoding CAN ID 0x802: 2147485698
+2025-07-21 15:45:57,993 - WARNING - Error decoding CAN ID 0x803: 2147485699
+2025-07-21 15:45:57,993 - WARNING - Error decoding CAN ID 0x804: 2147485700
+2025-07-21 15:45:57,994 - WARNING - Error decoding CAN ID 0x805: 2147485701
+2025-07-21 15:45:57,994 - WARNING - Error decoding CAN ID 0x806: 2147485702
+2025-07-21 15:45:57,994 - WARNING - Error decoding CAN ID 0x807: 2147485703
+2025-07-21 15:45:57,994 - WARNING - Error decoding CAN ID 0x808: 2147485704
+2025-07-21 15:45:57,994 - WARNING - Error decoding CAN ID 0x809: 2147485705
+2025-07-21 15:45:57,994 - WARNING - Error decoding CAN ID 0x810: 2147485712
+2025-07-21 15:45:57,994 - WARNING - Error decoding CAN ID 0x811: 2147485713
+2025-07-21 15:45:57,994 - WARNING - Error decoding CAN ID 0x812: 2147485714
+2025-07-21 15:45:57,994 - WARNING - Error decoding CAN ID 0x813: 2147485715
+2025-07-21 15:45:57,995 - WARNING - Error decoding CAN ID 0x814: 2147485716
+2025-07-21 15:45:57,995 - WARNING - Error decoding CAN ID 0x815: 2147485717
+2025-07-21 15:45:57,995 - WARNING - Error decoding CAN ID 0x816: 2147485718
+2025-07-21 15:45:57,995 - WARNING - Error decoding CAN ID 0x817: 2147485719
+2025-07-21 15:45:57,995 - WARNING - Error decoding CAN ID 0x818: 2147485720
+2025-07-21 15:45:57,995 - WARNING - Error decoding CAN ID 0x819: 2147485721
+2025-07-21 15:45:57,995 - WARNING - Error decoding CAN ID 0x820: 2147485728
+2025-07-21 15:45:57,995 - WARNING - Error decoding CAN ID 0x821: 2147485729
+2025-07-21 15:45:57,995 - WARNING - Error decoding CAN ID 0x822: 2147485730
+2025-07-21 15:45:57,995 - WARNING - Error decoding CAN ID 0x823: 2147485731
+2025-07-21 15:45:57,995 - WARNING - Error decoding CAN ID 0x824: 2147485732
+2025-07-21 15:45:57,996 - WARNING - Error decoding CAN ID 0x825: 2147485733
+2025-07-21 15:45:57,996 - WARNING - Error decoding CAN ID 0x826: 2147485734
+2025-07-21 15:45:57,996 - WARNING - Error decoding CAN ID 0x827: 2147485735
+2025-07-21 15:45:57,996 - WARNING - Error decoding CAN ID 0x828: 2147485736
+2025-07-21 15:45:57,996 - WARNING - Error decoding CAN ID 0x829: 2147485737
+2025-07-21 15:45:57,996 - WARNING - Error decoding CAN ID 0x830: 2147485744
+2025-07-21 15:45:57,996 - WARNING - Error decoding CAN ID 0x831: 2147485745
+2025-07-21 15:45:57,996 - WARNING - Error decoding CAN ID 0x832: 2147485746
+2025-07-21 15:45:57,996 - WARNING - Error decoding CAN ID 0x833: 2147485747
+2025-07-21 15:45:57,997 - WARNING - Error decoding CAN ID 0x834: 2147485748
+2025-07-21 15:45:57,997 - WARNING - Error decoding CAN ID 0x835: 2147485749
+2025-07-21 15:45:57,997 - WARNING - Error decoding CAN ID 0x836: 2147485750
+2025-07-21 15:45:57,997 - WARNING - Error decoding CAN ID 0x837: 2147485751
+2025-07-21 15:45:57,997 - WARNING - Error decoding CAN ID 0x838: 2147485752
+2025-07-21 15:45:57,997 - WARNING - Error decoding CAN ID 0x839: 2147485753
+2025-07-21 15:45:57,997 - WARNING - Error decoding CAN ID 0x840: 2147485760
+2025-07-21 15:45:57,997 - WARNING - Error decoding CAN ID 0x841: 2147485761
+2025-07-21 15:45:57,997 - WARNING - Error decoding CAN ID 0x842: 2147485762
+2025-07-21 15:45:57,998 - WARNING - Error decoding CAN ID 0x843: 2147485763
+2025-07-21 15:45:57,998 - WARNING - Error decoding CAN ID 0x844: 2147485764
+2025-07-21 15:45:57,998 - WARNING - Error decoding CAN ID 0x845: 2147485765
+2025-07-21 15:45:57,998 - WARNING - Error decoding CAN ID 0x850: 2147485776
+2025-07-21 15:45:57,998 - WARNING - Error decoding CAN ID 0x851: 2147485777
+2025-07-21 15:45:57,998 - WARNING - Error decoding CAN ID 0x852: 2147485778
+2025-07-21 15:45:57,998 - WARNING - Error decoding CAN ID 0x853: 2147485779
+2025-07-21 15:45:58,916 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 15:45:58,917 - INFO - No data to save.
+2025-07-21 15:45:58,917 - WARNING - Disconnected from MQTT broker
+2025-07-21 15:46:51,675 - INFO - Connected to MQTT broker
+2025-07-21 15:46:56,656 - WARNING - Error decoding CAN ID 0x853: list index out of range
+2025-07-21 15:46:57,384 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 15:46:57,385 - INFO - No data to save.
+2025-07-21 15:46:57,385 - WARNING - Disconnected from MQTT broker
+2025-07-21 15:51:00,058 - INFO - Connected to MQTT broker
+2025-07-21 15:51:09,636 - WARNING - Error decoding CAN ID 0x853: list index out of range
+2025-07-21 15:51:09,641 - ERROR - Error processing message: too many values to unpack (expected 2)
+2025-07-21 15:51:10,052 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:51:10,056 - INFO - Device marked as disconnected: 861409075138587
+2025-07-21 15:51:19,663 - WARNING - Error decoding CAN ID 0x853: list index out of range
+2025-07-21 15:51:19,668 - ERROR - Error processing message: too many values to unpack (expected 2)
+2025-07-21 15:51:20,061 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:51:29,659 - WARNING - Error decoding CAN ID 0x853: list index out of range
+2025-07-21 15:51:29,663 - ERROR - Error processing message: too many values to unpack (expected 2)
+2025-07-21 15:51:30,065 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:51:32,973 - WARNING - Error decoding CAN ID 0x800: 2147485696
+2025-07-21 15:51:32,973 - WARNING - Error decoding CAN ID 0x801: 2147485697
+2025-07-21 15:51:32,973 - WARNING - Error decoding CAN ID 0x802: 2147485698
+2025-07-21 15:51:32,973 - WARNING - Error decoding CAN ID 0x803: 2147485699
+2025-07-21 15:51:32,974 - WARNING - Error decoding CAN ID 0x804: 2147485700
+2025-07-21 15:51:32,974 - WARNING - Error decoding CAN ID 0x805: 2147485701
+2025-07-21 15:51:32,974 - WARNING - Error decoding CAN ID 0x806: 2147485702
+2025-07-21 15:51:32,974 - WARNING - Error decoding CAN ID 0x807: 2147485703
+2025-07-21 15:51:32,974 - WARNING - Error decoding CAN ID 0x808: 2147485704
+2025-07-21 15:51:32,974 - WARNING - Error decoding CAN ID 0x809: 2147485705
+2025-07-21 15:51:32,974 - WARNING - Error decoding CAN ID 0x810: 2147485712
+2025-07-21 15:51:32,974 - WARNING - Error decoding CAN ID 0x811: 2147485713
+2025-07-21 15:51:32,974 - WARNING - Error decoding CAN ID 0x812: 2147485714
+2025-07-21 15:51:32,974 - WARNING - Error decoding CAN ID 0x813: 2147485715
+2025-07-21 15:51:32,975 - WARNING - Error decoding CAN ID 0x814: 2147485716
+2025-07-21 15:51:32,975 - WARNING - Error decoding CAN ID 0x815: 2147485717
+2025-07-21 15:51:32,975 - WARNING - Error decoding CAN ID 0x816: 2147485718
+2025-07-21 15:51:32,975 - WARNING - Error decoding CAN ID 0x817: 2147485719
+2025-07-21 15:51:32,975 - WARNING - Error decoding CAN ID 0x818: 2147485720
+2025-07-21 15:51:32,975 - WARNING - Error decoding CAN ID 0x819: 2147485721
+2025-07-21 15:51:32,975 - WARNING - Error decoding CAN ID 0x820: 2147485728
+2025-07-21 15:51:32,975 - WARNING - Error decoding CAN ID 0x821: 2147485729
+2025-07-21 15:51:32,975 - WARNING - Error decoding CAN ID 0x822: 2147485730
+2025-07-21 15:51:32,975 - WARNING - Error decoding CAN ID 0x823: 2147485731
+2025-07-21 15:51:32,975 - WARNING - Error decoding CAN ID 0x824: 2147485732
+2025-07-21 15:51:32,975 - WARNING - Error decoding CAN ID 0x825: 2147485733
+2025-07-21 15:51:32,976 - WARNING - Error decoding CAN ID 0x826: 2147485734
+2025-07-21 15:51:32,976 - WARNING - Error decoding CAN ID 0x827: 2147485735
+2025-07-21 15:51:32,976 - WARNING - Error decoding CAN ID 0x828: 2147485736
+2025-07-21 15:51:32,976 - WARNING - Error decoding CAN ID 0x829: 2147485737
+2025-07-21 15:51:32,976 - WARNING - Error decoding CAN ID 0x830: 2147485744
+2025-07-21 15:51:32,976 - WARNING - Error decoding CAN ID 0x831: 2147485745
+2025-07-21 15:51:32,976 - WARNING - Error decoding CAN ID 0x832: 2147485746
+2025-07-21 15:51:32,976 - WARNING - Error decoding CAN ID 0x833: 2147485747
+2025-07-21 15:51:32,976 - WARNING - Error decoding CAN ID 0x834: 2147485748
+2025-07-21 15:51:32,976 - WARNING - Error decoding CAN ID 0x835: 2147485749
+2025-07-21 15:51:32,976 - WARNING - Error decoding CAN ID 0x836: 2147485750
+2025-07-21 15:51:32,976 - WARNING - Error decoding CAN ID 0x837: 2147485751
+2025-07-21 15:51:32,976 - WARNING - Error decoding CAN ID 0x838: 2147485752
+2025-07-21 15:51:32,977 - WARNING - Error decoding CAN ID 0x839: 2147485753
+2025-07-21 15:51:32,977 - WARNING - Error decoding CAN ID 0x840: 2147485760
+2025-07-21 15:51:32,977 - WARNING - Error decoding CAN ID 0x841: 2147485761
+2025-07-21 15:51:32,977 - WARNING - Error decoding CAN ID 0x842: 2147485762
+2025-07-21 15:51:32,977 - WARNING - Error decoding CAN ID 0x843: 2147485763
+2025-07-21 15:51:32,977 - WARNING - Error decoding CAN ID 0x844: 2147485764
+2025-07-21 15:51:32,977 - WARNING - Error decoding CAN ID 0x845: 2147485765
+2025-07-21 15:51:32,977 - WARNING - Error decoding CAN ID 0x850: 2147485776
+2025-07-21 15:51:32,977 - WARNING - Error decoding CAN ID 0x851: 2147485777
+2025-07-21 15:51:32,977 - WARNING - Error decoding CAN ID 0x852: 2147485778
+2025-07-21 15:51:32,977 - WARNING - Error decoding CAN ID 0x853: 2147485779
+2025-07-21 15:51:32,978 - ERROR - Error processing message: too many values to unpack (expected 2)
+2025-07-21 15:51:39,633 - WARNING - Error decoding CAN ID 0x853: list index out of range
+2025-07-21 15:51:39,638 - ERROR - Error processing message: too many values to unpack (expected 2)
+2025-07-21 15:51:40,070 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:51:40,073 - INFO - Device marked as disconnected: 861409075138587
+2025-07-21 15:51:41,985 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 15:51:43,636 - ERROR - Error parsing message: list index out of range
+2025-07-21 15:51:43,636 - ERROR - Error processing message: cannot unpack non-iterable NoneType object
+2025-07-21 15:51:45,383 - ERROR - Error processing message: too many values to unpack (expected 2)
+2025-07-21 15:51:48,946 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 15:51:48,947 - INFO - No data to save.
+2025-07-21 15:51:48,947 - WARNING - Disconnected from MQTT broker
+2025-07-21 15:53:01,589 - INFO - Connected to MQTT broker
+2025-07-21 15:53:09,612 - WARNING - Error decoding CAN ID 0x853: list index out of range
+2025-07-21 15:53:11,582 - INFO - Device marked as disconnected: 861409071622600
+2025-07-21 15:53:11,586 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:53:19,435 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 15:53:19,435 - INFO - No data to save.
+2025-07-21 15:53:19,435 - WARNING - Disconnected from MQTT broker
+2025-07-21 15:53:37,164 - INFO - Connected to MQTT broker
+2025-07-21 15:53:39,643 - WARNING - Error decoding CAN ID 0x853: list index out of range
+2025-07-21 15:53:39,655 - INFO - Trying addingf the data
+2025-07-21 15:53:41,913 - INFO - Unknown device stored to ExtraDevice: 861409071728027
+2025-07-21 15:53:42,347 - ERROR - Error parsing message: list index out of range
+2025-07-21 15:53:44,282 - INFO - Trying addingf the data
+2025-07-21 15:53:47,159 - INFO - Device marked as disconnected: 861409071622600
+2025-07-21 15:53:47,163 - INFO - Device marked as disconnected: 861409071728282
+2025-07-21 15:53:48,957 - INFO - Shutdown signal received. Cleaning up...
+2025-07-21 15:53:48,957 - INFO - No data to save.
+2025-07-21 15:53:48,957 - WARNING - Disconnected from MQTT broker
+>>>>>>> 7ec33a5d1fda6c17bb52c819e80074fb79530013
