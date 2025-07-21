@@ -4,6 +4,10 @@ from rest_framework.response import Response
 from django.utils.dateparse import parse_datetime
 from rest_framework import status
 from django.utils.dateparse import parse_date
+from rest_framework.pagination import PageNumberPagination
+from rest_framework import generics, filters
+from devices.models import ReplicaDevices
+from devices.serializers import ReplicaDevicesSerializer
 
 #Local Imports
 from devices.models import (
@@ -118,3 +122,12 @@ class DeviceDataListView(APIView):
         serializer = DeviceDataSerializer(result_page, many=True)
         return paginator.get_paginated_response(serializer.data)
     
+class ReplicaDevicePagination(PageNumberPagination):
+    page_size = 10
+
+class ReplicaDevicesListView(generics.ListAPIView):
+    queryset = ReplicaDevices.objects.all().order_by('-id')
+    serializer_class = ReplicaDevicesSerializer
+    pagination_class = PageNumberPagination
+    filter_backends = [filters.SearchFilter]
+    search_fields = ['device_id', 'device_type', 'device_specific_Type']
