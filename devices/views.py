@@ -8,6 +8,7 @@ from rest_framework.pagination import PageNumberPagination
 from rest_framework import generics, filters
 from devices.models import ReplicaDevices
 from devices.serializers import ReplicaDevicesSerializer
+from rest_framework.filters import SearchFilter
 
 #Local Imports
 from devices.models import (
@@ -124,10 +125,14 @@ class DeviceDataListView(APIView):
     
 class ReplicaDevicePagination(PageNumberPagination):
     page_size = 10
+    page_size_query_param = 'page_size'
 
 class ReplicaDevicesListView(generics.ListAPIView):
-    queryset = ReplicaDevices.objects.all().order_by('-id')
+    # queryset = ReplicaDevices.objects.all().order_by('-id')
     serializer_class = ReplicaDevicesSerializer
-    pagination_class = PageNumberPagination
-    filter_backends = [filters.SearchFilter]
-    search_fields = ['device_id', 'device_type', 'device_specific_Type']
+    pagination_class = ReplicaDevicePagination
+    filter_backends = [SearchFilter]
+    search_fields = ['device_id', 'device_type_name']
+
+    def get_queryset(self):
+        return ReplicaDevices.objects.using('replica').all()
