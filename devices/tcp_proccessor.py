@@ -190,7 +190,7 @@ class MQTTDataProcessor:
                 return None  # Skip message if device ID is missing
             parts = message.split(',')
             timestamp = datetime.now().isoformat()
-            
+            print(device_id,'--->')
             # Basic structure for known fields
             field_names = [ 
                 "header", "vendor_id", "version", "packet_type","alert_id", "packet_status", "IMEI",
@@ -238,7 +238,7 @@ class MQTTDataProcessor:
 
             can_data = can_section.split('|') if can_section else []
             filtered_can_data = [data if data != 'N' and len(data) > 0 else 'N' for data in can_data]
-    
+            print(filtered_can_data)
             # CAN IDs
             can_ids = [
                 0x800, 0x801, 0x802, 0x803, 0x804, 0x805, 0x806, 0x807, 0x808, 0x809,
@@ -251,6 +251,7 @@ class MQTTDataProcessor:
             for idx, hex_data in enumerate(filtered_can_data):
                 try:
                     can_id = can_ids[idx]
+                    print(idx,hex_data,'-->')
                     if hex_data == 'N':
                         for signal in dbc_file.get_message_by_frame_id(can_id).signals:
                             parsed_data[signal.name] = 'N'
