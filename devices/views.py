@@ -5,16 +5,15 @@ from django.utils.dateparse import parse_datetime
 from rest_framework import status
 from django.utils.dateparse import parse_date
 from rest_framework.pagination import PageNumberPagination
-from rest_framework import generics, filters
+from devices.serializers import ReplicaDeviceSerializer
 from devices.models import ReplicaDevices
-from devices.serializers import ReplicaDevicesSerializer
-from rest_framework.filters import SearchFilter
+from django.db.models import Q
 
 #Local Imports
 from devices.models import (
     Device,
     DeviceData
-)
+    )
 from devices.pagination import DeviceDataPagination
 from devices.serializers import (
     DeviceDataSerializer, 
@@ -98,7 +97,7 @@ class DeviceAPIView(APIView):
 
 class DeviceDataListView(APIView):
     def get(self, request):
-        queryset = DeviceData.objects.all()
+        queryset = ReplicaDevices.objects.all().order_by('id')
 
         # Filters
         start_time = request.GET.get('start_time')
@@ -123,16 +122,27 @@ class DeviceDataListView(APIView):
         serializer = DeviceDataSerializer(result_page, many=True)
         return paginator.get_paginated_response(serializer.data)
     
-class ReplicaDevicePagination(PageNumberPagination):
-    page_size = 10
-    page_size_query_param = 'page_size'
 
-class ReplicaDevicesListView(generics.ListAPIView):
-    # queryset = ReplicaDevices.objects.all().order_by('-id')
-    serializer_class = ReplicaDevicesSerializer
-    pagination_class = ReplicaDevicePagination
-    filter_backends = [SearchFilter]
-    search_fields = ['device_id', 'device_type_name']
+class ReplicaDevicesAPIView(APIView):
+    def get(self, request):
+        search_query = request.GET.get("search", "")
+        
+        # Ordered queryset
+        queryset = ReplicaDevices.objects.using('replica').all().order_by("id")  # ✅ using 'replica'
 
-    def get_queryset(self):
-        return ReplicaDevices.objects.using('replica').all()
+        # Apply advanced search if query is present
+        if search_query:
+            queryset = queryset.filter(
+                Q(device_id__icontains=search_query) |
+                Q(device_type__icontains=search_query) |
+                Q(device_type_name__icontains=search_query)
+            )
+
+        # Paginate the result
+        paginator = PageNumberPagination()
+        paginator.page_size = 10
+        paginated_qs = paginator.paginate_queryset(queryset, request)
+
+        # Serialize and return
+        serializer = ReplicaDeviceSerializer(paginated_qs, many=True)
+        return paginator.get_paginated_response(serializer.data)

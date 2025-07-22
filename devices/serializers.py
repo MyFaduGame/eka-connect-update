@@ -19,7 +19,7 @@ class DeviceDataSerializer(serializers.ModelSerializer):
         fields = '__all__'
         read_only_fields = ['can_data', 'extra_data']
         
-class ReplicaDevicesSerializer(serializers.ModelSerializer):
+class ReplicaDeviceSerializer(serializers.ModelSerializer):
     class Meta:
         model = ReplicaDevices
         fields = '__all__'
