@@ -1,19 +1,19 @@
 # Third Party Imports
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from django.utils.dateparse import parse_datetime
+from django.utils.dateparse import parse_datetime, parse_date
 from rest_framework import status
-from django.utils.dateparse import parse_date
 
 #Local Imports
 from devices.models import (
     Device,
-    DeviceData
-)
+    ReplicaDevices  
+    )
 from devices.pagination import DeviceDataPagination
 from devices.serializers import (
     DeviceDataSerializer, 
-    DeviceSerializer
+    DeviceSerializer,
+    ReplicaDeviceSerializer
 )
 
 class DeviceAPIView(APIView):
@@ -93,7 +93,7 @@ class DeviceAPIView(APIView):
 
 class DeviceDataListView(APIView):
     def get(self, request):
-        queryset = DeviceData.objects.all()
+        queryset = ReplicaDevices.objects.all().order_by('id')
 
         # Filters
         start_time = request.GET.get('start_time')
@@ -118,3 +118,29 @@ class DeviceDataListView(APIView):
         serializer = DeviceDataSerializer(result_page, many=True)
         return paginator.get_paginated_response(serializer.data)
     
+
+class ReplicaDevicesAPIView(APIView):
+    def get(self, request):
+        devices = ReplicaDevices.objects.using('replica').all()
+
+        device_id = request.query_params.get("device_id")
+        device_type = request.query_params.get("device_type")
+        device_type_name = request.query_params.get("device_type_name")
+
+        if device_id:
+            devices = devices.filter(device_id__icontains=device_id)
+
+        if device_type:
+            devices = devices.filter(device_type__icontains=device_type)
+
+        if device_type_name:
+            devices = devices.filter(device_type_name__icontains=device_type_name)
+
+        if not devices.exists():
+            return Response(
+                {"message": "No replica devices found matching the criteria."},
+                status=status.HTTP_200_OK
+            )
+
+        serializer = ReplicaDeviceSerializer(devices, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)

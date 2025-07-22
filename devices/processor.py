@@ -167,6 +167,7 @@ class MQTTDataProcessor:
 
             can_data = can_section.split('|') if can_section else []
             filtered_can_data = [data if data != 'N' and len(data) > 0 else 'N' for data in can_data]
+    
             # CAN IDs
             can_ids = [
                 0x800, 0x801, 0x802, 0x803, 0x804, 0x805, 0x806, 0x807, 0x808, 0x809,
@@ -175,51 +176,30 @@ class MQTTDataProcessor:
                 0x830, 0x831, 0x832, 0x833, 0x834, 0x835, 0x836, 0x837, 0x838, 0x839,
                 0x840, 0x841, 0x842, 0x843, 0x844, 0x845, 0x850, 0x851, 0x852, 0x853
             ]
-            for idx, item in enumerate(filtered_can_data):
+            can_dict = {}
+            for idx, hex_data in enumerate(filtered_can_data):
                 try:
-                    if ':' in item:
-                        # Format: ['000800:n']
-                        hex_str = item.strip()
-                        can_id_str, hex_data = hex_str.split(":")
-                        can_id = int(can_id_str, 16)
-                    else:
-                        # Format: ['n', 'AABBCC']
-                        can_id = can_ids[idx]
-                        hex_data = item.strip()
+                    can_id = can_ids[idx]
+                    can_id_str = hex(can_id) #Convert to string for JSON keys
+                    # can_dict[can_id_str] = hex_data
 
-                    if hex_data.lower() == 'n':
-                        for signal in dbc_file.get_message_by_frame_id(can_id).signals:
-                            parsed_data[signal.name] = 'N'
+                    if hex_data == 'N':
+                        # for signal in dbc_file.get_message_by_frame_id(can_id).signals:
+                        #     parsed_data[signal.name] = 'N'
+                        can_dict[can_id_str] = {signal.name: 'N' for signal in dbc_file.get_message_by_frame_id(can_id).signals}
                         continue
 
                     can_data_bytes = bytes.fromhex(hex_data)
                     decoded = dbc_file.decode_message(can_id, can_data_bytes)
+                    can_dict[can_id_str] = decoded #Store under CAN ID 
 
                     for signal_name, value in decoded.items():
                         parsed_data[signal_name] = value
+                        # can_dict[signal_name] = value
 
                 except Exception as e:
                     logging.warning(f"Error decoding CAN ID {hex(can_id)}: {e}")
- 
-            return pd.DataFrame([parsed_data])
-            # for idx, hex_data in enumerate(filtered_can_data):
-            #     try:
-            #         can_id = can_ids[idx]
-            #         if hex_data == 'N':
-            #             for signal in dbc_file.get_message_by_frame_id(can_id).signals:
-            #                 parsed_data[signal.name] = 'N'
-            #             continue
-
-            #         can_data_bytes = bytes.fromhex(hex_data)
-            #         decoded = dbc_file.decode_message(can_id, can_data_bytes)
-
-            #         for signal_name, value in decoded.items():
-            #             parsed_data[signal_name] = value
-            #             can_dict[signal_name] = value
-
-            #     except Exception as e:
-            #         logging.warning(f"Error decoding CAN ID {hex(can_id)}: {e}")
-            # return pd.DataFrame([parsed_data]),can_dict
+            return pd.DataFrame([parsed_data]),can_dict
 
         except Exception as e:
             logging.error(f"Error parsing message: {e}")
@@ -246,8 +226,8 @@ class MQTTDataProcessor:
             return None
 
     def on_message(self, client, userdata, msg):
-        # """Callback when a message is received"""
-        # try:
+        """Callback when a message is received"""
+        try:
             message = msg.payload.decode()
             self.logger.debug(f"Received message: {message}")
             device_id = self.extract_device_id(message)
@@ -265,7 +245,8 @@ class MQTTDataProcessor:
             dbc_file = self.load_dbc_file(device_obj.device_type)
             if not dbc_file:
                 return
-            parsed_df = self.parse_message(message, dbc_file=dbc_file)
+            parsed_df,can_data = self.parse_message(message, dbc_file=dbc_file)
+
             if parsed_df is not None:
                 device_id = parsed_df.iloc[0]['device_id']
                 # print(parsed_df['mis_field_2'],'--->')
@@ -317,25 +298,7 @@ class MQTTDataProcessor:
                             LAC = row.get("LAC"),
                             cell_id = row.get("cell_id"), #have to check Tire_Location_
                             extra_data = {},
-                            can_data = {
-                                key: row.get(key)
-                                for key in row.index
-                                if key not in [
-                                    'timestamp', 'device_id', 'latitude', 'longitude',
-                                    'Tire_Location_', 'ODOMETER', 'heading', 'NMR',
-                                    'digital_input_status', 'digital_output_status',
-                                    'analog_input_1', 'analog_input_2', 'frame_number',
-                                    'odometer', "debug_info", 'latitude_dir', 'longitude_dir',
-                                    'mis_field_1', 'mis_field_2', 'mis_field_3', 'mis_field_4',
-                                    'header', 'vendor_id', 'version', 'packet_type', 'alert_id',
-                                    'packet_status', 'IMEI', 'vehicle_reg_no', 'gps_fix', 'date',
-                                    'time', 'speed', 'no_of_stattalites', 'altitude', 'pdop',
-                                    'hdop', 'operator', 'ignition', 'main_power_status',
-                                    'main_input_voltage', 'internal_battery_voltage',
-                                    'emergency_status', 'temper_alert', 'gsm_strength',
-                                    'MCC', 'MNC', 'LAC', 'cell_id'
-                                ]
-                            }
+                            can_data = can_data
                         )
                         self.logger.info("Trying addingf the data")
                     except Exception as db_err:
@@ -369,8 +332,8 @@ class MQTTDataProcessor:
             #         # self.upload_to_s3(self.mqtt_data_df)
             #         self.mqtt_data_df = pd.DataFrame()  # Reset dataframe after upload
 
-        # except Exception as e:
-        #     self.logger.error(f"Error processing message: {str(e)}")
+        except Exception as e:
+            self.logger.error(f"Error processing message: {str(e)}")
 
 
     def on_disconnect(self, client, userdata, rc):
