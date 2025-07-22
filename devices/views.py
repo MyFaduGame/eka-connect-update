@@ -1,23 +1,19 @@
 # Third Party Imports
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from django.utils.dateparse import parse_datetime
+from django.utils.dateparse import parse_datetime, parse_date
 from rest_framework import status
-from django.utils.dateparse import parse_date
-from rest_framework.pagination import PageNumberPagination
-from devices.serializers import ReplicaDeviceSerializer
-from devices.models import ReplicaDevices
-from django.db.models import Q
 
 #Local Imports
 from devices.models import (
     Device,
-    DeviceData
+    ReplicaDevices  
     )
 from devices.pagination import DeviceDataPagination
 from devices.serializers import (
     DeviceDataSerializer, 
-    DeviceSerializer
+    DeviceSerializer,
+    ReplicaDeviceSerializer
 )
 
 class DeviceAPIView(APIView):
@@ -125,24 +121,26 @@ class DeviceDataListView(APIView):
 
 class ReplicaDevicesAPIView(APIView):
     def get(self, request):
-        search_query = request.GET.get("search", "")
-        
-        # Ordered queryset
-        queryset = ReplicaDevices.objects.using('replica').all().order_by("id")  # ✅ using 'replica'
+        devices = ReplicaDevices.objects.using('replica').all()
 
-        # Apply advanced search if query is present
-        if search_query:
-            queryset = queryset.filter(
-                Q(device_id__icontains=search_query) |
-                Q(device_type__icontains=search_query) |
-                Q(device_type_name__icontains=search_query)
+        device_id = request.query_params.get("device_id")
+        device_type = request.query_params.get("device_type")
+        device_type_name = request.query_params.get("device_type_name")
+
+        if device_id:
+            devices = devices.filter(device_id__icontains=device_id)
+
+        if device_type:
+            devices = devices.filter(device_type__icontains=device_type)
+
+        if device_type_name:
+            devices = devices.filter(device_type_name__icontains=device_type_name)
+
+        if not devices.exists():
+            return Response(
+                {"message": "No replica devices found matching the criteria."},
+                status=status.HTTP_200_OK
             )
 
-        # Paginate the result
-        paginator = PageNumberPagination()
-        paginator.page_size = 10
-        paginated_qs = paginator.paginate_queryset(queryset, request)
-
-        # Serialize and return
-        serializer = ReplicaDeviceSerializer(paginated_qs, many=True)
-        return paginator.get_paginated_response(serializer.data)
+        serializer = ReplicaDeviceSerializer(devices, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
