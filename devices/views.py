@@ -18,7 +18,7 @@ from devices.serializers import (
 
 class DeviceAPIView(APIView):
     
-    def get(self, request): #Working
+    def get(self, request): #Working -> #default  -> #replica
         devices = Device.objects.all()
         device_id = request.query_params.get("device_id")
         device_type = request.query_params.get("device_type")
