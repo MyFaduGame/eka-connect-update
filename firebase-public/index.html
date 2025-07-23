@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Firebase Messaging Token Demo</title>
+</head>
+<body>
+  <h1>Get Firebase FCM Token</h1>
+  <button id="getTokenBtn">Get FCM Token</button>
+  <p>Token:</p>
+  <textarea id="tokenArea" rows="8" cols="80"></textarea>
+
+  <!-- Firebase scripts (module type) -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+    import { getMessaging, getToken } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-messaging.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyDg8duL9BlbaZmK31mBNNLVBSf8Ld9y2zg",
+      authDomain: "eka-connect-update.firebaseapp.com",
+      projectId: "eka-connect-update",
+      storageBucket: "eka-connect-update.appspot.com",
+      messagingSenderId: "439435270320",
+      appId: "1:439435270320:web:eaa251d003f08a6f56c375",
+      measurementId: "G-RMSBFJHTJ5"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const messaging = getMessaging(app);
+
+    // Your VAPID key from Firebase Console → Cloud Messaging → Web Push certificates
+    const vapidKey = "BFAY1-AddkddQJQCyhRW_n58G-WozGngsEQ2iNkiBxit-MAkLQeXSGU3ZVYokVINIZWJB7I58gkEraX7h-Bdhbc";
+
+    // Register service worker before requesting token
+    navigator.serviceWorker.register('./firebase-messaging-sw.js')
+      .then((registration) => {
+        console.log("Service Worker registered:", registration);
+
+        document.getElementById('getTokenBtn').onclick = async () => {
+          try {
+            const permission = await Notification.requestPermission();
+            if (permission !== 'granted') {
+              alert('Notification permission denied!');
+              return;
+            }
+
+            const currentToken = await getToken(messaging, {
+              vapidKey: vapidKey,
+              serviceWorkerRegistration: registration
+            });
+
+            if (currentToken) {
+              document.getElementById('tokenArea').value = currentToken;
+              console.log("FCM Token:", currentToken);
+            } else {
+              alert("No registration token available. Request permission again.");
+            }
+
+          } catch (error) {
+            console.error("Token error:", error);
+            alert("Error getting token: " + error.message);
+          }
+        };
+      })
+      .catch((err) => {
+        console.error("Service Worker registration failed:", err);
+        alert("Service Worker registration failed.");
+      });
+  </script>
+</body>
+</html>

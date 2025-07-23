@@ -13,10 +13,15 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 # import django 
 # django.setup() 
 
+from decouple import config
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Firebase
+FCM_SERVER_KEY = config("FCM_SERVER_KEY", default="")
+FIREBASE_CRED_PATH = os.path.join(BASE_DIR, 'firebase_config', 'eka-firebase.json')
 
 
 # Quick-start development settings - unsuitable for production
@@ -159,3 +164,4 @@ CHANNEL_LAYERS = {
         "BACKEND": "channels.layers.InMemoryChannelLayer",
     }
 }
+

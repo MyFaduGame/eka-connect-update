@@ -3,6 +3,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from django.utils.dateparse import parse_datetime, parse_date
 from rest_framework import status
+from firebase_config.firebase import send_firebase_notification
 
 #Local Imports
 from devices.models import (
@@ -144,3 +145,23 @@ class ReplicaDevicesAPIView(APIView):
 
         serializer = ReplicaDeviceSerializer(devices, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
+    
+class FirebaseNotificationAPIView(APIView):
+
+    def post(self, request):
+        token = request.data.get("token")
+        title = request.data.get("title", "Notification Title")
+        body = request.data.get("body", "Notification Body")
+        data = request.data.get("data", {}) 
+
+        if not token:
+            return Response({"error": "Device token is required"}, status=status.HTTP_400_BAD_REQUEST)
+
+        # Call your firebase helper function
+        result = send_firebase_notification(token=token, title=title, body=body, data=data)
+
+        if result.get("success"):
+            return Response({"message": "Notification sent", "response": result.get("response")}, status=status.HTTP_200_OK)
+        else:
+            return Response({"error": result.get("error")}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
