@@ -92,3 +92,5 @@ sonar-report/
 # System files
 .DS_Store
 Thumbs.db
+
+firebase_config/eka-firebase.json
