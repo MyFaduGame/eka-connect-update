@@ -202,24 +202,6 @@ class MQTTDataProcessor:
                     logging.warning(f"Error decoding CAN ID {hex(can_id)}: {e}")
  
             return pd.DataFrame([parsed_data])
-            # for idx, hex_data in enumerate(filtered_can_data):
-            #     try:
-            #         can_id = can_ids[idx]
-            #         if hex_data == 'N':
-            #             for signal in dbc_file.get_message_by_frame_id(can_id).signals:
-            #                 parsed_data[signal.name] = 'N'
-            #             continue
-
-            #         can_data_bytes = bytes.fromhex(hex_data)
-            #         decoded = dbc_file.decode_message(can_id, can_data_bytes)
-
-            #         for signal_name, value in decoded.items():
-            #             parsed_data[signal_name] = value
-            #             can_dict[signal_name] = value
-
-            #     except Exception as e:
-            #         logging.warning(f"Error decoding CAN ID {hex(can_id)}: {e}")
-            # return pd.DataFrame([parsed_data]),can_dict
 
         except Exception as e:
             logging.error(f"Error parsing message: {e}")
@@ -247,7 +229,7 @@ class MQTTDataProcessor:
 
     def on_message(self, client, userdata, msg):
         # """Callback when a message is received"""
-        # try:
+        try:
             message = msg.payload.decode()
             self.logger.debug(f"Received message: {message}")
             device_id = self.extract_device_id(message)
@@ -268,8 +250,6 @@ class MQTTDataProcessor:
             parsed_df = self.parse_message(message, dbc_file=dbc_file)
             if parsed_df is not None:
                 device_id = parsed_df.iloc[0]['device_id']
-                # print(parsed_df['mis_field_2'],'--->')
-                # Save each row of parsed_df to the DB
                 for _, row in parsed_df.iterrows():
                     try:
                         DeviceData.objects.create(
@@ -341,36 +321,8 @@ class MQTTDataProcessor:
                     except Exception as db_err:
                         self.logger.error(f"Error saving to DB for device {device_id} {row}: {db_err}")
 
-            # if parsed_df is not None:
-            #     device_id = parsed_df.iloc[0]['device_id']
-
-            #     # Add device_id to the seen set
-            #     self.seen_devices.add(device_id)
-
-            #     # Update or create Device in DB
-            #     device_obj, created = Device.objects.update_or_create(
-            #         device_id=device_id,
-            #         defaults={
-            #             'is_connected': True,
-            #             'last_seen': timezone.now(),
-            #         }
-            #     )
-            #     if created:
-            #         self.logger.info(f"New device added: {device_id}")
-            #     else:
-            #         self.logger.info(f"Updated device last_seen: {device_id}")
-
-            #     # Append and handle data
-            #     self.mqtt_data_df = pd.concat([self.mqtt_data_df, parsed_df], ignore_index=True)
-            #     self.logger.info(f"Appended new data. Current DataFrame shape: {self.mqtt_data_df.shape}")
-
-            #     # Upload data to S3 after accumulating 10 messages
-            #     if len(self.mqtt_data_df) % 10 == 0:
-            #         # self.upload_to_s3(self.mqtt_data_df)
-            #         self.mqtt_data_df = pd.DataFrame()  # Reset dataframe after upload
-
-        # except Exception as e:
-        #     self.logger.error(f"Error processing message: {str(e)}")
+        except Exception as e:
+            self.logger.error(f"Error processing message: {str(e)}")
 
 
     def on_disconnect(self, client, userdata, rc):

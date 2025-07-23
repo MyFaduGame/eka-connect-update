@@ -1,6 +1,7 @@
 # serializers.py
 from rest_framework import serializers
 from devices.models import (
+    Alert,
     Device,
     DeviceData
 )
@@ -11,10 +12,14 @@ class DeviceSerializer(serializers.ModelSerializer):
         fields = '__all__'
         read_only_fields = ['is_active', 'last_seen']
 
-
 class DeviceDataSerializer(serializers.ModelSerializer):
     class Meta:
         model = DeviceData
         fields = '__all__'
         read_only_fields = ['can_data', 'extra_data']
-        
+
+class AlertDataSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Alert
+        fields = '__all__'
+        read_only_fields = ['device','timestamp']

@@ -1,24 +1,25 @@
 # Third Party Imports
+from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from django.utils.dateparse import parse_datetime
-from rest_framework import status
-from django.utils.dateparse import parse_date
+from django.utils.dateparse import parse_datetime,parse_date
 
 #Local Imports
 from devices.models import (
+    Alert,
     Device,
     DeviceData
 )
-from devices.pagination import DeviceDataPagination
+from devices.pagination import AlertDataPagination, DeviceDataPagination
 from devices.serializers import (
+    AlertDataSerializer,
     DeviceDataSerializer, 
     DeviceSerializer
 )
 
 class DeviceAPIView(APIView):
     
-    def get(self, request): #Working -> #default  -> #replica
+    def get(self, request):
         devices = Device.objects.all()
         device_id = request.query_params.get("device_id")
         device_type = request.query_params.get("device_type")
@@ -92,6 +93,7 @@ class DeviceAPIView(APIView):
         return Response(status=status.HTTP_204_NO_CONTENT)
 
 class DeviceDataListView(APIView):
+    
     def get(self, request):
         queryset = DeviceData.objects.all()
 
@@ -117,4 +119,36 @@ class DeviceDataListView(APIView):
         result_page = paginator.paginate_queryset(queryset, request)
         serializer = DeviceDataSerializer(result_page, many=True)
         return paginator.get_paginated_response(serializer.data)
-    
+
+class AlertAPIView(APIView):
+    def get(self, request):
+        alerts = Alert.objects.all()
+
+        device_id = request.query_params.get("device_id")
+        alert_type = request.query_params.get("alert_type")
+        value = request.query_params.get("value")
+        timestamp = request.query_params.get("timestamp")
+
+        if device_id:
+            alerts = alerts.filter(device__device_id__icontains=device_id)
+
+        if alert_type:
+            alerts = alerts.filter(alert_type__icontains=alert_type)
+
+        if value:
+            alerts = alerts.filter(value__icontains=value)
+
+        if timestamp:
+            try:
+                parsed_datetime = parse_datetime(timestamp)
+                if parsed_datetime:
+                    alerts = alerts.filter(timestamp__date=parsed_datetime.date())
+            except:
+                pass
+
+        # Apply custom pagination
+        paginator = AlertDataPagination()
+        paginated_alerts = paginator.paginate_queryset(alerts, request)
+        serializer = AlertDataSerializer(paginated_alerts, many=True)
+
+        return paginator.get_paginated_response(serializer.data)

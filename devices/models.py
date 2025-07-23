@@ -105,3 +105,15 @@ class ReplicaDevicesData(DeviceData):
         proxy = True
         verbose_name = "Replica DeviceData"
         verbose_name_plural = "Replica DevicesData"
+
+class Alert(models.Model):
+    device = models.ForeignKey(DeviceData, on_delete=models.CASCADE, related_name='alerts')
+    alert_type = models.CharField(max_length=100)  # e.g., "Low Temperature"
+    value = models.CharField(max_length=100)       # e.g., "9.2"
+    timestamp = models.DateTimeField(auto_now_add=True)
+
+class AlertRule(models.Model):
+    name = models.CharField(max_length=100)
+    description = models.TextField(null=True, blank=True)
+    condition = models.TextField()  # e.g., 'can_data.get("temp", 0) < 10'
+    alert_type = models.CharField(max_length=100)  # e.g., 'LOW_TEMP'

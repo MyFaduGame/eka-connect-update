@@ -6,6 +6,8 @@ from devices.models import (
     DeviceData,
     ReplicaDevicesData,
     ExtraDevice,
+    Alert, 
+    AlertRule
 )
 
 @admin.register(Device)
@@ -90,3 +92,16 @@ class ExtraDeviceAdmin(admin.ModelAdmin):
     list_filter = ('id', 'device_id')
     search_fields = ('id', 'device_id')
     readonly_fields = ('id', 'device_id')
+
+@admin.register(Alert)
+class AlertAdmin(admin.ModelAdmin):
+    list_display = ('id', 'device', 'alert_type', 'value', 'timestamp')
+    list_filter = ('alert_type', 'timestamp')
+    search_fields = ('device__device_id', 'alert_type', 'value')
+    ordering = ('-timestamp',)
+
+@admin.register(AlertRule)
+class AlertRuleAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name', 'alert_type', 'condition', 'description')
+    search_fields = ('name', 'alert_type', 'condition')
+    list_filter = ('alert_type',)
