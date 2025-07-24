@@ -117,3 +117,20 @@ class AlertRule(models.Model):
     description = models.TextField(null=True, blank=True)
     condition = models.TextField()  # e.g., 'can_data.get("temp", 0) < 10'
     alert_type = models.CharField(max_length=100)  # e.g., 'LOW_TEMP'
+
+class Fault(models.Model):
+    name = models.CharField(max_length=100, unique=True)
+    description = models.TextField(blank=True, null=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.name
+
+class FaultAlert(models.Model):
+    device = models.ForeignKey('DeviceData', on_delete=models.CASCADE, related_name='fault_alerts')
+    fault = models.ForeignKey(Fault, on_delete=models.CASCADE, related_name='alerts')
+    can_data_snapshot = models.JSONField()
+    timestamp = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.fault.name} on {self.device.device_id} at {self.timestamp}"

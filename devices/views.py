@@ -3,18 +3,21 @@ from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from django.utils.dateparse import parse_datetime,parse_date
+from django.db.models import Q
 
 #Local Imports
 from devices.models import (
     Alert,
     Device,
-    DeviceData
+    DeviceData,
+    FaultAlert
 )
-from devices.pagination import AlertDataPagination, DeviceDataPagination
+from devices.pagination import AlertDataPagination, DeviceDataPagination, FaultAlertPagination
 from devices.serializers import (
     AlertDataSerializer,
     DeviceDataSerializer, 
-    DeviceSerializer
+    DeviceSerializer,
+    FaultAlertSerializer
 )
 
 class DeviceAPIView(APIView):
@@ -150,5 +153,42 @@ class AlertAPIView(APIView):
         paginator = AlertDataPagination()
         paginated_alerts = paginator.paginate_queryset(alerts, request)
         serializer = AlertDataSerializer(paginated_alerts, many=True)
+
+        return paginator.get_paginated_response(serializer.data)
+
+class FaultAlertAPIView(APIView):
+    def get(self, request):
+        queryset = FaultAlert.objects.select_related('device', 'fault').all().order_by('-timestamp')
+
+        # Filters
+        device_id = request.query_params.get('device_id')
+        fault_name = request.query_params.get('fault_name')
+        timestamp = request.query_params.get('timestamp')
+        search = request.query_params.get('search')
+
+        if device_id:
+            queryset = queryset.filter(device__device_id__icontains=device_id)
+
+        if fault_name:
+            queryset = queryset.filter(fault__name__icontains=fault_name)
+
+        if timestamp:
+            try:
+                parsed_ts = parse_datetime(timestamp)
+                if parsed_ts:
+                    queryset = queryset.filter(timestamp__date=parsed_ts.date())
+            except:
+                pass
+
+        if search:
+            queryset = queryset.filter(
+                Q(device__device_id__icontains=search) |
+                Q(fault__name__icontains=search)
+            )
+
+        # Apply Pagination
+        paginator = FaultAlertPagination()
+        paginated_qs = paginator.paginate_queryset(queryset, request)
+        serializer = FaultAlertSerializer(paginated_qs, many=True)
 
         return paginator.get_paginated_response(serializer.data)

@@ -34,8 +34,6 @@ NS_ :
 BS_:
 
 BU_: BMS Charger TESTER CHARGER TEL IPC MCU DIU
-
-
 VAL_TABLE_ High_SoC_Indication 1 "Threshold is breached" 0 "Threshold is not breached" ;
 VAL_TABLE_ Low_SoC_Indication_2 1 "Threshold is breached" 0 "Threshold is not breached" ;
 VAL_TABLE_ Low_SoC_Indication_1 1 "Threshold is breached" 0 "Threshold is not breached" ;
@@ -83,10 +81,6 @@ VAL_TABLE_ Charger_CAN 1 "communication timeout" 0 "normal" ;
 VAL_TABLE_ BMS_Heat_Control 1 "heating on" 0 "heating off" ;
 VAL_TABLE_ BMS_Charge_Control 1 "stop charging" 0 "start charging" ;
 
-
-
-BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
- SG_ BMS_Heat_Control : 0|8@0+ (1,0) [0|0] "" Vector__XXX
 
 BO_ 2147484416 Instrument_Cluster: 8 Vector__XXX
  SG_ Trip_Value : 48|16@1+ (0.1,0) [0|6553.5] "" Vector__XXX
@@ -228,28 +222,6 @@ BO_ 2550243843 BMS_ClientVersion: 8 BMS
  SG_ CV_MinorUpdate : 48|8@1+ (1,0) [0|255] "" Vector__XXX
  SG_ PDU_DerivedFrom_AFE : 56|8@1- (1,0) [-128|127] "" Vector__XXX
 
-BO_ 2550575296 Charger_WakeUpMSG: 8 Charger
- SG_ WakeUp : 0|8@1+ (1,0) [0|255] "" Vector__XXX
- SG_ ChargerMAX_Volt : 15|16@0+ (0.1,0) [0|6553.5] "Volt" Vector__XXX
- SG_ ChargerMAX_Current : 31|16@0+ (0.1,0) [0|6553.5] "CUrrent" Vector__XXX
-
-BO_ 2550579633 BMS_To_CHG_Verification: 8 BMS
- SG_ MIn_Pack_Volt : 7|16@0+ (0.1,0) [0|6553.5] "Volt" Vector__XXX
- SG_ Max_Pack_Volt : 23|16@0+ (0.1,0) [0|6553.5] "Volt" Vector__XXX
- SG_ Max_Current : 39|16@0+ (0.1,0) [0|6553.5] "Amp" Vector__XXX
-
-BO_ 2550575810 CHG_ACK: 8 Charger
- SG_ Acknowledgement : 0|8@1+ (1,0) [0|255] "" Vector__XXX
-
-BO_ 2550580147 BMS_To_Charger_Communication: 8 BMS
- SG_ CV_SetVoltage : 7|16@0+ (0.1,1) [1|6554.5] "Volt" Vector__XXX
- SG_ CC_SetCurrent : 23|16@0+ (0.1,0) [0|6553.5] "Volt" Vector__XXX
- SG_ Charger_Output_Status : 39|16@0+ (1,0) [0|65535] "" Vector__XXX
-
-BO_ 2550576324 Charger_To_BMS_Communication: 8 Charger
- SG_ Charger_Output_Volt : 7|16@0+ (0.1,0) [0|6553.5] "Volt" Vector__XXX
- SG_ Charger_Output_Current : 23|16@0+ (0.1,0) [0|6553.5] "Amp" Vector__XXX
-
 BO_ 2550243844 TS_Failure_Status: 8 BMS
  SG_ TS1_FailureCounter : 0|8@1+ (1,0) [0|255] "" Vector__XXX
  SG_ TS2_FailureCounter : 8|8@1+ (1,0) [0|255] "" Vector__XXX
@@ -287,28 +259,6 @@ BO_ 165 MCU_InputsStatus: 8 MCU
  SG_ MCUIN_BRAKE_IN : 7|12@0+ (1,0) [0|4095] ""  IPC
  SG_ MCUIN_BOOST_STAT : 55|1@0+ (1,0) [0|1] ""  IPC
 
-BO_ 1195 CANFRAME6: 8 BMS
- SG_ AVAILABLEENERGY : 0|16@1+ (1,0) [0|65535] ""  MCU
-
-BO_ 938 CANFRAME3: 8 BMS
- SG_ BATTERYSTATE : 48|8@1+ (1,0) [0|255] ""  MCU
- SG_ MAXDISCHARGECURRENT : 32|16@1- (1,0) [-32768|32767] ""  MCU
- SG_ BATTERYVOLTAGE : 16|16@1- (1,0) [-32768|32767] ""  MCU
- SG_ BATTEERYCURRENT : 0|16@1- (1,0) [-32768|32767] "A"  MCU
-
-BO_ 682 CANFRAME2: 8 BMS
- SG_ MAXCHARGECURRENT : 32|16@1- (1,0) [-32768|32767] "A"  MCU
- SG_ FULLCAPACITY : 16|16@1- (1,0) [-32768|32767] "Ah"  MCU
- SG_ SOC : 0|8@1+ (1,0) [0|255] "%"  MCU
-
-BO_ 426 CANFRAME1: 8 BMS
- SG_ OVERCURRENT : 16|1@1+ (1,0) [0|1] ""  MCU
- SG_ CFETSTATUS : 3|1@1+ (1,0) [0|1] ""  MCU
- SG_ DFETSTATUS : 2|1@1+ (1,0) [0|1] ""  MCU
- SG_ CHARGINGALLOWED : 8|1@1+ (1,0) [0|1] ""  MCU
- SG_ DISCHARGINGALLOWED : 1|1@1+ (1,0) [0|1] ""  MCU
- SG_ IGNITIONDETECTED : 0|1@1+ (1,0) [0|1] ""  MCU
-
 BO_ 177 MCU_Vehicle_DTE_km: 8 MCU
  SG_ Vehicle_DTE_Km : 7|8@0+ (1,0) [0|255] ""  IPC,TEL
 
@@ -329,10 +279,6 @@ BO_ 2552692609 MCU_Statchck_One: 8 MCU
  SG_ Charge_Plug : 61|1@1+ (1,0) [0|1] ""  IPC
  SG_ sigRegenFlag : 59|1@1+ (1,0) [0|1] ""  IPC
  SG_ Killswitch_stat : 63|1@1+ (1,0) [0|1] ""  IPC
-
-BO_ 2566864080 CURRENT_DERATING_INFO: 4 BMS
- SG_ Charge_derated_current : 16|16@1+ (0.05,-1600) [0|1676.75] "A"  MCU
- SG_ Discharge_derated_current : 0|16@1+ (0.05,-1600) [-1600|0] "A"  MCU
 
 BO_ 161 MCU_POWER_One: 8 MCU
  SG_ VCU_Crawl_mode_stat : 59|1@0+ (1,0) [0|1] ""  IPC
@@ -469,7 +415,6 @@ BO_ 2551185669 BMS_Config_1: 8 Vector__XXX
 
 
 
-CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
 BA_DEF_  "BusType" STRING ;
 BA_DEF_DEF_  "BusType" "CAN";
 BA_ "BusType" "CAN";

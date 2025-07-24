@@ -7,8 +7,14 @@ from devices.models import (
     ReplicaDevicesData,
     ExtraDevice,
     Alert, 
-    AlertRule
+    AlertRule,
+    Fault,
+    FaultAlert
 )
+
+admin.site.site_header = "Eka Connect Admin Panel"
+admin.site.site_title = "Eka Connect Admin Portal"
+admin.site.index_title = "Welcome to Eka Connect"
 
 @admin.register(Device)
 class DeviceAdmin(admin.ModelAdmin):
@@ -105,3 +111,11 @@ class AlertRuleAdmin(admin.ModelAdmin):
     list_display = ('id', 'name', 'alert_type', 'condition', 'description')
     search_fields = ('name', 'alert_type', 'condition')
     list_filter = ('alert_type',)
+
+@admin.register(Fault)
+class FaultAdmin(admin.ModelAdmin):
+    list_display = ('name', 'description', 'created_at')
+
+@admin.register(FaultAlert)
+class FaultAlertAdmin(admin.ModelAdmin):
+    list_display = ('device', 'fault', 'timestamp')

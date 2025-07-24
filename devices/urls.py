@@ -3,7 +3,8 @@ from django.urls import path
 from .views import (
     AlertAPIView,
     DeviceAPIView,
-    DeviceDataListView
+    DeviceDataListView,
+    FaultAlertAPIView
 )
 
 urlpatterns = [
@@ -11,4 +12,5 @@ urlpatterns = [
     path('<int:pk>', DeviceAPIView.as_view(), name='device-update-delete'),
     path('detail', DeviceDataListView.as_view(), name='device-data-list'),
     path('alerts', AlertAPIView.as_view(), name='alert-list'),
+    path('fault', FaultAlertAPIView.as_view(), name='fault-alerts-api'),
 ]
